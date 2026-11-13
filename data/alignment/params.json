@@ -1,0 +1,8 @@
+{
+ "thresholds": {
+  "items": 0.6,
+  "actors": 0.75
+ },
+ "tuned_on": "dev",
+ "labels": "data\\alignment\\dev_pairs.csv"
+}

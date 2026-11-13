@@ -73,6 +73,32 @@ python -m tests.test_extract               # offline tests, no key needed
 - `src/llm.py` is a small client for any OpenAI-compatible API. Baseline B3 reuses it, so
   both use the same LLM, as the proposal requires.
 
+## Cross-headline alignment (Stage S3)
+
+Different headlines describe the same thing in different words ("fire tear gas" vs "use tear gas",
+"Steele" vs "Michael Steele"). Alignment gives equivalent mentions one shared ID
+(`i1`, `a1`, `o1`...), so the rules in S5 can tell what one headline has and another lacks.
+
+For each story and each kind (items, actors, outcomes):
+1. Embed every mention with Sentence-BERT (`all-MiniLM-L6-v2`).
+2. For each headline pair, compute cosine similarity between their mentions.
+3. Greedy one-to-one matching, most similar pair first, kept only if similarity ≥ threshold.
+4. Merge matches into clusters (union-find). Two mentions from the same headline are never merged.
+
+Actors also match when one name is contained in the other ("Steele" ~ "Michael Steele").
+Each accepted match is stored with its similarity score, so the demo can show why two phrases were treated as the same.
+
+**Threshold tuning on the 6 dev stories** (test stories are never used for tuning):
+```bash
+python -m src.align --dump-pairs   # data/alignment/dev_pairs.csv: fill "same" with y/n
+python -m src.align --tune         # precision/recall/F1 per threshold -> data/alignment/params.json
+python -m src.align                # align all extracted stories with the tuned thresholds
+python -m src.align --show <story_id>   # inspect one story
+python -m tests.test_align         # offline tests (stand-in embedder, no download)
+```
+Defaults before tuning: items 0.70, actors 0.75, outcomes 0.70.
+Known limitation: embeddings ignore roles, so "police shoot man" and "man shoots police" can look similar.
+
 ## Repository layout
 
 | Path | Stage | Owner |

@@ -1,0 +1,179 @@
+story_id,kind,src_a,a,src_b,b,sim,same
+1b96a5db-8974-46d3-82d7-5dfef02f650e,items,nyt,override veto,hpo,override veto,1.0,y
+1b96a5db-8974-46d3-82d7-5dfef02f650e,items,fox,reject Obama veto,nyt,override veto,0.6829,y
+1b96a5db-8974-46d3-82d7-5dfef02f650e,items,fox,reject Obama veto,hpo,override veto,0.6829,y
+1b96a5db-8974-46d3-82d7-5dfef02f650e,items,fox,first override of presidency,nyt,override veto,0.5898,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,items,fox,first override of presidency,hpo,override veto,0.5898,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,items,fox,reject Obama veto,hpo,veto of 9/11 victims bill,0.5731,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,items,nyt,override veto,hpo,veto of 9/11 victims bill,0.5522,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,items,nyt,allow 9/11 suits,hpo,veto of 9/11 victims bill,0.4071,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,items,fox,first override of presidency,hpo,veto of 9/11 victims bill,0.2547,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,items,nyt,allow 9/11 suits,hpo,override veto,0.2016,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,items,fox,first override of presidency,nyt,allow 9/11 suits,0.1697,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,items,fox,reject Obama veto,nyt,allow 9/11 suits,0.1542,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,actors,fox,Obama,hpo,Obama,1.0,y
+1b96a5db-8974-46d3-82d7-5dfef02f650e,actors,nyt,Senate,hpo,Senate,1.0,y
+1b96a5db-8974-46d3-82d7-5dfef02f650e,actors,fox,Congress,nyt,Senate,0.7003,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,actors,fox,Congress,hpo,Senate,0.7003,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,actors,fox,Obama,nyt,Saudi Arabia,0.4428,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,actors,nyt,Saudi Arabia,hpo,Obama,0.4428,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,actors,fox,Congress,hpo,Obama,0.4377,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,actors,fox,Obama,nyt,Senate,0.4374,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,actors,fox,Obama,hpo,Senate,0.4374,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,actors,nyt,Senate,hpo,Obama,0.4374,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,actors,fox,Congress,nyt,Saudi Arabia,0.2426,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,actors,nyt,Saudi Arabia,hpo,Senate,0.233,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,outcomes,fox,first override of presidency,hpo,veto overridden,0.5451,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,outcomes,nyt,9/11 suits,hpo,veto overridden,0.1225,n
+1b96a5db-8974-46d3-82d7-5dfef02f650e,outcomes,fox,first override of presidency,nyt,9/11 suits,0.0923,n
+1f99798f-2b60-4ecb-b5f4-4aa7991e8ace,items,fox,arrested,nyt,arrested,1.0,y
+1f99798f-2b60-4ecb-b5f4-4aa7991e8ace,items,fox,sent suspicious packages,hpo,be identified as mail bomb suspect,0.4447,n
+1f99798f-2b60-4ecb-b5f4-4aa7991e8ace,items,fox,arrested,hpo,be identified as mail bomb suspect,0.2294,n
+1f99798f-2b60-4ecb-b5f4-4aa7991e8ace,items,nyt,arrested,hpo,be identified as mail bomb suspect,0.2294,n
+1f99798f-2b60-4ecb-b5f4-4aa7991e8ace,items,fox,sent suspicious packages,nyt,arrested,0.1994,n
+1f99798f-2b60-4ecb-b5f4-4aa7991e8ace,actors,fox,Suspect,nyt,Pipe Bomb Suspect,1.0,y
+1f99798f-2b60-4ecb-b5f4-4aa7991e8ace,actors,fox,Suspect,hpo,Cesar Sayoc,0.2297,y
+1f99798f-2b60-4ecb-b5f4-4aa7991e8ace,actors,fox,Democrats,nyt,Pipe Bomb Suspect,0.1067,n
+1f99798f-2b60-4ecb-b5f4-4aa7991e8ace,actors,nyt,Pipe Bomb Suspect,hpo,Cesar Sayoc,0.091,y
+1f99798f-2b60-4ecb-b5f4-4aa7991e8ace,actors,fox,Democrats,hpo,Cesar Sayoc,0.0905,n
+1f99798f-2b60-4ecb-b5f4-4aa7991e8ace,outcomes,nyt,arrest,hpo,mail bomb suspect,0.2706,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,items,fox,ask Bill Clinton to urge Sestak to drop out of Senate race,hpo,ask Bill Clinton to talk to Joe Sestak about Senate run,0.7939,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,items,fox,ask Bill Clinton to urge Sestak to drop out of Senate race,nyt,ask Sestak to drop out of race,0.7261,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,items,nyt,ask Sestak to drop out of race,hpo,ask Bill Clinton to talk to Joe Sestak about Senate run,0.4771,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,items,nyt,used Bill Clinton,hpo,ask Bill Clinton to talk to Joe Sestak about Senate run,0.4016,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,items,fox,ask Bill Clinton to urge Sestak to drop out of Senate race,nyt,used Bill Clinton,0.3242,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,White House,nyt,White House,1.0,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,Bill Clinton,nyt,Bill Clinton,1.0,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,Sestak,nyt,Sestak,1.0,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,White House,hpo,White House,1.0,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,Bill Clinton,hpo,Bill Clinton,1.0,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,Sestak,hpo,Joe Sestak,1.0,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,nyt,White House,hpo,White House,1.0,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,nyt,Bill Clinton,hpo,Bill Clinton,1.0,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,nyt,Sestak,hpo,Joe Sestak,1.0,y
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,White House,nyt,Bill Clinton,0.5189,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,Bill Clinton,nyt,White House,0.5189,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,White House,hpo,Bill Clinton,0.5189,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,Bill Clinton,hpo,White House,0.5189,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,nyt,White House,hpo,Bill Clinton,0.5189,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,nyt,Bill Clinton,hpo,White House,0.5189,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,Bill Clinton,hpo,Joe Sestak,0.304,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,nyt,Bill Clinton,hpo,Joe Sestak,0.304,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,Bill Clinton,nyt,Sestak,0.1938,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,Sestak,nyt,Bill Clinton,0.1938,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,Sestak,hpo,Bill Clinton,0.1938,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,nyt,Sestak,hpo,Bill Clinton,0.1938,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,White House,hpo,Joe Sestak,0.1902,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,nyt,White House,hpo,Joe Sestak,0.1902,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,White House,nyt,Sestak,0.1481,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,Sestak,nyt,White House,0.1481,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,fox,Sestak,hpo,White House,0.1481,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,actors,nyt,Sestak,hpo,White House,0.1481,n
+38f7cbb7-5d6a-4c89-bcbd-8e164144172a,outcomes,nyt,drop out of race,hpo,Senate run,0.2187,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,fox,Gorsuch vote,nyt,thwart Gorsuch nomination,0.7389,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,fox,Gorsuch vote,nyt,plan to filibuster,0.3046,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,fox,prepare to go nuclear,hpo,be concerned,0.2895,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,nyt,plan to filibuster,hpo,be rigged for the rich,0.2628,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,fox,prepare to go nuclear,nyt,thwart Gorsuch nomination,0.242,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,fox,seek new delay,nyt,plan to filibuster,0.2345,y
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,fox,prepare to go nuclear,nyt,plan to filibuster,0.2139,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,nyt,thwart Gorsuch nomination,hpo,be rigged for the rich,0.2035,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,fox,seek new delay,hpo,be concerned,0.1865,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,fox,Gorsuch vote,hpo,be rigged for the rich,0.1784,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,fox,Gorsuch vote,hpo,be concerned,0.1606,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,nyt,plan to filibuster,hpo,be concerned,0.1218,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,nyt,thwart Gorsuch nomination,hpo,be concerned,0.1065,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,fox,seek new delay,nyt,thwart Gorsuch nomination,0.0897,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,fox,seek new delay,hpo,be rigged for the rich,0.0708,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,items,fox,prepare to go nuclear,hpo,be rigged for the rich,0.0526,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,fox,Republicans,hpo,Republicans,1.0,y
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,nyt,Democrats,hpo,Democrats,1.0,y
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,fox,Republicans,nyt,Democrats,0.8394,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,fox,Republicans,hpo,Democrats,0.8394,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,nyt,Democrats,hpo,Republicans,0.8394,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,fox,Dems,nyt,Democrats,0.7674,y
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,fox,Dems,hpo,Democrats,0.7674,y
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,fox,Dems,hpo,Republicans,0.6518,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,fox,Republicans,hpo,Supreme Court,0.3185,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,nyt,Democrats,hpo,Supreme Court,0.2992,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,fox,Dems,hpo,Supreme Court,0.2925,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,fox,Republicans,nyt,Gorsuch,0.2139,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,nyt,Gorsuch,hpo,Republicans,0.2139,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,nyt,Gorsuch,hpo,Supreme Court,0.1825,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,fox,Dems,nyt,Gorsuch,0.1712,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,actors,nyt,Gorsuch,hpo,Democrats,0.1633,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,outcomes,fox,new delay,nyt,thwart Gorsuch nomination,0.1184,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,outcomes,fox,new delay,hpo,for the rich,0.098,n
+47a209b0-fc26-4a0a-a1fe-e4310d1d2419,outcomes,nyt,thwart Gorsuch nomination,hpo,for the rich,0.0837,n
+c5534b7e-a373-4962-8345-3847bc41a636,items,nyt,about email,hpo,interview Clinton about emails,0.5783,n
+c5534b7e-a373-4962-8345-3847bc41a636,items,fox,seeks 'transcribed' interview,hpo,interview Clinton about emails,0.3998,y
+c5534b7e-a373-4962-8345-3847bc41a636,items,nyt,seek private talk,hpo,interview Clinton about emails,0.2234,y
+c5534b7e-a373-4962-8345-3847bc41a636,items,fox,deleted records,nyt,about email,0.2085,n
+c5534b7e-a373-4962-8345-3847bc41a636,items,fox,seeks 'transcribed' interview,nyt,seek private talk,0.1917,y
+c5534b7e-a373-4962-8345-3847bc41a636,items,fox,deleted records,hpo,interview Clinton about emails,0.1834,n
+c5534b7e-a373-4962-8345-3847bc41a636,items,fox,seeks 'transcribed' interview,nyt,about email,0.1353,n
+c5534b7e-a373-4962-8345-3847bc41a636,items,fox,deleted records,nyt,seek private talk,0.0731,n
+c5534b7e-a373-4962-8345-3847bc41a636,actors,fox,Clinton,nyt,Hillary Clinton,1.0,y
+c5534b7e-a373-4962-8345-3847bc41a636,actors,fox,Clinton,hpo,Clinton,1.0,y
+c5534b7e-a373-4962-8345-3847bc41a636,actors,nyt,Hillary Clinton,hpo,Clinton,1.0,y
+c5534b7e-a373-4962-8345-3847bc41a636,actors,fox,Benghazi committee,hpo,Benghazi Panel,0.8234,y
+c5534b7e-a373-4962-8345-3847bc41a636,actors,nyt,House Panel,hpo,Benghazi Panel,0.46,y
+c5534b7e-a373-4962-8345-3847bc41a636,actors,fox,Benghazi committee,hpo,Clinton,0.3192,n
+c5534b7e-a373-4962-8345-3847bc41a636,actors,fox,Clinton,hpo,Benghazi Panel,0.2846,n
+c5534b7e-a373-4962-8345-3847bc41a636,actors,fox,Benghazi committee,nyt,Hillary Clinton,0.2581,n
+c5534b7e-a373-4962-8345-3847bc41a636,actors,nyt,Hillary Clinton,hpo,Benghazi Panel,0.2025,n
+c5534b7e-a373-4962-8345-3847bc41a636,actors,fox,Benghazi committee,nyt,House Panel,0.1631,y
+c5534b7e-a373-4962-8345-3847bc41a636,actors,fox,Clinton,nyt,House Panel,0.1228,n
+c5534b7e-a373-4962-8345-3847bc41a636,actors,nyt,House Panel,hpo,Clinton,0.1228,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,items,nyt,cancel Putin meeting,hpo,call on Trump to cancel Putin meeting,0.9054,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,items,fox,urge Trump to cancel Putin summit,nyt,cancel Putin meeting,0.8257,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,items,fox,urge Trump to cancel Putin summit,hpo,call on Trump to cancel Putin meeting,0.809,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,items,fox,indictment of Russian intel officers,nyt,indictments,0.531,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,items,fox,indictment of Russian intel officers,nyt,cancel Putin meeting,0.3465,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,items,fox,indictment of Russian intel officers,hpo,call on Trump to cancel Putin meeting,0.3044,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,items,fox,urge Trump to cancel Putin summit,nyt,say,0.1788,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,items,nyt,say,hpo,call on Trump to cancel Putin meeting,0.155,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,items,nyt,indictments,hpo,call on Trump to cancel Putin meeting,0.1268,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,items,fox,urge Trump to cancel Putin summit,nyt,indictments,0.1073,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,items,fox,indictment of Russian intel officers,nyt,say,0.046,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Democrats,nyt,Democrats,1.0,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Trump,nyt,Trump,1.0,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Putin,nyt,Putin,1.0,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Democrats,hpo,Top Democrats,1.0,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Trump,hpo,Trump,1.0,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Putin,hpo,Putin,1.0,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,nyt,Democrats,hpo,Top Democrats,1.0,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,nyt,Trump,hpo,Trump,1.0,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,nyt,Putin,hpo,Putin,1.0,y
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Trump,nyt,Putin,0.6916,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Putin,nyt,Trump,0.6916,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Trump,hpo,Putin,0.6916,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Putin,hpo,Trump,0.6916,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,nyt,Trump,hpo,Putin,0.6916,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,nyt,Putin,hpo,Trump,0.6916,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Russian intel officers,nyt,Putin,0.5366,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Russian intel officers,hpo,Putin,0.5366,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Democrats,nyt,Trump,0.5026,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Trump,nyt,Democrats,0.5026,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Democrats,hpo,Trump,0.5026,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,nyt,Democrats,hpo,Trump,0.5026,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Democrats,hpo,John McCain,0.4742,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,nyt,Democrats,hpo,John McCain,0.4742,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Trump,hpo,John McCain,0.4623,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,nyt,Trump,hpo,John McCain,0.4623,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Trump,hpo,Top Democrats,0.4464,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,nyt,Trump,hpo,Top Democrats,0.4464,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Democrats,nyt,Putin,0.4103,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Putin,nyt,Democrats,0.4103,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Democrats,hpo,Putin,0.4103,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,nyt,Democrats,hpo,Putin,0.4103,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Putin,hpo,John McCain,0.4032,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,nyt,Putin,hpo,John McCain,0.4032,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Putin,hpo,Top Democrats,0.3721,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,nyt,Putin,hpo,Top Democrats,0.3721,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Russian intel officers,hpo,Top Democrats,0.2849,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Russian intel officers,nyt,Democrats,0.2595,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Russian intel officers,hpo,John McCain,0.225,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Russian intel officers,nyt,Trump,0.2198,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,actors,fox,Russian intel officers,hpo,Trump,0.2198,n
+c6a0e65c-4f8b-41de-8200-cd700f683c64,outcomes,nyt,indictments,hpo,cancel Putin meeting,0.1481,n

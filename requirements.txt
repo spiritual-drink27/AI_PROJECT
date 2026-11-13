@@ -1,5 +1,5 @@
-# Stage S1 (src/load.py, src/split.py) needs only the Python standard library.
-# Later stages:
+# Stages S1-S2 (load, split, extract) need only the Python standard library.
+numpy                 # S3 alignment maths
+sentence-transformers # S3 alignment, baseline B2 (installs PyTorch)
 scikit-learn          # TF-IDF retrieval, baseline B1, Cohen's kappa
-sentence-transformers # alignment (S3), baseline B2
 streamlit             # web demo (S6)

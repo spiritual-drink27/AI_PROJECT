@@ -1,0 +1,5166 @@
+{
+ "thresholds": {
+  "items": 0.6,
+  "actors": 0.75,
+  "outcomes": 0.7
+ },
+ "model": "sentence-transformers/all-MiniLM-L6-v2",
+ "stories": {
+  "38f7cbb7-5d6a-4c89-bcbd-8e164144172a": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "ask Bill Clinton to urge Sestak to drop out of Senate race",
+      "span": "Asked Bill Clinton to Urge Sestak to Drop Out of Senate Race",
+      "start": 12,
+      "end": 72,
+      "id": "i1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "used Bill Clinton",
+      "span": "Used Bill Clinton",
+      "start": 12,
+      "end": 29,
+      "id": "i2"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "ask Sestak to drop out of race",
+      "span": "Ask Sestak to Drop Out of Race",
+      "start": 33,
+      "end": 63,
+      "id": "i1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "ask Bill Clinton to talk to Joe Sestak about Senate run",
+      "span": "Asked Bill Clinton To Talk To Joe Sestak About Senate Run",
+      "start": 12,
+      "end": 69,
+      "id": "i1"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "White House",
+      "span": "White House",
+      "start": 0,
+      "end": 11,
+      "type": "GovernmentBody",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Bill Clinton",
+      "span": "Bill Clinton",
+      "start": 18,
+      "end": 30,
+      "type": "Person",
+      "id": "a2"
+     },
+     {
+      "src": "fox",
+      "index": 2,
+      "label": "Sestak",
+      "span": "Sestak",
+      "start": 39,
+      "end": 45,
+      "type": "Person",
+      "id": "a3"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "White House",
+      "span": "White House",
+      "start": 0,
+      "end": 11,
+      "type": "GovernmentBody",
+      "id": "a1"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "Bill Clinton",
+      "span": "Bill Clinton",
+      "start": 17,
+      "end": 29,
+      "type": "Person",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 2,
+      "label": "Sestak",
+      "span": "Sestak",
+      "start": 37,
+      "end": 43,
+      "type": "Person",
+      "id": "a3"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "White House",
+      "span": "White House",
+      "start": 0,
+      "end": 11,
+      "type": "GovernmentBody",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "Bill Clinton",
+      "span": "Bill Clinton",
+      "start": 18,
+      "end": 30,
+      "type": "Person",
+      "id": "a2"
+     },
+     {
+      "src": "hpo",
+      "index": 2,
+      "label": "Joe Sestak",
+      "span": "Joe Sestak",
+      "start": 42,
+      "end": 52,
+      "type": "Person",
+      "id": "a3"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "drop out of race",
+      "span": "Drop Out of Race",
+      "start": 47,
+      "end": 63,
+      "type": "Political",
+      "id": "o1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Senate run",
+      "span": "Senate Run",
+      "start": 59,
+      "end": 69,
+      "type": "Political",
+      "id": "o2"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "ask Bill Clinton to urge Sestak to drop out of Senate race",
+       "span": "Asked Bill Clinton to Urge Sestak to Drop Out of Senate Race"
+      },
+      {
+       "src": "nyt",
+       "label": "ask Sestak to drop out of race",
+       "span": "Ask Sestak to Drop Out of Race"
+      },
+      {
+       "src": "hpo",
+       "label": "ask Bill Clinton to talk to Joe Sestak about Senate run",
+       "span": "Asked Bill Clinton To Talk To Joe Sestak About Senate Run"
+      }
+     ],
+     "i2": [
+      {
+       "src": "nyt",
+       "label": "used Bill Clinton",
+       "span": "Used Bill Clinton"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "White House",
+       "span": "White House"
+      },
+      {
+       "src": "nyt",
+       "label": "White House",
+       "span": "White House"
+      },
+      {
+       "src": "hpo",
+       "label": "White House",
+       "span": "White House"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "Bill Clinton",
+       "span": "Bill Clinton"
+      },
+      {
+       "src": "nyt",
+       "label": "Bill Clinton",
+       "span": "Bill Clinton"
+      },
+      {
+       "src": "hpo",
+       "label": "Bill Clinton",
+       "span": "Bill Clinton"
+      }
+     ],
+     "a3": [
+      {
+       "src": "fox",
+       "label": "Sestak",
+       "span": "Sestak"
+      },
+      {
+       "src": "nyt",
+       "label": "Sestak",
+       "span": "Sestak"
+      },
+      {
+       "src": "hpo",
+       "label": "Joe Sestak",
+       "span": "Joe Sestak"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "nyt",
+       "label": "drop out of race",
+       "span": "Drop Out of Race"
+      }
+     ],
+     "o2": [
+      {
+       "src": "hpo",
+       "label": "Senate run",
+       "span": "Senate Run"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [
+     {
+      "a": "ask Bill Clinton to urge Sestak to drop out of Senate race",
+      "a_src": "fox",
+      "b": "ask Bill Clinton to talk to Joe Sestak about Senate run",
+      "b_src": "hpo",
+      "sim": 0.7939,
+      "by": "embedding"
+     },
+     {
+      "a": "ask Bill Clinton to urge Sestak to drop out of Senate race",
+      "a_src": "fox",
+      "b": "ask Sestak to drop out of race",
+      "b_src": "nyt",
+      "sim": 0.7261,
+      "by": "embedding"
+     }
+    ],
+    "actors": [
+     {
+      "a": "White House",
+      "a_src": "fox",
+      "b": "White House",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Bill Clinton",
+      "a_src": "fox",
+      "b": "Bill Clinton",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Sestak",
+      "a_src": "fox",
+      "b": "Sestak",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "White House",
+      "a_src": "fox",
+      "b": "White House",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Bill Clinton",
+      "a_src": "fox",
+      "b": "Bill Clinton",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Sestak",
+      "a_src": "fox",
+      "b": "Joe Sestak",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "6f95dcb9-e960-45ac-8c0e-91b85724c909": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "rips progressivism",
+      "span": "Rips Progressivism",
+      "start": 11,
+      "end": 29,
+      "id": "i1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "wows",
+      "span": "Wows",
+      "start": 5,
+      "end": 9,
+      "id": "i2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "speech video",
+      "span": "Speech VIDEO",
+      "start": 21,
+      "end": 33,
+      "id": "i3"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "don't need a big tent",
+      "span": "Don't Need A Big Tent",
+      "start": 47,
+      "end": 68,
+      "id": "i4"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Glenn Beck",
+      "span": "Glenn Beck",
+      "start": 0,
+      "end": 10,
+      "type": "Person",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "CPAC",
+      "span": "CPAC",
+      "start": 33,
+      "end": 37,
+      "type": "Organization",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Beck",
+      "span": "Beck",
+      "start": 0,
+      "end": 4,
+      "type": "Person",
+      "id": "a1"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "CPAC Crowd",
+      "span": "CPAC Crowd",
+      "start": 14,
+      "end": 24,
+      "type": "Other",
+      "id": "a2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Glenn Beck",
+      "span": "Glenn Beck",
+      "start": 0,
+      "end": 10,
+      "type": "Person",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "Republicans",
+      "span": "Republicans",
+      "start": 35,
+      "end": 46,
+      "type": "PoliticalParty",
+      "id": "a3"
+     },
+     {
+      "src": "hpo",
+      "index": 2,
+      "label": "CPAC",
+      "span": "CPAC",
+      "start": 11,
+      "end": 15,
+      "type": "Organization",
+      "id": "a2"
+     }
+    ],
+    "outcomes": []
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "rips progressivism",
+       "span": "Rips Progressivism"
+      }
+     ],
+     "i2": [
+      {
+       "src": "nyt",
+       "label": "wows",
+       "span": "Wows"
+      }
+     ],
+     "i3": [
+      {
+       "src": "hpo",
+       "label": "speech video",
+       "span": "Speech VIDEO"
+      }
+     ],
+     "i4": [
+      {
+       "src": "hpo",
+       "label": "don't need a big tent",
+       "span": "Don't Need A Big Tent"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Glenn Beck",
+       "span": "Glenn Beck"
+      },
+      {
+       "src": "nyt",
+       "label": "Beck",
+       "span": "Beck"
+      },
+      {
+       "src": "hpo",
+       "label": "Glenn Beck",
+       "span": "Glenn Beck"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "CPAC",
+       "span": "CPAC"
+      },
+      {
+       "src": "nyt",
+       "label": "CPAC Crowd",
+       "span": "CPAC Crowd"
+      },
+      {
+       "src": "hpo",
+       "label": "CPAC",
+       "span": "CPAC"
+      }
+     ],
+     "a3": [
+      {
+       "src": "hpo",
+       "label": "Republicans",
+       "span": "Republicans"
+      }
+     ]
+    },
+    "outcomes": {}
+   },
+   "matches": {
+    "items": [],
+    "actors": [
+     {
+      "a": "Glenn Beck",
+      "a_src": "fox",
+      "b": "Beck",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "CPAC",
+      "a_src": "fox",
+      "b": "CPAC Crowd",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Glenn Beck",
+      "a_src": "fox",
+      "b": "Glenn Beck",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "CPAC",
+      "a_src": "fox",
+      "b": "CPAC",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "576116e5-2b18-4d35-be73-36f5863c9468": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "push back on claim",
+      "span": "Pushes Back on Claim",
+      "start": 5,
+      "end": 25,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "claim about social security concessions",
+      "span": "Claim About Social Security Concessions",
+      "start": 20,
+      "end": 59,
+      "id": "i2"
+     },
+     {
+      "src": "fox",
+      "index": 2,
+      "label": "push reform",
+      "span": "Push Reform",
+      "start": 73,
+      "end": 84,
+      "id": "i3"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "open to social security cuts",
+      "span": "Open to Social Security Cuts",
+      "start": 5,
+      "end": 33,
+      "id": "i4"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "negotiate on social security retirement age",
+      "span": "Negotiate On Social Security Retirement Age",
+      "start": 16,
+      "end": 59,
+      "id": "i5"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "AARP",
+      "span": "AARP",
+      "start": 0,
+      "end": 4,
+      "type": "Organization",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Lawmakers",
+      "span": "Lawmakers",
+      "start": 63,
+      "end": 72,
+      "type": "Politician",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "AARP",
+      "span": "AARP",
+      "start": 0,
+      "end": 4,
+      "type": "Organization",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "AARP",
+      "span": "AARP",
+      "start": 0,
+      "end": 4,
+      "type": "Organization",
+      "id": "a1"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "social security concessions",
+      "span": "Social Security Concessions",
+      "start": 32,
+      "end": 59,
+      "type": "Economic",
+      "id": "o1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "social security cuts",
+      "span": "Social Security Cuts",
+      "start": 13,
+      "end": 33,
+      "type": "Economic",
+      "id": "o2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "social security retirement age",
+      "span": "Social Security Retirement Age",
+      "start": 29,
+      "end": 59,
+      "type": "Political",
+      "id": "o3"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "push back on claim",
+       "span": "Pushes Back on Claim"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "claim about social security concessions",
+       "span": "Claim About Social Security Concessions"
+      }
+     ],
+     "i3": [
+      {
+       "src": "fox",
+       "label": "push reform",
+       "span": "Push Reform"
+      }
+     ],
+     "i4": [
+      {
+       "src": "nyt",
+       "label": "open to social security cuts",
+       "span": "Open to Social Security Cuts"
+      }
+     ],
+     "i5": [
+      {
+       "src": "hpo",
+       "label": "negotiate on social security retirement age",
+       "span": "Negotiate On Social Security Retirement Age"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "AARP",
+       "span": "AARP"
+      },
+      {
+       "src": "nyt",
+       "label": "AARP",
+       "span": "AARP"
+      },
+      {
+       "src": "hpo",
+       "label": "AARP",
+       "span": "AARP"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "Lawmakers",
+       "span": "Lawmakers"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "fox",
+       "label": "social security concessions",
+       "span": "Social Security Concessions"
+      }
+     ],
+     "o2": [
+      {
+       "src": "nyt",
+       "label": "social security cuts",
+       "span": "Social Security Cuts"
+      }
+     ],
+     "o3": [
+      {
+       "src": "hpo",
+       "label": "social security retirement age",
+       "span": "Social Security Retirement Age"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [],
+    "actors": [
+     {
+      "a": "AARP",
+      "a_src": "fox",
+      "b": "AARP",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "AARP",
+      "a_src": "fox",
+      "b": "AARP",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "a28a0329-0887-42dc-bd3d-3bb4f8926757": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "reading of Constitution questioned",
+      "span": "Reading of Constitution Questioned",
+      "start": 29,
+      "end": 63,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "amendments are omitted",
+      "span": "Amendments Are Omitted",
+      "start": 70,
+      "end": 92,
+      "id": "i2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "reading of constitution not without issues",
+      "span": "Reading of Constitution Is Not Without Issues",
+      "start": 6,
+      "end": 51,
+      "id": "i1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "read Constitution",
+      "span": "Read Constitution",
+      "start": 18,
+      "end": 35,
+      "id": "i1"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "second day in power",
+      "span": "Second Day In Power",
+      "start": 39,
+      "end": 58,
+      "id": "i3"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Congress",
+      "span": "Congressional",
+      "start": 15,
+      "end": 28,
+      "type": "GovernmentBody",
+      "id": "a1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "House",
+      "span": "House",
+      "start": 0,
+      "end": 5,
+      "type": "GovernmentBody",
+      "id": "a2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "House Republicans",
+      "span": "House Republicans",
+      "start": 0,
+      "end": 17,
+      "type": "PoliticalParty",
+      "id": "a2"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "purpose questioned",
+      "span": "Purpose Behind Congressional Reading of Constitution Questioned",
+      "start": 0,
+      "end": 63,
+      "type": "Political",
+      "id": "o1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "second day in power",
+      "span": "Second Day In Power",
+      "start": 39,
+      "end": 58,
+      "type": "Political",
+      "id": "o2"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "reading of Constitution questioned",
+       "span": "Reading of Constitution Questioned"
+      },
+      {
+       "src": "nyt",
+       "label": "reading of constitution not without issues",
+       "span": "Reading of Constitution Is Not Without Issues"
+      },
+      {
+       "src": "hpo",
+       "label": "read Constitution",
+       "span": "Read Constitution"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "amendments are omitted",
+       "span": "Amendments Are Omitted"
+      }
+     ],
+     "i3": [
+      {
+       "src": "hpo",
+       "label": "second day in power",
+       "span": "Second Day In Power"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Congress",
+       "span": "Congressional"
+      }
+     ],
+     "a2": [
+      {
+       "src": "nyt",
+       "label": "House",
+       "span": "House"
+      },
+      {
+       "src": "hpo",
+       "label": "House Republicans",
+       "span": "House Republicans"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "fox",
+       "label": "purpose questioned",
+       "span": "Purpose Behind Congressional Reading of Constitution Questioned"
+      }
+     ],
+     "o2": [
+      {
+       "src": "hpo",
+       "label": "second day in power",
+       "span": "Second Day In Power"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [
+     {
+      "a": "reading of constitution not without issues",
+      "a_src": "nyt",
+      "b": "read Constitution",
+      "b_src": "hpo",
+      "sim": 0.8442,
+      "by": "embedding"
+     },
+     {
+      "a": "reading of Constitution questioned",
+      "a_src": "fox",
+      "b": "reading of constitution not without issues",
+      "b_src": "nyt",
+      "sim": 0.8414,
+      "by": "embedding"
+     }
+    ],
+    "actors": [
+     {
+      "a": "House",
+      "a_src": "nyt",
+      "b": "House Republicans",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "8dc7ccfe-5cf0-482f-9101-a7c69881da4d": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "reaffirms belief in marriage as between man, woman",
+      "span": "reaffirms belief in marriage as between man, woman",
+      "start": 7,
+      "end": 57,
+      "id": "i1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "reaffirms opposition to marriage, or Unions, for gay couples",
+      "span": "Reaffirms Opposition to Marriage, or Unions, for Gay Couples",
+      "start": 7,
+      "end": 67,
+      "id": "i1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "preference is marriage between a man and a woman",
+      "span": "My 'Preference' Is Marriage Between A Man And A Woman",
+      "start": 8,
+      "end": 61,
+      "id": "i1"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Romney",
+      "span": "Romney",
+      "start": 0,
+      "end": 6,
+      "type": "Politician",
+      "id": "a1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Romney",
+      "span": "Romney",
+      "start": 0,
+      "end": 6,
+      "type": "Politician",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Romney",
+      "span": "Romney",
+      "start": 0,
+      "end": 6,
+      "type": "Politician",
+      "id": "a1"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "marriage, or Unions, for gay couples",
+      "span": "Marriage, or Unions, for Gay Couples",
+      "start": 31,
+      "end": 67,
+      "type": "Social",
+      "id": "o1"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "reaffirms belief in marriage as between man, woman",
+       "span": "reaffirms belief in marriage as between man, woman"
+      },
+      {
+       "src": "nyt",
+       "label": "reaffirms opposition to marriage, or Unions, for gay couples",
+       "span": "Reaffirms Opposition to Marriage, or Unions, for Gay Couples"
+      },
+      {
+       "src": "hpo",
+       "label": "preference is marriage between a man and a woman",
+       "span": "My 'Preference' Is Marriage Between A Man And A Woman"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Romney",
+       "span": "Romney"
+      },
+      {
+       "src": "nyt",
+       "label": "Romney",
+       "span": "Romney"
+      },
+      {
+       "src": "hpo",
+       "label": "Romney",
+       "span": "Romney"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "nyt",
+       "label": "marriage, or Unions, for gay couples",
+       "span": "Marriage, or Unions, for Gay Couples"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [
+     {
+      "a": "reaffirms belief in marriage as between man, woman",
+      "a_src": "fox",
+      "b": "reaffirms opposition to marriage, or Unions, for gay couples",
+      "b_src": "nyt",
+      "sim": 0.6188,
+      "by": "embedding"
+     },
+     {
+      "a": "reaffirms belief in marriage as between man, woman",
+      "a_src": "fox",
+      "b": "preference is marriage between a man and a woman",
+      "b_src": "hpo",
+      "sim": 0.6138,
+      "by": "embedding"
+     }
+    ],
+    "actors": [
+     {
+      "a": "Romney",
+      "a_src": "fox",
+      "b": "Romney",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Romney",
+      "a_src": "fox",
+      "b": "Romney",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "b5eefefb-2a33-45de-abe1-f855c94165f4": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "sparks fly",
+      "span": "Sparks fly",
+      "start": 0,
+      "end": 10,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "face off in feisty vice presidential debate",
+      "span": "face off in feisty vice presidential debate",
+      "start": 26,
+      "end": 69,
+      "id": "i2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "takes off gloves",
+      "span": "Takes Off Gloves",
+      "start": 6,
+      "end": 22,
+      "id": "i3"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "debate",
+      "span": "Debate",
+      "start": 11,
+      "end": 17,
+      "id": "i4"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Biden",
+      "span": "Biden",
+      "start": 14,
+      "end": 19,
+      "type": "Politician",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Ryan",
+      "span": "Ryan",
+      "start": 21,
+      "end": 25,
+      "type": "Politician",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Biden",
+      "span": "Biden",
+      "start": 0,
+      "end": 5,
+      "type": "Politician",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Biden",
+      "span": "Biden",
+      "start": 0,
+      "end": 5,
+      "type": "Person",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "Ryan",
+      "span": "Ryan",
+      "start": 6,
+      "end": 10,
+      "type": "Person",
+      "id": "a2"
+     }
+    ],
+    "outcomes": []
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "sparks fly",
+       "span": "Sparks fly"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "face off in feisty vice presidential debate",
+       "span": "face off in feisty vice presidential debate"
+      }
+     ],
+     "i3": [
+      {
+       "src": "nyt",
+       "label": "takes off gloves",
+       "span": "Takes Off Gloves"
+      }
+     ],
+     "i4": [
+      {
+       "src": "hpo",
+       "label": "debate",
+       "span": "Debate"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Biden",
+       "span": "Biden"
+      },
+      {
+       "src": "nyt",
+       "label": "Biden",
+       "span": "Biden"
+      },
+      {
+       "src": "hpo",
+       "label": "Biden",
+       "span": "Biden"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "Ryan",
+       "span": "Ryan"
+      },
+      {
+       "src": "hpo",
+       "label": "Ryan",
+       "span": "Ryan"
+      }
+     ]
+    },
+    "outcomes": {}
+   },
+   "matches": {
+    "items": [],
+    "actors": [
+     {
+      "a": "Biden",
+      "a_src": "fox",
+      "b": "Biden",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Biden",
+      "a_src": "fox",
+      "b": "Biden",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Ryan",
+      "a_src": "fox",
+      "b": "Ryan",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "d3a1ce0a-fc48-4827-a278-8f0ce8c7a519": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "pick former staffer",
+      "span": "picks former staffer",
+      "start": 33,
+      "end": 53,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "fill Kerry's Senate seat",
+      "span": "fill Kerry's Senate seat",
+      "start": 57,
+      "end": 81,
+      "id": "i2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "named interim senator",
+      "span": "Named Interim Senator",
+      "start": 14,
+      "end": 35,
+      "id": "i3"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "names former chief of staff to replace John Kerry",
+      "span": "Names Former Chief Of Staff To Replace John Kerry",
+      "start": 31,
+      "end": 80,
+      "id": "i4"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Massachusetts Gov. Deval Patrick",
+      "span": "Massachusetts Gov. Deval Patrick",
+      "start": 0,
+      "end": 32,
+      "type": "GovernmentOfficial",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "former staffer",
+      "span": "former staffer",
+      "start": 39,
+      "end": 53,
+      "type": "Person",
+      "id": "a2"
+     },
+     {
+      "src": "fox",
+      "index": 2,
+      "label": "Kerry",
+      "span": "Kerry",
+      "start": 62,
+      "end": 67,
+      "type": "Politician",
+      "id": "a3"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "William Cowan",
+      "span": "William Cowan",
+      "start": 0,
+      "end": 13,
+      "type": "Person",
+      "id": "a4"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "Massachusetts",
+      "span": "Massachusetts",
+      "start": 39,
+      "end": 52,
+      "type": "Other",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Mo Cowan",
+      "span": "Mo Cowan",
+      "start": 0,
+      "end": 8,
+      "type": "GovernmentOfficial",
+      "id": "a4"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "Deval Patrick",
+      "span": "Deval Patrick",
+      "start": 17,
+      "end": 30,
+      "type": "Politician",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 2,
+      "label": "John Kerry",
+      "span": "John Kerry",
+      "start": 70,
+      "end": 80,
+      "type": "Politician",
+      "id": "a3"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "fill Kerry's Senate seat",
+      "span": "fill Kerry's Senate seat",
+      "start": 57,
+      "end": 81,
+      "type": "Political",
+      "id": "o1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "interim senator",
+      "span": "Interim Senator",
+      "start": 20,
+      "end": 35,
+      "type": "Political",
+      "id": "o2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "replace John Kerry",
+      "span": "Replace John Kerry",
+      "start": 62,
+      "end": 80,
+      "type": "Political",
+      "id": "o3"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "pick former staffer",
+       "span": "picks former staffer"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "fill Kerry's Senate seat",
+       "span": "fill Kerry's Senate seat"
+      }
+     ],
+     "i3": [
+      {
+       "src": "nyt",
+       "label": "named interim senator",
+       "span": "Named Interim Senator"
+      }
+     ],
+     "i4": [
+      {
+       "src": "hpo",
+       "label": "names former chief of staff to replace John Kerry",
+       "span": "Names Former Chief Of Staff To Replace John Kerry"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Massachusetts Gov. Deval Patrick",
+       "span": "Massachusetts Gov. Deval Patrick"
+      },
+      {
+       "src": "nyt",
+       "label": "Massachusetts",
+       "span": "Massachusetts"
+      },
+      {
+       "src": "hpo",
+       "label": "Deval Patrick",
+       "span": "Deval Patrick"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "former staffer",
+       "span": "former staffer"
+      }
+     ],
+     "a3": [
+      {
+       "src": "fox",
+       "label": "Kerry",
+       "span": "Kerry"
+      },
+      {
+       "src": "hpo",
+       "label": "John Kerry",
+       "span": "John Kerry"
+      }
+     ],
+     "a4": [
+      {
+       "src": "nyt",
+       "label": "William Cowan",
+       "span": "William Cowan"
+      },
+      {
+       "src": "hpo",
+       "label": "Mo Cowan",
+       "span": "Mo Cowan"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "fox",
+       "label": "fill Kerry's Senate seat",
+       "span": "fill Kerry's Senate seat"
+      }
+     ],
+     "o2": [
+      {
+       "src": "nyt",
+       "label": "interim senator",
+       "span": "Interim Senator"
+      }
+     ],
+     "o3": [
+      {
+       "src": "hpo",
+       "label": "replace John Kerry",
+       "span": "Replace John Kerry"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [],
+    "actors": [
+     {
+      "a": "Massachusetts Gov. Deval Patrick",
+      "a_src": "fox",
+      "b": "Massachusetts",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Massachusetts Gov. Deval Patrick",
+      "a_src": "fox",
+      "b": "Deval Patrick",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Kerry",
+      "a_src": "fox",
+      "b": "John Kerry",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "William Cowan",
+      "a_src": "nyt",
+      "b": "Mo Cowan",
+      "b_src": "hpo",
+      "sim": 0.8538,
+      "by": "embedding"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "f506aafc-8b43-427a-936e-bbd1ef33e076": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "pleads guilty",
+      "span": "pleads guilty",
+      "start": 8,
+      "end": 21,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "illegal campaign spending spree",
+      "span": "illegal campaign spending spree",
+      "start": 27,
+      "end": 58,
+      "id": "i2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "pleads guilty",
+      "span": "Pleads Guilty",
+      "start": 18,
+      "end": 31,
+      "id": "i1"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "campaign money case",
+      "span": "Campaign Money Case",
+      "start": 35,
+      "end": 54,
+      "id": "i2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "pleads guilty",
+      "span": "Pleads Guilty",
+      "start": 12,
+      "end": 25,
+      "id": "i1"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Jackson",
+      "span": "Jackson",
+      "start": 0,
+      "end": 7,
+      "type": "Person",
+      "id": "a1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Jesse Jackson Jr.",
+      "span": "Jesse Jackson Jr.",
+      "start": 0,
+      "end": 17,
+      "type": "Person",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Jackson Jr.",
+      "span": "Jackson Jr.",
+      "start": 0,
+      "end": 11,
+      "type": "Person",
+      "id": "a1"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "guilty",
+      "span": "pleads guilty",
+      "start": 8,
+      "end": 21,
+      "type": "Legal",
+      "id": "o1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "campaign money case",
+      "span": "Campaign Money Case",
+      "start": 35,
+      "end": 54,
+      "type": "Legal",
+      "id": "o2"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "pleads guilty",
+       "span": "pleads guilty"
+      },
+      {
+       "src": "nyt",
+       "label": "pleads guilty",
+       "span": "Pleads Guilty"
+      },
+      {
+       "src": "hpo",
+       "label": "pleads guilty",
+       "span": "Pleads Guilty"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "illegal campaign spending spree",
+       "span": "illegal campaign spending spree"
+      },
+      {
+       "src": "nyt",
+       "label": "campaign money case",
+       "span": "Campaign Money Case"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Jackson",
+       "span": "Jackson"
+      },
+      {
+       "src": "nyt",
+       "label": "Jesse Jackson Jr.",
+       "span": "Jesse Jackson Jr."
+      },
+      {
+       "src": "hpo",
+       "label": "Jackson Jr.",
+       "span": "Jackson Jr."
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "fox",
+       "label": "guilty",
+       "span": "pleads guilty"
+      }
+     ],
+     "o2": [
+      {
+       "src": "nyt",
+       "label": "campaign money case",
+       "span": "Campaign Money Case"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [
+     {
+      "a": "pleads guilty",
+      "a_src": "fox",
+      "b": "pleads guilty",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "embedding"
+     },
+     {
+      "a": "pleads guilty",
+      "a_src": "fox",
+      "b": "pleads guilty",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "embedding"
+     },
+     {
+      "a": "illegal campaign spending spree",
+      "a_src": "fox",
+      "b": "campaign money case",
+      "b_src": "nyt",
+      "sim": 0.6428,
+      "by": "embedding"
+     }
+    ],
+    "actors": [
+     {
+      "a": "Jackson",
+      "a_src": "fox",
+      "b": "Jesse Jackson Jr.",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Jackson",
+      "a_src": "fox",
+      "b": "Jackson Jr.",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "33521e65-12da-4521-b132-7b606243b0e4": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "plan to file charges",
+      "span": "plan to file charges",
+      "start": 20,
+      "end": 40,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "says",
+      "span": "says",
+      "start": 70,
+      "end": 74,
+      "id": "i2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "indictment expected",
+      "span": "Indictment Expected",
+      "start": 0,
+      "end": 19,
+      "id": "i3"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "be indicted",
+      "span": "Be Indicted",
+      "start": 28,
+      "end": 39,
+      "id": "i3"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Federal prosecutors",
+      "span": "Federal prosecutors",
+      "start": 0,
+      "end": 19,
+      "type": "GovernmentBody",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Rep. Grimm",
+      "span": "Rep. Grimm",
+      "start": 49,
+      "end": 59,
+      "type": "Politician",
+      "id": "a2"
+     },
+     {
+      "src": "fox",
+      "index": 2,
+      "label": "attorney",
+      "span": "attorney",
+      "start": 61,
+      "end": 69,
+      "type": "Person",
+      "id": "a3"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Grimm",
+      "span": "Grimm",
+      "start": 24,
+      "end": 29,
+      "type": "Person",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "Staten Island Congressman",
+      "span": "Staten Island Congressman",
+      "start": 31,
+      "end": 56,
+      "type": "Politician",
+      "id": "a4"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "GOP Congressman",
+      "span": "GOP Congressman",
+      "start": 0,
+      "end": 15,
+      "type": "Politician",
+      "id": "a5"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "file charges",
+      "span": "file charges",
+      "start": 28,
+      "end": 40,
+      "type": "Legal",
+      "id": "o1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "indictment",
+      "span": "Indictment",
+      "start": 0,
+      "end": 10,
+      "type": "Legal",
+      "id": "o2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "indicted",
+      "span": "Be Indicted",
+      "start": 28,
+      "end": 39,
+      "type": "Legal",
+      "id": "o2"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "plan to file charges",
+       "span": "plan to file charges"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "says",
+       "span": "says"
+      }
+     ],
+     "i3": [
+      {
+       "src": "nyt",
+       "label": "indictment expected",
+       "span": "Indictment Expected"
+      },
+      {
+       "src": "hpo",
+       "label": "be indicted",
+       "span": "Be Indicted"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Federal prosecutors",
+       "span": "Federal prosecutors"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "Rep. Grimm",
+       "span": "Rep. Grimm"
+      },
+      {
+       "src": "nyt",
+       "label": "Grimm",
+       "span": "Grimm"
+      }
+     ],
+     "a3": [
+      {
+       "src": "fox",
+       "label": "attorney",
+       "span": "attorney"
+      }
+     ],
+     "a4": [
+      {
+       "src": "nyt",
+       "label": "Staten Island Congressman",
+       "span": "Staten Island Congressman"
+      }
+     ],
+     "a5": [
+      {
+       "src": "hpo",
+       "label": "GOP Congressman",
+       "span": "GOP Congressman"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "fox",
+       "label": "file charges",
+       "span": "file charges"
+      }
+     ],
+     "o2": [
+      {
+       "src": "nyt",
+       "label": "indictment",
+       "span": "Indictment"
+      },
+      {
+       "src": "hpo",
+       "label": "indicted",
+       "span": "Be Indicted"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [
+     {
+      "a": "indictment expected",
+      "a_src": "nyt",
+      "b": "be indicted",
+      "b_src": "hpo",
+      "sim": 0.7444,
+      "by": "embedding"
+     }
+    ],
+    "actors": [
+     {
+      "a": "Rep. Grimm",
+      "a_src": "fox",
+      "b": "Grimm",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": [
+     {
+      "a": "indictment",
+      "a_src": "nyt",
+      "b": "indicted",
+      "b_src": "hpo",
+      "sim": 0.891,
+      "by": "embedding"
+     }
+    ]
+   }
+  },
+  "ccf19ab6-7878-4378-b99c-2b08cc21371f": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "call for legalizing undocumented immigrants",
+      "span": "Calls For Legalizing Undocumented Immigrants",
+      "start": 47,
+      "end": 91,
+      "id": "i1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "offer broad immigration plan",
+      "span": "Offer Broad Immigration Plan",
+      "start": 21,
+      "end": 49,
+      "id": "i2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "hint at immigration principles",
+      "span": "Hints At Immigration Principles",
+      "start": 21,
+      "end": 52,
+      "id": "i3"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Third-Highest Ranking Republican In U.S. House",
+      "span": "Third-Highest Ranking Republican In U.S. House",
+      "start": 0,
+      "end": 46,
+      "type": "Politician",
+      "id": "a1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "House Republicans",
+      "span": "House Republicans",
+      "start": 0,
+      "end": 17,
+      "type": "PoliticalParty",
+      "id": "a2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Top House Republican",
+      "span": "Top House Republican",
+      "start": 0,
+      "end": 20,
+      "type": "Politician",
+      "id": "a3"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "legalizing undocumented immigrants",
+      "span": "Legalizing Undocumented Immigrants",
+      "start": 57,
+      "end": 91,
+      "type": "Political",
+      "id": "o1"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "call for legalizing undocumented immigrants",
+       "span": "Calls For Legalizing Undocumented Immigrants"
+      }
+     ],
+     "i2": [
+      {
+       "src": "nyt",
+       "label": "offer broad immigration plan",
+       "span": "Offer Broad Immigration Plan"
+      }
+     ],
+     "i3": [
+      {
+       "src": "hpo",
+       "label": "hint at immigration principles",
+       "span": "Hints At Immigration Principles"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Third-Highest Ranking Republican In U.S. House",
+       "span": "Third-Highest Ranking Republican In U.S. House"
+      }
+     ],
+     "a2": [
+      {
+       "src": "nyt",
+       "label": "House Republicans",
+       "span": "House Republicans"
+      }
+     ],
+     "a3": [
+      {
+       "src": "hpo",
+       "label": "Top House Republican",
+       "span": "Top House Republican"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "fox",
+       "label": "legalizing undocumented immigrants",
+       "span": "Legalizing Undocumented Immigrants"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [],
+    "actors": [],
+    "outcomes": []
+   }
+  },
+  "8dac6c12-b5ca-468c-a249-7e0ab42f6b52": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "have lots to say on key trade legislation",
+      "span": "have lots to say on key trade legislation",
+      "start": 18,
+      "end": 59,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "except where candidate stands",
+      "span": "except where candidate stands",
+      "start": 61,
+      "end": 90,
+      "id": "i2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "urges Obama to listen to Democrats on trade deal",
+      "span": "Urges Obama to Listen to Democrats on Trade Deal",
+      "start": 16,
+      "end": 64,
+      "id": "i3"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "listen to Nancy Pelosi on trade",
+      "span": "Should Listen To Nancy Pelosi On Trade",
+      "start": 23,
+      "end": 61,
+      "id": "i3"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Clinton",
+      "span": "Clinton",
+      "start": 0,
+      "end": 7,
+      "type": "Person",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "advisers",
+      "span": "advisers",
+      "start": 9,
+      "end": 17,
+      "type": "Other",
+      "id": "a2"
+     },
+     {
+      "src": "fox",
+      "index": 2,
+      "label": "candidate",
+      "span": "candidate",
+      "start": 74,
+      "end": 83,
+      "type": "Person",
+      "id": "a3"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Hillary Clinton",
+      "span": "Hillary Clinton",
+      "start": 0,
+      "end": 15,
+      "type": "Politician",
+      "id": "a1"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "Obama",
+      "span": "Obama",
+      "start": 22,
+      "end": 27,
+      "type": "Politician",
+      "id": "a4"
+     },
+     {
+      "src": "nyt",
+      "index": 2,
+      "label": "Democrats",
+      "span": "Democrats",
+      "start": 41,
+      "end": 50,
+      "type": "PoliticalParty",
+      "id": "a5"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Hillary Clinton",
+      "span": "Hillary Clinton",
+      "start": 0,
+      "end": 15,
+      "type": "Politician",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "Obama",
+      "span": "Obama",
+      "start": 17,
+      "end": 22,
+      "type": "Politician",
+      "id": "a4"
+     },
+     {
+      "src": "hpo",
+      "index": 2,
+      "label": "Nancy Pelosi",
+      "span": "Nancy Pelosi",
+      "start": 40,
+      "end": 52,
+      "type": "Politician",
+      "id": "a6"
+     }
+    ],
+    "outcomes": []
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "have lots to say on key trade legislation",
+       "span": "have lots to say on key trade legislation"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "except where candidate stands",
+       "span": "except where candidate stands"
+      }
+     ],
+     "i3": [
+      {
+       "src": "nyt",
+       "label": "urges Obama to listen to Democrats on trade deal",
+       "span": "Urges Obama to Listen to Democrats on Trade Deal"
+      },
+      {
+       "src": "hpo",
+       "label": "listen to Nancy Pelosi on trade",
+       "span": "Should Listen To Nancy Pelosi On Trade"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Clinton",
+       "span": "Clinton"
+      },
+      {
+       "src": "nyt",
+       "label": "Hillary Clinton",
+       "span": "Hillary Clinton"
+      },
+      {
+       "src": "hpo",
+       "label": "Hillary Clinton",
+       "span": "Hillary Clinton"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "advisers",
+       "span": "advisers"
+      }
+     ],
+     "a3": [
+      {
+       "src": "fox",
+       "label": "candidate",
+       "span": "candidate"
+      }
+     ],
+     "a4": [
+      {
+       "src": "nyt",
+       "label": "Obama",
+       "span": "Obama"
+      },
+      {
+       "src": "hpo",
+       "label": "Obama",
+       "span": "Obama"
+      }
+     ],
+     "a5": [
+      {
+       "src": "nyt",
+       "label": "Democrats",
+       "span": "Democrats"
+      }
+     ],
+     "a6": [
+      {
+       "src": "hpo",
+       "label": "Nancy Pelosi",
+       "span": "Nancy Pelosi"
+      }
+     ]
+    },
+    "outcomes": {}
+   },
+   "matches": {
+    "items": [
+     {
+      "a": "urges Obama to listen to Democrats on trade deal",
+      "a_src": "nyt",
+      "b": "listen to Nancy Pelosi on trade",
+      "b_src": "hpo",
+      "sim": 0.6192,
+      "by": "embedding"
+     }
+    ],
+    "actors": [
+     {
+      "a": "Clinton",
+      "a_src": "fox",
+      "b": "Hillary Clinton",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Clinton",
+      "a_src": "fox",
+      "b": "Hillary Clinton",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Obama",
+      "a_src": "nyt",
+      "b": "Obama",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "c5534b7e-a373-4962-8345-3847bc41a636": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "seeks 'transcribed' interview",
+      "span": "seeks 'transcribed' interview",
+      "start": 19,
+      "end": 48,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "deleted records",
+      "span": "deleted records",
+      "start": 67,
+      "end": 82,
+      "id": "i2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "seek private talk",
+      "span": "Seeks Private Talk",
+      "start": 12,
+      "end": 30,
+      "id": "i3"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "about email",
+      "span": "About Email",
+      "start": 52,
+      "end": 63,
+      "id": "i4"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "interview Clinton about emails",
+      "span": "Wants To Interview Clinton About Emails",
+      "start": 15,
+      "end": 54,
+      "id": "i5"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Benghazi committee",
+      "span": "Benghazi committee",
+      "start": 0,
+      "end": 18,
+      "type": "GovernmentBody",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Clinton",
+      "span": "Clinton",
+      "start": 54,
+      "end": 61,
+      "type": "Person",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "House Panel",
+      "span": "House Panel",
+      "start": 0,
+      "end": 11,
+      "type": "GovernmentBody",
+      "id": "a3"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "Hillary Clinton",
+      "span": "Hillary Clinton",
+      "start": 36,
+      "end": 51,
+      "type": "Politician",
+      "id": "a2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Benghazi Panel",
+      "span": "Benghazi Panel",
+      "start": 0,
+      "end": 14,
+      "type": "GovernmentBody",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "Clinton",
+      "span": "Clinton",
+      "start": 34,
+      "end": 41,
+      "type": "Person",
+      "id": "a2"
+     }
+    ],
+    "outcomes": []
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "seeks 'transcribed' interview",
+       "span": "seeks 'transcribed' interview"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "deleted records",
+       "span": "deleted records"
+      }
+     ],
+     "i3": [
+      {
+       "src": "nyt",
+       "label": "seek private talk",
+       "span": "Seeks Private Talk"
+      }
+     ],
+     "i4": [
+      {
+       "src": "nyt",
+       "label": "about email",
+       "span": "About Email"
+      }
+     ],
+     "i5": [
+      {
+       "src": "hpo",
+       "label": "interview Clinton about emails",
+       "span": "Wants To Interview Clinton About Emails"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Benghazi committee",
+       "span": "Benghazi committee"
+      },
+      {
+       "src": "hpo",
+       "label": "Benghazi Panel",
+       "span": "Benghazi Panel"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "Clinton",
+       "span": "Clinton"
+      },
+      {
+       "src": "nyt",
+       "label": "Hillary Clinton",
+       "span": "Hillary Clinton"
+      },
+      {
+       "src": "hpo",
+       "label": "Clinton",
+       "span": "Clinton"
+      }
+     ],
+     "a3": [
+      {
+       "src": "nyt",
+       "label": "House Panel",
+       "span": "House Panel"
+      }
+     ]
+    },
+    "outcomes": {}
+   },
+   "matches": {
+    "items": [],
+    "actors": [
+     {
+      "a": "Clinton",
+      "a_src": "fox",
+      "b": "Hillary Clinton",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Clinton",
+      "a_src": "fox",
+      "b": "Clinton",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Benghazi committee",
+      "a_src": "fox",
+      "b": "Benghazi Panel",
+      "b_src": "hpo",
+      "sim": 0.8234,
+      "by": "embedding"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "1b96a5db-8974-46d3-82d7-5dfef02f650e": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "reject Obama veto",
+      "span": "rejects Obama veto",
+      "start": 9,
+      "end": 27,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "first override of presidency",
+      "span": "first override of presidency",
+      "start": 45,
+      "end": 73,
+      "id": "i2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "override veto",
+      "span": "Override Veto",
+      "start": 14,
+      "end": 27,
+      "id": "i1"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "allow 9/11 suits",
+      "span": "Allowing 9/11 Suits",
+      "start": 36,
+      "end": 55,
+      "id": "i3"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "override veto",
+      "span": "Overrides Obama's Veto",
+      "start": 7,
+      "end": 29,
+      "id": "i1"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "veto of 9/11 victims bill",
+      "span": "Veto Of 9/11 Victims Bill",
+      "start": 25,
+      "end": 50,
+      "id": "i4"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Congress",
+      "span": "Congress",
+      "start": 0,
+      "end": 8,
+      "type": "GovernmentBody",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Obama",
+      "span": "Obama",
+      "start": 17,
+      "end": 22,
+      "type": "Politician",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Senate",
+      "span": "Senate",
+      "start": 0,
+      "end": 6,
+      "type": "GovernmentBody",
+      "id": "a3"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "Saudi Arabia",
+      "span": "Saudi Arabia",
+      "start": 64,
+      "end": 76,
+      "type": "Country",
+      "id": "a4"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Senate",
+      "span": "Senate",
+      "start": 0,
+      "end": 6,
+      "type": "GovernmentBody",
+      "id": "a3"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "Obama",
+      "span": "Obama",
+      "start": 17,
+      "end": 22,
+      "type": "Politician",
+      "id": "a2"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "first override of presidency",
+      "span": "first override of presidency",
+      "start": 45,
+      "end": 73,
+      "type": "Political",
+      "id": "o1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "9/11 suits",
+      "span": "9/11 Suits",
+      "start": 45,
+      "end": 55,
+      "type": "Legal",
+      "id": "o2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "veto overridden",
+      "span": "Overrides Obama's Veto",
+      "start": 7,
+      "end": 29,
+      "type": "Political",
+      "id": "o3"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "reject Obama veto",
+       "span": "rejects Obama veto"
+      },
+      {
+       "src": "nyt",
+       "label": "override veto",
+       "span": "Override Veto"
+      },
+      {
+       "src": "hpo",
+       "label": "override veto",
+       "span": "Overrides Obama's Veto"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "first override of presidency",
+       "span": "first override of presidency"
+      }
+     ],
+     "i3": [
+      {
+       "src": "nyt",
+       "label": "allow 9/11 suits",
+       "span": "Allowing 9/11 Suits"
+      }
+     ],
+     "i4": [
+      {
+       "src": "hpo",
+       "label": "veto of 9/11 victims bill",
+       "span": "Veto Of 9/11 Victims Bill"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Congress",
+       "span": "Congress"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "Obama",
+       "span": "Obama"
+      },
+      {
+       "src": "hpo",
+       "label": "Obama",
+       "span": "Obama"
+      }
+     ],
+     "a3": [
+      {
+       "src": "nyt",
+       "label": "Senate",
+       "span": "Senate"
+      },
+      {
+       "src": "hpo",
+       "label": "Senate",
+       "span": "Senate"
+      }
+     ],
+     "a4": [
+      {
+       "src": "nyt",
+       "label": "Saudi Arabia",
+       "span": "Saudi Arabia"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "fox",
+       "label": "first override of presidency",
+       "span": "first override of presidency"
+      }
+     ],
+     "o2": [
+      {
+       "src": "nyt",
+       "label": "9/11 suits",
+       "span": "9/11 Suits"
+      }
+     ],
+     "o3": [
+      {
+       "src": "hpo",
+       "label": "veto overridden",
+       "span": "Overrides Obama's Veto"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [
+     {
+      "a": "override veto",
+      "a_src": "nyt",
+      "b": "override veto",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "embedding"
+     },
+     {
+      "a": "reject Obama veto",
+      "a_src": "fox",
+      "b": "override veto",
+      "b_src": "nyt",
+      "sim": 0.6829,
+      "by": "embedding"
+     }
+    ],
+    "actors": [
+     {
+      "a": "Obama",
+      "a_src": "fox",
+      "b": "Obama",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Senate",
+      "a_src": "nyt",
+      "b": "Senate",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "d4a4bc34-e48b-4485-86b2-f1daf4d464dd": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "won't pay for that f***ing wall",
+      "span": "won't pay for 'that f***ing wall!'",
+      "start": 42,
+      "end": 76,
+      "id": "i1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "say no way country is paying for Donald Trump's wall",
+      "span": "Say No Way Country Is Paying for Donald Trump's Wall",
+      "start": 60,
+      "end": 112,
+      "id": "i1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "not pay for wall",
+      "span": "'I'm Not Going To Pay For That F**king Wall'",
+      "start": 26,
+      "end": 70,
+      "id": "i1"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Fox",
+      "span": "Former Mexican President Fox",
+      "start": 0,
+      "end": 28,
+      "type": "Politician",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Trump",
+      "span": "Trump",
+      "start": 32,
+      "end": 37,
+      "type": "Politician",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Vicente Fox",
+      "span": "Vicente Fox",
+      "start": 0,
+      "end": 11,
+      "type": "Politician",
+      "id": "a1"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "Felipe Calderón",
+      "span": "Felipe Calderón",
+      "start": 16,
+      "end": 31,
+      "type": "Politician",
+      "id": "a3"
+     },
+     {
+      "src": "nyt",
+      "index": 2,
+      "label": "Mexico",
+      "span": "Mexico",
+      "start": 52,
+      "end": 58,
+      "type": "Country",
+      "id": "a4"
+     },
+     {
+      "src": "nyt",
+      "index": 3,
+      "label": "Donald Trump",
+      "span": "Donald Trump's",
+      "start": 93,
+      "end": 107,
+      "type": "Politician",
+      "id": "a2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Former Mexican President",
+      "span": "Former Mexican President",
+      "start": 0,
+      "end": 24,
+      "type": "Politician",
+      "id": "a5"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "that f***ing wall",
+      "span": "'that f***ing wall!'",
+      "start": 56,
+      "end": 76,
+      "type": "Political",
+      "id": "o1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "paying for Donald Trump's wall",
+      "span": "Paying for Donald Trump's Wall",
+      "start": 82,
+      "end": 112,
+      "type": "Economic",
+      "id": "o2"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "won't pay for that f***ing wall",
+       "span": "won't pay for 'that f***ing wall!'"
+      },
+      {
+       "src": "nyt",
+       "label": "say no way country is paying for Donald Trump's wall",
+       "span": "Say No Way Country Is Paying for Donald Trump's Wall"
+      },
+      {
+       "src": "hpo",
+       "label": "not pay for wall",
+       "span": "'I'm Not Going To Pay For That F**king Wall'"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Fox",
+       "span": "Former Mexican President Fox"
+      },
+      {
+       "src": "nyt",
+       "label": "Vicente Fox",
+       "span": "Vicente Fox"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "Trump",
+       "span": "Trump"
+      },
+      {
+       "src": "nyt",
+       "label": "Donald Trump",
+       "span": "Donald Trump's"
+      }
+     ],
+     "a3": [
+      {
+       "src": "nyt",
+       "label": "Felipe Calderón",
+       "span": "Felipe Calderón"
+      }
+     ],
+     "a4": [
+      {
+       "src": "nyt",
+       "label": "Mexico",
+       "span": "Mexico"
+      }
+     ],
+     "a5": [
+      {
+       "src": "hpo",
+       "label": "Former Mexican President",
+       "span": "Former Mexican President"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "fox",
+       "label": "that f***ing wall",
+       "span": "'that f***ing wall!'"
+      }
+     ],
+     "o2": [
+      {
+       "src": "nyt",
+       "label": "paying for Donald Trump's wall",
+       "span": "Paying for Donald Trump's Wall"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [
+     {
+      "a": "won't pay for that f***ing wall",
+      "a_src": "fox",
+      "b": "not pay for wall",
+      "b_src": "hpo",
+      "sim": 0.8062,
+      "by": "embedding"
+     },
+     {
+      "a": "say no way country is paying for Donald Trump's wall",
+      "a_src": "nyt",
+      "b": "not pay for wall",
+      "b_src": "hpo",
+      "sim": 0.7145,
+      "by": "embedding"
+     }
+    ],
+    "actors": [
+     {
+      "a": "Fox",
+      "a_src": "fox",
+      "b": "Vicente Fox",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Trump",
+      "a_src": "fox",
+      "b": "Donald Trump",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "47a209b0-fc26-4a0a-a1fe-e4310d1d2419": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "prepare to go nuclear",
+      "span": "prepare to go nuclear",
+      "start": 12,
+      "end": 33,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Gorsuch vote",
+      "span": "Gorsuch vote",
+      "start": 39,
+      "end": 51,
+      "id": "i2"
+     },
+     {
+      "src": "fox",
+      "index": 2,
+      "label": "seek new delay",
+      "span": "seek new delay",
+      "start": 60,
+      "end": 74,
+      "id": "i3"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "plan to filibuster",
+      "span": "Plan to Filibuster",
+      "start": 10,
+      "end": 28,
+      "id": "i4"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "thwart Gorsuch nomination",
+      "span": "Thwart Gorsuch Nomination",
+      "start": 32,
+      "end": 57,
+      "id": "i2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "be concerned",
+      "span": "Democrats Concerned",
+      "start": 0,
+      "end": 19,
+      "id": "i5"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "be rigged for the rich",
+      "span": "May Be Rigged For The Rich",
+      "start": 43,
+      "end": 69,
+      "id": "i6"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Republicans",
+      "span": "Republicans",
+      "start": 0,
+      "end": 11,
+      "type": "PoliticalParty",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Dems",
+      "span": "Dems",
+      "start": 55,
+      "end": 59,
+      "type": "PoliticalParty",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Democrats",
+      "span": "Democrats",
+      "start": 0,
+      "end": 9,
+      "type": "PoliticalParty",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "Gorsuch",
+      "span": "Gorsuch",
+      "start": 39,
+      "end": 46,
+      "type": "Person",
+      "id": "a3"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Democrats",
+      "span": "Democrats",
+      "start": 0,
+      "end": 9,
+      "type": "PoliticalParty",
+      "id": "a2"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "Supreme Court",
+      "span": "Supreme Court",
+      "start": 29,
+      "end": 42,
+      "type": "Court",
+      "id": "a4"
+     },
+     {
+      "src": "hpo",
+      "index": 2,
+      "label": "Republicans",
+      "span": "Republicans",
+      "start": 74,
+      "end": 85,
+      "type": "PoliticalParty",
+      "id": "a1"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "new delay",
+      "span": "new delay",
+      "start": 65,
+      "end": 74,
+      "type": "Political",
+      "id": "o1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "thwart Gorsuch nomination",
+      "span": "Thwart Gorsuch Nomination",
+      "start": 32,
+      "end": 57,
+      "type": "Political",
+      "id": "o2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "for the rich",
+      "span": "For The Rich",
+      "start": 57,
+      "end": 69,
+      "type": "Economic",
+      "id": "o3"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "prepare to go nuclear",
+       "span": "prepare to go nuclear"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "Gorsuch vote",
+       "span": "Gorsuch vote"
+      },
+      {
+       "src": "nyt",
+       "label": "thwart Gorsuch nomination",
+       "span": "Thwart Gorsuch Nomination"
+      }
+     ],
+     "i3": [
+      {
+       "src": "fox",
+       "label": "seek new delay",
+       "span": "seek new delay"
+      }
+     ],
+     "i4": [
+      {
+       "src": "nyt",
+       "label": "plan to filibuster",
+       "span": "Plan to Filibuster"
+      }
+     ],
+     "i5": [
+      {
+       "src": "hpo",
+       "label": "be concerned",
+       "span": "Democrats Concerned"
+      }
+     ],
+     "i6": [
+      {
+       "src": "hpo",
+       "label": "be rigged for the rich",
+       "span": "May Be Rigged For The Rich"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Republicans",
+       "span": "Republicans"
+      },
+      {
+       "src": "hpo",
+       "label": "Republicans",
+       "span": "Republicans"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "Dems",
+       "span": "Dems"
+      },
+      {
+       "src": "nyt",
+       "label": "Democrats",
+       "span": "Democrats"
+      },
+      {
+       "src": "hpo",
+       "label": "Democrats",
+       "span": "Democrats"
+      }
+     ],
+     "a3": [
+      {
+       "src": "nyt",
+       "label": "Gorsuch",
+       "span": "Gorsuch"
+      }
+     ],
+     "a4": [
+      {
+       "src": "hpo",
+       "label": "Supreme Court",
+       "span": "Supreme Court"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "fox",
+       "label": "new delay",
+       "span": "new delay"
+      }
+     ],
+     "o2": [
+      {
+       "src": "nyt",
+       "label": "thwart Gorsuch nomination",
+       "span": "Thwart Gorsuch Nomination"
+      }
+     ],
+     "o3": [
+      {
+       "src": "hpo",
+       "label": "for the rich",
+       "span": "For The Rich"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [
+     {
+      "a": "Gorsuch vote",
+      "a_src": "fox",
+      "b": "thwart Gorsuch nomination",
+      "b_src": "nyt",
+      "sim": 0.7389,
+      "by": "embedding"
+     }
+    ],
+    "actors": [
+     {
+      "a": "Republicans",
+      "a_src": "fox",
+      "b": "Republicans",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Democrats",
+      "a_src": "nyt",
+      "b": "Democrats",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Dems",
+      "a_src": "fox",
+      "b": "Democrats",
+      "b_src": "nyt",
+      "sim": 0.7674,
+      "by": "embedding"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "d16050b3-979f-4834-90db-b8823691b87e": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "apologize",
+      "span": "apologizes",
+      "start": 14,
+      "end": 24,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "photo shoot with bloodied Trump mask",
+      "span": "photo shoot with bloodied Trump mask",
+      "start": 29,
+      "end": 65,
+      "id": "i2"
+     },
+     {
+      "src": "fox",
+      "index": 2,
+      "label": "go too far",
+      "span": "went too far",
+      "start": 77,
+      "end": 89,
+      "id": "i3"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "lash out at",
+      "span": "Lashes Out at",
+      "start": 6,
+      "end": 19,
+      "id": "i4"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "apologize for controversial images of bloodied Trump head",
+      "span": "Apologizes For Controversial Images Of Bloodied Trump Head",
+      "start": 14,
+      "end": 72,
+      "id": "i5"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Kathy Griffin",
+      "span": "Kathy Griffin",
+      "start": 0,
+      "end": 13,
+      "type": "Person",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Trump",
+      "span": "Trump",
+      "start": 55,
+      "end": 60,
+      "type": "Politician",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Trump",
+      "span": "Trump",
+      "start": 0,
+      "end": 5,
+      "type": "Politician",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "Kathy Griffin",
+      "span": "Kathy Griffin",
+      "start": 20,
+      "end": 33,
+      "type": "Person",
+      "id": "a1"
+     },
+     {
+      "src": "nyt",
+      "index": 2,
+      "label": "Democrats",
+      "span": "Democrats",
+      "start": 38,
+      "end": 47,
+      "type": "PoliticalParty",
+      "id": "a3"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Kathy Griffin",
+      "span": "Kathy Griffin",
+      "start": 0,
+      "end": 13,
+      "type": "Person",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "Trump",
+      "span": "Trump",
+      "start": 62,
+      "end": 67,
+      "type": "Politician",
+      "id": "a2"
+     }
+    ],
+    "outcomes": []
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "apologize",
+       "span": "apologizes"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "photo shoot with bloodied Trump mask",
+       "span": "photo shoot with bloodied Trump mask"
+      }
+     ],
+     "i3": [
+      {
+       "src": "fox",
+       "label": "go too far",
+       "span": "went too far"
+      }
+     ],
+     "i4": [
+      {
+       "src": "nyt",
+       "label": "lash out at",
+       "span": "Lashes Out at"
+      }
+     ],
+     "i5": [
+      {
+       "src": "hpo",
+       "label": "apologize for controversial images of bloodied Trump head",
+       "span": "Apologizes For Controversial Images Of Bloodied Trump Head"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Kathy Griffin",
+       "span": "Kathy Griffin"
+      },
+      {
+       "src": "nyt",
+       "label": "Kathy Griffin",
+       "span": "Kathy Griffin"
+      },
+      {
+       "src": "hpo",
+       "label": "Kathy Griffin",
+       "span": "Kathy Griffin"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "Trump",
+       "span": "Trump"
+      },
+      {
+       "src": "nyt",
+       "label": "Trump",
+       "span": "Trump"
+      },
+      {
+       "src": "hpo",
+       "label": "Trump",
+       "span": "Trump"
+      }
+     ],
+     "a3": [
+      {
+       "src": "nyt",
+       "label": "Democrats",
+       "span": "Democrats"
+      }
+     ]
+    },
+    "outcomes": {}
+   },
+   "matches": {
+    "items": [],
+    "actors": [
+     {
+      "a": "Kathy Griffin",
+      "a_src": "fox",
+      "b": "Kathy Griffin",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Trump",
+      "a_src": "fox",
+      "b": "Trump",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Kathy Griffin",
+      "a_src": "fox",
+      "b": "Kathy Griffin",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Trump",
+      "a_src": "fox",
+      "b": "Trump",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "1f99798f-2b60-4ecb-b5f4-4aa7991e8ace": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "arrested",
+      "span": "arrested",
+      "start": 8,
+      "end": 16,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "sent suspicious packages",
+      "span": "sent to Democrats",
+      "start": 67,
+      "end": 84,
+      "id": "i2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "arrested",
+      "span": "Arrested",
+      "start": 18,
+      "end": 26,
+      "id": "i1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "be identified as mail bomb suspect",
+      "span": "Identified As Mail Bomb Suspect",
+      "start": 12,
+      "end": 43,
+      "id": "i3"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Suspect",
+      "span": "Suspect",
+      "start": 0,
+      "end": 7,
+      "type": "Person",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Democrats",
+      "span": "Democrats",
+      "start": 75,
+      "end": 84,
+      "type": "PoliticalParty",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Pipe Bomb Suspect",
+      "span": "Pipe Bomb Suspect",
+      "start": 0,
+      "end": 17,
+      "type": "Person",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Cesar Sayoc",
+      "span": "Cesar Sayoc",
+      "start": 0,
+      "end": 11,
+      "type": "Person",
+      "id": "a3"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "arrest",
+      "span": "Arrested",
+      "start": 18,
+      "end": 26,
+      "type": "Legal",
+      "id": "o1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "mail bomb suspect",
+      "span": "Mail Bomb Suspect",
+      "start": 26,
+      "end": 43,
+      "type": "Legal",
+      "id": "o2"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "arrested",
+       "span": "arrested"
+      },
+      {
+       "src": "nyt",
+       "label": "arrested",
+       "span": "Arrested"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "sent suspicious packages",
+       "span": "sent to Democrats"
+      }
+     ],
+     "i3": [
+      {
+       "src": "hpo",
+       "label": "be identified as mail bomb suspect",
+       "span": "Identified As Mail Bomb Suspect"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Suspect",
+       "span": "Suspect"
+      },
+      {
+       "src": "nyt",
+       "label": "Pipe Bomb Suspect",
+       "span": "Pipe Bomb Suspect"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "Democrats",
+       "span": "Democrats"
+      }
+     ],
+     "a3": [
+      {
+       "src": "hpo",
+       "label": "Cesar Sayoc",
+       "span": "Cesar Sayoc"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "nyt",
+       "label": "arrest",
+       "span": "Arrested"
+      }
+     ],
+     "o2": [
+      {
+       "src": "hpo",
+       "label": "mail bomb suspect",
+       "span": "Mail Bomb Suspect"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [
+     {
+      "a": "arrested",
+      "a_src": "fox",
+      "b": "arrested",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "embedding"
+     }
+    ],
+    "actors": [
+     {
+      "a": "Suspect",
+      "a_src": "fox",
+      "b": "Pipe Bomb Suspect",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "c6a0e65c-4f8b-41de-8200-cd700f683c64": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "urge Trump to cancel Putin summit",
+      "span": "urge Trump to cancel Putin summit",
+      "start": 10,
+      "end": 43,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "indictment of Russian intel officers",
+      "span": "indictment of Russian intel officers",
+      "start": 51,
+      "end": 87,
+      "id": "i2"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "cancel Putin meeting",
+      "span": "Cancel Putin Meeting",
+      "start": 27,
+      "end": 47,
+      "id": "i1"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "indictments",
+      "span": "Indictments",
+      "start": 54,
+      "end": 65,
+      "id": "i3"
+     },
+     {
+      "src": "nyt",
+      "index": 2,
+      "label": "say",
+      "span": "Democrats Say",
+      "start": 0,
+      "end": 13,
+      "id": "i4"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "call on Trump to cancel Putin meeting",
+      "span": "Call On Trump To Cancel Putin Meeting",
+      "start": 27,
+      "end": 64,
+      "id": "i1"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Democrats",
+      "span": "Democrats",
+      "start": 0,
+      "end": 9,
+      "type": "PoliticalParty",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Trump",
+      "span": "Trump",
+      "start": 15,
+      "end": 20,
+      "type": "Politician",
+      "id": "a2"
+     },
+     {
+      "src": "fox",
+      "index": 2,
+      "label": "Putin",
+      "span": "Putin",
+      "start": 31,
+      "end": 36,
+      "type": "Politician",
+      "id": "a3"
+     },
+     {
+      "src": "fox",
+      "index": 3,
+      "label": "Russian intel officers",
+      "span": "Russian intel officers",
+      "start": 65,
+      "end": 87,
+      "type": "Other",
+      "id": "a4"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Democrats",
+      "span": "Democrats",
+      "start": 0,
+      "end": 9,
+      "type": "PoliticalParty",
+      "id": "a1"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "Trump",
+      "span": "Trump",
+      "start": 14,
+      "end": 19,
+      "type": "Politician",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 2,
+      "label": "Putin",
+      "span": "Putin",
+      "start": 34,
+      "end": 39,
+      "type": "Politician",
+      "id": "a3"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "John McCain",
+      "span": "John McCain",
+      "start": 0,
+      "end": 11,
+      "type": "Person",
+      "id": "a5"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "Top Democrats",
+      "span": "Top Democrats",
+      "start": 13,
+      "end": 26,
+      "type": "PoliticalParty",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 2,
+      "label": "Trump",
+      "span": "Trump",
+      "start": 35,
+      "end": 40,
+      "type": "Politician",
+      "id": "a2"
+     },
+     {
+      "src": "hpo",
+      "index": 3,
+      "label": "Putin",
+      "span": "Putin",
+      "start": 51,
+      "end": 56,
+      "type": "Politician",
+      "id": "a3"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "indictments",
+      "span": "After Indictments",
+      "start": 48,
+      "end": 65,
+      "type": "Legal",
+      "id": "o1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "cancel Putin meeting",
+      "span": "Cancel Putin Meeting",
+      "start": 44,
+      "end": 64,
+      "type": "Political",
+      "id": "o2"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "urge Trump to cancel Putin summit",
+       "span": "urge Trump to cancel Putin summit"
+      },
+      {
+       "src": "nyt",
+       "label": "cancel Putin meeting",
+       "span": "Cancel Putin Meeting"
+      },
+      {
+       "src": "hpo",
+       "label": "call on Trump to cancel Putin meeting",
+       "span": "Call On Trump To Cancel Putin Meeting"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "indictment of Russian intel officers",
+       "span": "indictment of Russian intel officers"
+      }
+     ],
+     "i3": [
+      {
+       "src": "nyt",
+       "label": "indictments",
+       "span": "Indictments"
+      }
+     ],
+     "i4": [
+      {
+       "src": "nyt",
+       "label": "say",
+       "span": "Democrats Say"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Democrats",
+       "span": "Democrats"
+      },
+      {
+       "src": "nyt",
+       "label": "Democrats",
+       "span": "Democrats"
+      },
+      {
+       "src": "hpo",
+       "label": "Top Democrats",
+       "span": "Top Democrats"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "Trump",
+       "span": "Trump"
+      },
+      {
+       "src": "nyt",
+       "label": "Trump",
+       "span": "Trump"
+      },
+      {
+       "src": "hpo",
+       "label": "Trump",
+       "span": "Trump"
+      }
+     ],
+     "a3": [
+      {
+       "src": "fox",
+       "label": "Putin",
+       "span": "Putin"
+      },
+      {
+       "src": "nyt",
+       "label": "Putin",
+       "span": "Putin"
+      },
+      {
+       "src": "hpo",
+       "label": "Putin",
+       "span": "Putin"
+      }
+     ],
+     "a4": [
+      {
+       "src": "fox",
+       "label": "Russian intel officers",
+       "span": "Russian intel officers"
+      }
+     ],
+     "a5": [
+      {
+       "src": "hpo",
+       "label": "John McCain",
+       "span": "John McCain"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "nyt",
+       "label": "indictments",
+       "span": "After Indictments"
+      }
+     ],
+     "o2": [
+      {
+       "src": "hpo",
+       "label": "cancel Putin meeting",
+       "span": "Cancel Putin Meeting"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [
+     {
+      "a": "cancel Putin meeting",
+      "a_src": "nyt",
+      "b": "call on Trump to cancel Putin meeting",
+      "b_src": "hpo",
+      "sim": 0.9054,
+      "by": "embedding"
+     },
+     {
+      "a": "urge Trump to cancel Putin summit",
+      "a_src": "fox",
+      "b": "cancel Putin meeting",
+      "b_src": "nyt",
+      "sim": 0.8257,
+      "by": "embedding"
+     }
+    ],
+    "actors": [
+     {
+      "a": "Democrats",
+      "a_src": "fox",
+      "b": "Democrats",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Trump",
+      "a_src": "fox",
+      "b": "Trump",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Putin",
+      "a_src": "fox",
+      "b": "Putin",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Democrats",
+      "a_src": "fox",
+      "b": "Top Democrats",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Trump",
+      "a_src": "fox",
+      "b": "Trump",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Putin",
+      "a_src": "fox",
+      "b": "Putin",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "3ae35b16-7f7f-4a5e-9f24-5ce724106a73": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "declare emergency on border",
+      "span": "declares emergency on border",
+      "start": 6,
+      "end": 34,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "eyes $8B for wall",
+      "span": "eyes $8B for wall",
+      "start": 36,
+      "end": 53,
+      "id": "i2"
+     },
+     {
+      "src": "fox",
+      "index": 2,
+      "label": "sign spending package",
+      "span": "signs spending package",
+      "start": 60,
+      "end": 82,
+      "id": "i3"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "declare a national emergency",
+      "span": "Declares a National Emergency",
+      "start": 6,
+      "end": 35,
+      "id": "i1"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "provoke a constitutional clash",
+      "span": "Provokes a Constitutional Clash",
+      "start": 41,
+      "end": 72,
+      "id": "i4"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "declare national emergency",
+      "span": "Declares National Emergency",
+      "start": 6,
+      "end": 33,
+      "id": "i1"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "fund U.S.-Mexico border wall",
+      "span": "Fund U.S.-Mexico Border Wall",
+      "start": 37,
+      "end": 65,
+      "id": "i5"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "Trump",
+      "span": "Trump",
+      "start": 0,
+      "end": 5,
+      "type": "Politician",
+      "id": "a1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Trump",
+      "span": "Trump",
+      "start": 0,
+      "end": 5,
+      "type": "Politician",
+      "id": "a1"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Trump",
+      "span": "Trump",
+      "start": 0,
+      "end": 5,
+      "type": "Politician",
+      "id": "a1"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "emergency on border",
+      "span": "emergency on border",
+      "start": 15,
+      "end": 34,
+      "type": "Political",
+      "id": "o1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "constitutional clash",
+      "span": "Constitutional Clash",
+      "start": 52,
+      "end": 72,
+      "type": "Political",
+      "id": "o2"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "national emergency",
+      "span": "National Emergency",
+      "start": 17,
+      "end": 35,
+      "type": "Other",
+      "id": "o3"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "border wall",
+      "span": "Border Wall",
+      "start": 54,
+      "end": 65,
+      "type": "Political",
+      "id": "o4"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "declare emergency on border",
+       "span": "declares emergency on border"
+      },
+      {
+       "src": "nyt",
+       "label": "declare a national emergency",
+       "span": "Declares a National Emergency"
+      },
+      {
+       "src": "hpo",
+       "label": "declare national emergency",
+       "span": "Declares National Emergency"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "eyes $8B for wall",
+       "span": "eyes $8B for wall"
+      }
+     ],
+     "i3": [
+      {
+       "src": "fox",
+       "label": "sign spending package",
+       "span": "signs spending package"
+      }
+     ],
+     "i4": [
+      {
+       "src": "nyt",
+       "label": "provoke a constitutional clash",
+       "span": "Provokes a Constitutional Clash"
+      }
+     ],
+     "i5": [
+      {
+       "src": "hpo",
+       "label": "fund U.S.-Mexico border wall",
+       "span": "Fund U.S.-Mexico Border Wall"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "Trump",
+       "span": "Trump"
+      },
+      {
+       "src": "nyt",
+       "label": "Trump",
+       "span": "Trump"
+      },
+      {
+       "src": "hpo",
+       "label": "Trump",
+       "span": "Trump"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "fox",
+       "label": "emergency on border",
+       "span": "emergency on border"
+      }
+     ],
+     "o2": [
+      {
+       "src": "nyt",
+       "label": "constitutional clash",
+       "span": "Constitutional Clash"
+      }
+     ],
+     "o3": [
+      {
+       "src": "nyt",
+       "label": "national emergency",
+       "span": "National Emergency"
+      }
+     ],
+     "o4": [
+      {
+       "src": "hpo",
+       "label": "border wall",
+       "span": "Border Wall"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [
+     {
+      "a": "declare a national emergency",
+      "a_src": "nyt",
+      "b": "declare national emergency",
+      "b_src": "hpo",
+      "sim": 0.9915,
+      "by": "embedding"
+     },
+     {
+      "a": "declare emergency on border",
+      "a_src": "fox",
+      "b": "declare a national emergency",
+      "b_src": "nyt",
+      "sim": 0.7315,
+      "by": "embedding"
+     }
+    ],
+    "actors": [
+     {
+      "a": "Trump",
+      "a_src": "fox",
+      "b": "Trump",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Trump",
+      "a_src": "fox",
+      "b": "Trump",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  },
+  "aab91277-8d56-4844-a581-45630f873f49": {
+   "ok": true,
+   "missing": [],
+   "mentions": {
+    "items": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "show of force",
+      "span": "show of force",
+      "start": 6,
+      "end": 19,
+      "id": "i1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "arrest",
+      "span": "arrest",
+      "start": 35,
+      "end": 41,
+      "id": "i2"
+     },
+     {
+      "src": "fox",
+      "index": 2,
+      "label": "spurs criticism",
+      "span": "spurs criticism",
+      "start": 42,
+      "end": 57,
+      "id": "i3"
+     },
+     {
+      "src": "fox",
+      "index": 3,
+      "label": "criticism of Mueller tactics",
+      "span": "criticism of Mueller tactics",
+      "start": 48,
+      "end": 76,
+      "id": "i4"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "indict Roger Stone",
+      "span": "Indicting Roger Stone",
+      "start": 0,
+      "end": 21,
+      "id": "i5"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "show link between Trump Campaign and WikiLeaks",
+      "span": "Shows Link Between Trump Campaign and WikiLeaks",
+      "start": 31,
+      "end": 78,
+      "id": "i6"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "indicted",
+      "span": "Indicted",
+      "start": 28,
+      "end": 36,
+      "id": "i7"
+     }
+    ],
+    "actors": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "FBI",
+      "span": "FBI",
+      "start": 0,
+      "end": 3,
+      "type": "LawEnforcement",
+      "id": "a1"
+     },
+     {
+      "src": "fox",
+      "index": 1,
+      "label": "Roger Stone",
+      "span": "Roger Stone",
+      "start": 23,
+      "end": 34,
+      "type": "Person",
+      "id": "a2"
+     },
+     {
+      "src": "fox",
+      "index": 2,
+      "label": "Mueller",
+      "span": "Mueller",
+      "start": 61,
+      "end": 68,
+      "type": "GovernmentOfficial",
+      "id": "a3"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "Roger Stone",
+      "span": "Roger Stone",
+      "start": 10,
+      "end": 21,
+      "type": "Person",
+      "id": "a2"
+     },
+     {
+      "src": "nyt",
+      "index": 1,
+      "label": "Mueller",
+      "span": "Mueller",
+      "start": 23,
+      "end": 30,
+      "type": "GovernmentOfficial",
+      "id": "a3"
+     },
+     {
+      "src": "nyt",
+      "index": 2,
+      "label": "Trump Campaign",
+      "span": "Trump Campaign",
+      "start": 50,
+      "end": 64,
+      "type": "Organization",
+      "id": "a4"
+     },
+     {
+      "src": "nyt",
+      "index": 3,
+      "label": "WikiLeaks",
+      "span": "WikiLeaks",
+      "start": 69,
+      "end": 78,
+      "type": "Organization",
+      "id": "a5"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "Roger Stone",
+      "span": "Roger Stone",
+      "start": 16,
+      "end": 27,
+      "type": "Person",
+      "id": "a2"
+     },
+     {
+      "src": "hpo",
+      "index": 1,
+      "label": "Trump",
+      "span": "Trump",
+      "start": 0,
+      "end": 5,
+      "type": "Politician",
+      "id": "a4"
+     }
+    ],
+    "outcomes": [
+     {
+      "src": "fox",
+      "index": 0,
+      "label": "criticism of Mueller tactics",
+      "span": "criticism of Mueller tactics",
+      "start": 48,
+      "end": 76,
+      "type": "Reputational",
+      "id": "o1"
+     },
+     {
+      "src": "nyt",
+      "index": 0,
+      "label": "link between Trump Campaign and WikiLeaks",
+      "span": "Link Between Trump Campaign and WikiLeaks",
+      "start": 37,
+      "end": 78,
+      "type": "Political",
+      "id": "o2"
+     },
+     {
+      "src": "hpo",
+      "index": 0,
+      "label": "indicted",
+      "span": "Indicted",
+      "start": 28,
+      "end": 36,
+      "type": "Legal",
+      "id": "o3"
+     }
+    ]
+   },
+   "clusters": {
+    "items": {
+     "i1": [
+      {
+       "src": "fox",
+       "label": "show of force",
+       "span": "show of force"
+      }
+     ],
+     "i2": [
+      {
+       "src": "fox",
+       "label": "arrest",
+       "span": "arrest"
+      }
+     ],
+     "i3": [
+      {
+       "src": "fox",
+       "label": "spurs criticism",
+       "span": "spurs criticism"
+      }
+     ],
+     "i4": [
+      {
+       "src": "fox",
+       "label": "criticism of Mueller tactics",
+       "span": "criticism of Mueller tactics"
+      }
+     ],
+     "i5": [
+      {
+       "src": "nyt",
+       "label": "indict Roger Stone",
+       "span": "Indicting Roger Stone"
+      }
+     ],
+     "i6": [
+      {
+       "src": "nyt",
+       "label": "show link between Trump Campaign and WikiLeaks",
+       "span": "Shows Link Between Trump Campaign and WikiLeaks"
+      }
+     ],
+     "i7": [
+      {
+       "src": "hpo",
+       "label": "indicted",
+       "span": "Indicted"
+      }
+     ]
+    },
+    "actors": {
+     "a1": [
+      {
+       "src": "fox",
+       "label": "FBI",
+       "span": "FBI"
+      }
+     ],
+     "a2": [
+      {
+       "src": "fox",
+       "label": "Roger Stone",
+       "span": "Roger Stone"
+      },
+      {
+       "src": "nyt",
+       "label": "Roger Stone",
+       "span": "Roger Stone"
+      },
+      {
+       "src": "hpo",
+       "label": "Roger Stone",
+       "span": "Roger Stone"
+      }
+     ],
+     "a3": [
+      {
+       "src": "fox",
+       "label": "Mueller",
+       "span": "Mueller"
+      },
+      {
+       "src": "nyt",
+       "label": "Mueller",
+       "span": "Mueller"
+      }
+     ],
+     "a4": [
+      {
+       "src": "nyt",
+       "label": "Trump Campaign",
+       "span": "Trump Campaign"
+      },
+      {
+       "src": "hpo",
+       "label": "Trump",
+       "span": "Trump"
+      }
+     ],
+     "a5": [
+      {
+       "src": "nyt",
+       "label": "WikiLeaks",
+       "span": "WikiLeaks"
+      }
+     ]
+    },
+    "outcomes": {
+     "o1": [
+      {
+       "src": "fox",
+       "label": "criticism of Mueller tactics",
+       "span": "criticism of Mueller tactics"
+      }
+     ],
+     "o2": [
+      {
+       "src": "nyt",
+       "label": "link between Trump Campaign and WikiLeaks",
+       "span": "Link Between Trump Campaign and WikiLeaks"
+      }
+     ],
+     "o3": [
+      {
+       "src": "hpo",
+       "label": "indicted",
+       "span": "Indicted"
+      }
+     ]
+    }
+   },
+   "matches": {
+    "items": [],
+    "actors": [
+     {
+      "a": "Roger Stone",
+      "a_src": "fox",
+      "b": "Roger Stone",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Mueller",
+      "a_src": "fox",
+      "b": "Mueller",
+      "b_src": "nyt",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Roger Stone",
+      "a_src": "fox",
+      "b": "Roger Stone",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     },
+     {
+      "a": "Trump Campaign",
+      "a_src": "nyt",
+      "b": "Trump",
+      "b_src": "hpo",
+      "sim": 1.0,
+      "by": "name-match"
+     }
+    ],
+    "outcomes": []
+   }
+  }
+ }
+}
