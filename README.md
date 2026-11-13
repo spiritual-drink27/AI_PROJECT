@@ -1,3 +1,4 @@
+
 # Explainable Same-Event News Framing Analysis
 
 CS F407 Artificial Intelligence, Team BATCH, Demo track
@@ -52,3 +53,5 @@ articles: { fox | nyt | hpo: {
 | `src/explain.py`, `app.py` | S6 explanations and web demo | M6 |
 | `baselines/` | B1 TF-IDF, B2 Sentence-BERT, B3 direct LLM | M7 |
 | `eval/` | annotation, metrics, ablation | M8 |
+
+
