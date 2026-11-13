@@ -1,0 +1,3441 @@
+{
+ "4b7ea8dc745ad4e60c9731e75eb0d01316ac5214": {
+  "ok": true,
+  "headline": "Police fire tear gas on peaceful protesters",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Police",
+     "type": "LawEnforcement",
+     "span": "Police",
+     "start": 0,
+     "end": 6
+    },
+    {
+     "name": "protesters",
+     "type": "Activist",
+     "span": "protesters",
+     "start": 33,
+     "end": 43
+    }
+   ],
+   "items": [
+    {
+     "text": "fire tear gas",
+     "span": "fire tear gas",
+     "start": 7,
+     "end": 20
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Police",
+     "action": "fire tear gas",
+     "span": "Police fire tear gas",
+     "start": 0,
+     "end": 20
+    }
+   ],
+   "evals": [
+    {
+     "target": "protesters",
+     "polarity": "positive",
+     "word": "peaceful",
+     "start": 24,
+     "end": 32,
+     "target_known": true
+    }
+   ],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Police\",\"type\":\"LawEnforcement\",\"span\":\"Police\"},{\"name\":\"protesters\",\"type\":\"Activist\",\"span\":\"protesters\"}],\"items\":[{\"text\":\"fire tear gas\",\"span\":\"fire tear gas\"}],\"agents\":[{\"actor\":\"Police\",\"action\":\"fire tear gas\",\"span\":\"Police fire tear gas\"}],\"evals\":[{\"target\":\"protesters\",\"polarity\":\"positive\",\"word\":\"peaceful\"}],\"outcomes\":[]}"
+ },
+ "ebf38add04758114df71f410ed95203b0240ad66": {
+  "ok": true,
+  "headline": "White House Asked Bill Clinton to Urge Sestak to Drop Out of Senate Race",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "White House",
+     "type": "GovernmentBody",
+     "span": "White House",
+     "start": 0,
+     "end": 11
+    },
+    {
+     "name": "Bill Clinton",
+     "type": "Person",
+     "span": "Bill Clinton",
+     "start": 18,
+     "end": 30
+    },
+    {
+     "name": "Sestak",
+     "type": "Person",
+     "span": "Sestak",
+     "start": 39,
+     "end": 45
+    }
+   ],
+   "items": [
+    {
+     "text": "ask Bill Clinton to urge Sestak to drop out of Senate race",
+     "span": "Asked Bill Clinton to Urge Sestak to Drop Out of Senate Race",
+     "start": 12,
+     "end": 72
+    }
+   ],
+   "agents": [
+    {
+     "actor": "White House",
+     "action": "ask Bill Clinton to urge Sestak to drop out of Senate race",
+     "span": "White House Asked Bill Clinton",
+     "start": 0,
+     "end": 30
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"White House\",\"type\":\"GovernmentBody\",\"span\":\"White House\"},{\"name\":\"Bill Clinton\",\"type\":\"Person\",\"span\":\"Bill Clinton\"},{\"name\":\"Sestak\",\"type\":\"Person\",\"span\":\"Sestak\"}],\"items\":[{\"text\":\"ask Bill Clinton to urge Sestak to drop out of Senate race\",\"span\":\"Asked Bill Clinton to Urge Sestak to Drop Out of Senate Race\"}],\"agents\":[{\"actor\":\"White House\",\"action\":\"ask Bill Clinton to urge Sestak to drop out of Senate race\",\"span\":\"White House Asked Bill Clinton\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "ae3feacd80124a2c5b0a001f5c8766a6f18d9ccb": {
+  "ok": true,
+  "headline": "White House Used Bill Clinton to Ask Sestak to Drop Out of Race",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "White House",
+     "type": "GovernmentBody",
+     "span": "White House",
+     "start": 0,
+     "end": 11
+    },
+    {
+     "name": "Bill Clinton",
+     "type": "Person",
+     "span": "Bill Clinton",
+     "start": 17,
+     "end": 29
+    },
+    {
+     "name": "Sestak",
+     "type": "Person",
+     "span": "Sestak",
+     "start": 37,
+     "end": 43
+    }
+   ],
+   "items": [
+    {
+     "text": "used Bill Clinton",
+     "span": "Used Bill Clinton",
+     "start": 12,
+     "end": 29
+    },
+    {
+     "text": "ask Sestak to drop out of race",
+     "span": "Ask Sestak to Drop Out of Race",
+     "start": 33,
+     "end": 63
+    }
+   ],
+   "agents": [
+    {
+     "actor": "White House",
+     "action": "used Bill Clinton",
+     "span": "White House Used Bill Clinton",
+     "start": 0,
+     "end": 29
+    },
+    {
+     "actor": "Bill Clinton",
+     "action": "ask Sestak to drop out of race",
+     "span": "Bill Clinton to Ask Sestak to Drop Out of Race",
+     "start": 17,
+     "end": 63
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "drop out of race",
+     "type": "Political",
+     "span": "Drop Out of Race",
+     "start": 47,
+     "end": 63
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"White House\",\"type\":\"GovernmentBody\",\"span\":\"White House\"},{\"name\":\"Bill Clinton\",\"type\":\"Person\",\"span\":\"Bill Clinton\"},{\"name\":\"Sestak\",\"type\":\"Person\",\"span\":\"Sestak\"}],\"items\":[{\"text\":\"used Bill Clinton\",\"span\":\"Used Bill Clinton\"},{\"text\":\"ask Sestak to drop out of race\",\"span\":\"Ask Sestak to Drop Out of Race\"}],\"agents\":[{\"actor\":\"White House\",\"action\":\"used Bill Clinton\",\"span\":\"White House Used Bill Clinton\"},{\"actor\":\"Bill Clinton\",\"action\":\"ask Sestak to drop out of race\",\"span\":\"Bill Clinton to Ask Sestak to Drop Out of Race\"}],\"evals\":[],\"outcomes\":[{\"text\":\"drop out of race\",\"type\":\"Political\",\"span\":\"Drop Out of Race\"}]}"
+ },
+ "e5915a655362019b0809648636ce9697ddf84d8a": {
+  "ok": true,
+  "headline": "White House Asked Bill Clinton To Talk To Joe Sestak About Senate Run",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "White House",
+     "type": "GovernmentBody",
+     "span": "White House",
+     "start": 0,
+     "end": 11
+    },
+    {
+     "name": "Bill Clinton",
+     "type": "Person",
+     "span": "Bill Clinton",
+     "start": 18,
+     "end": 30
+    },
+    {
+     "name": "Joe Sestak",
+     "type": "Person",
+     "span": "Joe Sestak",
+     "start": 42,
+     "end": 52
+    }
+   ],
+   "items": [
+    {
+     "text": "ask Bill Clinton to talk to Joe Sestak about Senate run",
+     "span": "Asked Bill Clinton To Talk To Joe Sestak About Senate Run",
+     "start": 12,
+     "end": 69
+    }
+   ],
+   "agents": [
+    {
+     "actor": "White House",
+     "action": "ask Bill Clinton to talk to Joe Sestak about Senate run",
+     "span": "White House Asked Bill Clinton To Talk To Joe Sestak About Senate Run",
+     "start": 0,
+     "end": 69
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "Senate run",
+     "type": "Political",
+     "span": "Senate Run",
+     "start": 59,
+     "end": 69
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"White House\",\"type\":\"GovernmentBody\",\"span\":\"White House\"},{\"name\":\"Bill Clinton\",\"type\":\"Person\",\"span\":\"Bill Clinton\"},{\"name\":\"Joe Sestak\",\"type\":\"Person\",\"span\":\"Joe Sestak\"}],\"items\":[{\"text\":\"ask Bill Clinton to talk to Joe Sestak about Senate run\",\"span\":\"Asked Bill Clinton To Talk To Joe Sestak About Senate Run\"}],\"agents\":[{\"actor\":\"White House\",\"action\":\"ask Bill Clinton to talk to Joe Sestak about Senate run\",\"span\":\"White House Asked Bill Clinton To Talk To Joe Sestak About Senate Run\"}],\"evals\":[],\"outcomes\":[{\"text\":\"Senate run\",\"type\":\"Political\",\"span\":\"Senate Run\"}]}"
+ },
+ "86e8339fd76e80ff6d8b47654cd74e69405164ca": {
+  "ok": true,
+  "headline": "Glenn Beck Rips Progressivism at CPAC",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Glenn Beck",
+     "type": "Person",
+     "span": "Glenn Beck",
+     "start": 0,
+     "end": 10
+    },
+    {
+     "name": "CPAC",
+     "type": "Organization",
+     "span": "CPAC",
+     "start": 33,
+     "end": 37
+    }
+   ],
+   "items": [
+    {
+     "text": "rips progressivism",
+     "span": "Rips Progressivism",
+     "start": 11,
+     "end": 29
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Glenn Beck",
+     "action": "rips progressivism",
+     "span": "Glenn Beck Rips Progressivism",
+     "start": 0,
+     "end": 29
+    }
+   ],
+   "evals": [
+    {
+     "target": "progressivism",
+     "polarity": "negative",
+     "word": "Rips",
+     "start": 11,
+     "end": 15,
+     "target_known": false
+    }
+   ],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Glenn Beck\",\"type\":\"Person\",\"span\":\"Glenn Beck\"},{\"name\":\"CPAC\",\"type\":\"Organization\",\"span\":\"CPAC\"}],\"items\":[{\"text\":\"rips progressivism\",\"span\":\"Rips Progressivism\"}],\"agents\":[{\"actor\":\"Glenn Beck\",\"action\":\"rips progressivism\",\"span\":\"Glenn Beck Rips Progressivism\"}],\"evals\":[{\"target\":\"progressivism\",\"polarity\":\"negative\",\"word\":\"Rips\"}],\"outcomes\":[]}"
+ },
+ "15bab3ef5d4019ac315e059c7437a3b146ffb048": {
+  "ok": true,
+  "headline": "Beck Wows the CPAC Crowd",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Beck",
+     "type": "Person",
+     "span": "Beck",
+     "start": 0,
+     "end": 4
+    },
+    {
+     "name": "CPAC Crowd",
+     "type": "Other",
+     "span": "CPAC Crowd",
+     "start": 14,
+     "end": 24
+    }
+   ],
+   "items": [
+    {
+     "text": "wows",
+     "span": "Wows",
+     "start": 5,
+     "end": 9
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Beck",
+     "action": "wows",
+     "span": "Beck Wows",
+     "start": 0,
+     "end": 9
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Beck\",\"type\":\"Person\",\"span\":\"Beck\"},{\"name\":\"CPAC Crowd\",\"type\":\"Other\",\"span\":\"CPAC Crowd\"}],\"items\":[{\"text\":\"wows\",\"span\":\"wows\"}],\"agents\":[{\"actor\":\"Beck\",\"action\":\"wows\",\"span\":\"Beck wows\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "bc1a53e0cbe0353bc2e01a586c1c9803e1e607f3": {
+  "ok": true,
+  "headline": "Glenn Beck CPAC 2010 Speech VIDEO: Republicans Don't Need A Big Tent",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Glenn Beck",
+     "type": "Person",
+     "span": "Glenn Beck",
+     "start": 0,
+     "end": 10
+    },
+    {
+     "name": "Republicans",
+     "type": "PoliticalParty",
+     "span": "Republicans",
+     "start": 35,
+     "end": 46
+    },
+    {
+     "name": "CPAC",
+     "type": "Organization",
+     "span": "CPAC",
+     "start": 11,
+     "end": 15
+    }
+   ],
+   "items": [
+    {
+     "text": "speech video",
+     "span": "Speech VIDEO",
+     "start": 21,
+     "end": 33
+    },
+    {
+     "text": "don't need a big tent",
+     "span": "Don't Need A Big Tent",
+     "start": 47,
+     "end": 68
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Glenn Beck",
+     "action": "speech video",
+     "span": "Glenn Beck CPAC 2010 Speech VIDEO",
+     "start": 0,
+     "end": 33
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [
+   "dropped agent: \"Glenn Beck ... Republicans Don't Need A Big Tent\" not found in headline"
+  ],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Glenn Beck\",\"type\":\"Person\",\"span\":\"Glenn Beck\"},{\"name\":\"Republicans\",\"type\":\"PoliticalParty\",\"span\":\"Republicans\"},{\"name\":\"CPAC\",\"type\":\"Organization\",\"span\":\"CPAC\"}],\"items\":[{\"text\":\"speech video\",\"span\":\"Speech VIDEO\"},{\"text\":\"don't need a big tent\",\"span\":\"don't need a big tent\"}],\"agents\":[{\"actor\":\"Glenn Beck\",\"action\":\"speech video\",\"span\":\"Glenn Beck CPAC 2010 Speech VIDEO\"},{\"actor\":\"Glenn Beck\",\"action\":\"don't need a big tent\",\"span\":\"Glenn Beck ... Republicans Don't Need A Big Tent\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "27e3590d36f7787a2a8296fcc2957bfd490acb98": {
+  "ok": true,
+  "headline": "AARP Pushes Back on Claim About Social Security Concessions as Lawmakers Push Reform",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "AARP",
+     "type": "Organization",
+     "span": "AARP",
+     "start": 0,
+     "end": 4
+    },
+    {
+     "name": "Lawmakers",
+     "type": "Politician",
+     "span": "Lawmakers",
+     "start": 63,
+     "end": 72
+    }
+   ],
+   "items": [
+    {
+     "text": "push back on claim",
+     "span": "Pushes Back on Claim",
+     "start": 5,
+     "end": 25
+    },
+    {
+     "text": "claim about social security concessions",
+     "span": "Claim About Social Security Concessions",
+     "start": 20,
+     "end": 59
+    },
+    {
+     "text": "push reform",
+     "span": "Push Reform",
+     "start": 73,
+     "end": 84
+    }
+   ],
+   "agents": [
+    {
+     "actor": "AARP",
+     "action": "push back on claim",
+     "span": "AARP Pushes Back on Claim",
+     "start": 0,
+     "end": 25
+    },
+    {
+     "actor": "Lawmakers",
+     "action": "push reform",
+     "span": "Lawmakers Push Reform",
+     "start": 63,
+     "end": 84
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "social security concessions",
+     "type": "Economic",
+     "span": "Social Security Concessions",
+     "start": 32,
+     "end": 59
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"AARP\",\"type\":\"Organization\",\"span\":\"AARP\"},{\"name\":\"Lawmakers\",\"type\":\"Politician\",\"span\":\"Lawmakers\"}],\"items\":[{\"text\":\"push back on claim\",\"span\":\"Pushes Back on Claim\"},{\"text\":\"claim about social security concessions\",\"span\":\"claim About Social Security Concessions\"},{\"text\":\"push reform\",\"span\":\"Push Reform\"}],\"agents\":[{\"actor\":\"AARP\",\"action\":\"push back on claim\",\"span\":\"AARP Pushes Back on Claim\"},{\"actor\":\"Lawmakers\",\"action\":\"push reform\",\"span\":\"Lawmakers Push Reform\"}],\"evals\":[],\"outcomes\":[{\"text\":\"social security concessions\",\"type\":\"Economic\",\"span\":\"Social Security Concessions\"}]}"
+ },
+ "06a7c13e564e4d51085fb387a1ed6dfb4c48afbb": {
+  "ok": true,
+  "headline": "AARP Open to Social Security Cuts",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "AARP",
+     "type": "Organization",
+     "span": "AARP",
+     "start": 0,
+     "end": 4
+    }
+   ],
+   "items": [
+    {
+     "text": "open to social security cuts",
+     "span": "Open to Social Security Cuts",
+     "start": 5,
+     "end": 33
+    }
+   ],
+   "agents": [
+    {
+     "actor": "AARP",
+     "action": "open to social security cuts",
+     "span": "AARP Open to Social Security Cuts",
+     "start": 0,
+     "end": 33
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "social security cuts",
+     "type": "Economic",
+     "span": "Social Security Cuts",
+     "start": 13,
+     "end": 33
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"AARP\",\"type\":\"Organization\",\"span\":\"AARP\"}],\"items\":[{\"text\":\"open to social security cuts\",\"span\":\"Open to Social Security Cuts\"}],\"agents\":[{\"actor\":\"AARP\",\"action\":\"open to social security cuts\",\"span\":\"AARP Open to Social Security Cuts\"}],\"evals\":[],\"outcomes\":[{\"text\":\"social security cuts\",\"type\":\"Economic\",\"span\":\"Social Security Cuts\"}]}"
+ },
+ "92df1fb0ca7a6dfa6a08ef7593ed19e437d2a542": {
+  "ok": true,
+  "headline": "AARP Willing To Negotiate On Social Security Retirement Age",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "AARP",
+     "type": "Organization",
+     "span": "AARP",
+     "start": 0,
+     "end": 4
+    }
+   ],
+   "items": [
+    {
+     "text": "negotiate on social security retirement age",
+     "span": "Negotiate On Social Security Retirement Age",
+     "start": 16,
+     "end": 59
+    }
+   ],
+   "agents": [
+    {
+     "actor": "AARP",
+     "action": "negotiate on social security retirement age",
+     "span": "AARP Willing To Negotiate On Social Security Retirement Age",
+     "start": 0,
+     "end": 59
+    }
+   ],
+   "evals": [
+    {
+     "target": "AARP",
+     "polarity": "positive",
+     "word": "Willing",
+     "start": 5,
+     "end": 12,
+     "target_known": true
+    }
+   ],
+   "outcomes": [
+    {
+     "text": "social security retirement age",
+     "type": "Political",
+     "span": "Social Security Retirement Age",
+     "start": 29,
+     "end": 59
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"AARP\",\"type\":\"Organization\",\"span\":\"AARP\"}],\"items\":[{\"text\":\"negotiate on social security retirement age\",\"span\":\"negotiate On Social Security Retirement Age\"}],\"agents\":[{\"actor\":\"AARP\",\"action\":\"negotiate on social security retirement age\",\"span\":\"AARP Willing To Negotiate On Social Security Retirement Age\"}],\"evals\":[{\"target\":\"AARP\",\"polarity\":\"positive\",\"word\":\"Willing\"}],\"outcomes\":[{\"text\":\"social security retirement age\",\"type\":\"Political\",\"span\":\"Social Security Retirement Age\"}]}"
+ },
+ "c09e2d7c8d10ce4882a4973bb51d560523623362": {
+  "ok": true,
+  "headline": "Purpose Behind Congressional Reading of Constitution Questioned After Amendments Are Omitted",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Congress",
+     "type": "GovernmentBody",
+     "span": "Congressional",
+     "start": 15,
+     "end": 28
+    }
+   ],
+   "items": [
+    {
+     "text": "reading of Constitution questioned",
+     "span": "Reading of Constitution Questioned",
+     "start": 29,
+     "end": 63
+    },
+    {
+     "text": "amendments are omitted",
+     "span": "Amendments Are Omitted",
+     "start": 70,
+     "end": 92
+    }
+   ],
+   "agents": [],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "purpose questioned",
+     "type": "Political",
+     "span": "Purpose Behind Congressional Reading of Constitution Questioned",
+     "start": 0,
+     "end": 63
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Congress\",\"type\":\"GovernmentBody\",\"span\":\"Congressional\"}],\"items\":[{\"text\":\"reading of Constitution questioned\",\"span\":\"reading of Constitution Questioned\"},{\"text\":\"amendments are omitted\",\"span\":\"amendments Are Omitted\"}],\"agents\":[],\"evals\":[],\"outcomes\":[{\"text\":\"purpose questioned\",\"type\":\"Political\",\"span\":\"Purpose Behind Congressional Reading of Constitution Questioned\"}]}"
+ },
+ "0448ad8ffaf1a98109d1da9051af0366884971fe": {
+  "ok": true,
+  "headline": "House Reading of Constitution Is Not Without Issues",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "House",
+     "type": "GovernmentBody",
+     "span": "House",
+     "start": 0,
+     "end": 5
+    }
+   ],
+   "items": [
+    {
+     "text": "reading of constitution not without issues",
+     "span": "Reading of Constitution Is Not Without Issues",
+     "start": 6,
+     "end": 51
+    }
+   ],
+   "agents": [
+    {
+     "actor": "House",
+     "action": "reading of constitution not without issues",
+     "span": "House Reading",
+     "start": 0,
+     "end": 13
+    }
+   ],
+   "evals": [
+    {
+     "target": "reading of constitution not without issues",
+     "polarity": "negative",
+     "word": "Issues",
+     "start": 45,
+     "end": 51,
+     "target_known": true
+    }
+   ],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"House\",\"type\":\"GovernmentBody\",\"span\":\"House\"}],\"items\":[{\"text\":\"reading of constitution not without issues\",\"span\":\"Reading of Constitution Is Not Without Issues\"}],\"agents\":[{\"actor\":\"House\",\"action\":\"reading of constitution not without issues\",\"span\":\"House Reading\"}],\"evals\":[{\"target\":\"reading of constitution not without issues\",\"polarity\":\"negative\",\"word\":\"issues\"}],\"outcomes\":[]}"
+ },
+ "b07991851f38110cb0982ed04e5bb710e9dfe399": {
+  "ok": true,
+  "headline": "House Republicans Read Constitution On Second Day In Power",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "House Republicans",
+     "type": "PoliticalParty",
+     "span": "House Republicans",
+     "start": 0,
+     "end": 17
+    }
+   ],
+   "items": [
+    {
+     "text": "read Constitution",
+     "span": "Read Constitution",
+     "start": 18,
+     "end": 35
+    },
+    {
+     "text": "second day in power",
+     "span": "Second Day In Power",
+     "start": 39,
+     "end": 58
+    }
+   ],
+   "agents": [
+    {
+     "actor": "House Republicans",
+     "action": "read Constitution",
+     "span": "House Republicans Read Constitution",
+     "start": 0,
+     "end": 35
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "second day in power",
+     "type": "Political",
+     "span": "Second Day In Power",
+     "start": 39,
+     "end": 58
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"House Republicans\",\"type\":\"PoliticalParty\",\"span\":\"House Republicans\"}],\"items\":[{\"text\":\"read Constitution\",\"span\":\"Read Constitution\"},{\"text\":\"second day in power\",\"span\":\"Second Day In Power\"}],\"agents\":[{\"actor\":\"House Republicans\",\"action\":\"read Constitution\",\"span\":\"House Republicans Read Constitution\"}],\"evals\":[],\"outcomes\":[{\"text\":\"second day in power\",\"type\":\"Political\",\"span\":\"Second Day In Power\"}]}"
+ },
+ "a380b433612a0ee028047ba9a5ea29ea0852bc4a": {
+  "ok": true,
+  "headline": "Romney reaffirms belief in marriage as between man, woman",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Romney",
+     "type": "Politician",
+     "span": "Romney",
+     "start": 0,
+     "end": 6
+    }
+   ],
+   "items": [
+    {
+     "text": "reaffirms belief in marriage as between man, woman",
+     "span": "reaffirms belief in marriage as between man, woman",
+     "start": 7,
+     "end": 57
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Romney",
+     "action": "reaffirms belief in marriage as between man, woman",
+     "span": "Romney reaffirms belief in marriage as between man, woman",
+     "start": 0,
+     "end": 57
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Romney\",\"type\":\"Politician\",\"span\":\"Romney\"}],\"items\":[{\"text\":\"reaffirms belief in marriage as between man, woman\",\"span\":\"reaffirms belief in marriage as between man, woman\"}],\"agents\":[{\"actor\":\"Romney\",\"action\":\"reaffirms belief in marriage as between man, woman\",\"span\":\"Romney reaffirms belief in marriage as between man, woman\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "d85e9f8f8472591f2fd90cdae1cd2f5c7f11b330": {
+  "ok": true,
+  "headline": "Romney Reaffirms Opposition to Marriage, or Unions, for Gay Couples",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Romney",
+     "type": "Politician",
+     "span": "Romney",
+     "start": 0,
+     "end": 6
+    }
+   ],
+   "items": [
+    {
+     "text": "reaffirms opposition to marriage, or Unions, for gay couples",
+     "span": "Reaffirms Opposition to Marriage, or Unions, for Gay Couples",
+     "start": 7,
+     "end": 67
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Romney",
+     "action": "reaffirms opposition to marriage, or Unions, for gay couples",
+     "span": "Romney Reaffirms Opposition to Marriage, or Unions, for Gay Couples",
+     "start": 0,
+     "end": 67
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "marriage, or Unions, for gay couples",
+     "type": "Social",
+     "span": "Marriage, or Unions, for Gay Couples",
+     "start": 31,
+     "end": 67
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Romney\",\"type\":\"Politician\",\"span\":\"Romney\"}],\"items\":[{\"text\":\"reaffirms opposition to marriage, or Unions, for gay couples\",\"span\":\"Reaffirms Opposition to Marriage, or Unions, for Gay Couples\"}],\"agents\":[{\"actor\":\"Romney\",\"action\":\"reaffirms opposition to marriage, or Unions, for gay couples\",\"span\":\"Romney Reaffirms Opposition to Marriage, or Unions, for Gay Couples\"}],\"evals\":[],\"outcomes\":[{\"text\":\"marriage, or Unions, for gay couples\",\"type\":\"Social\",\"span\":\"marriage, or Unions, for gay couples\"}]}"
+ },
+ "0db5d9bd2216457c2966f3ec944b63511a75e83b": {
+  "ok": true,
+  "headline": "Romney: My 'Preference' Is Marriage Between A Man And A Woman",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Romney",
+     "type": "Politician",
+     "span": "Romney",
+     "start": 0,
+     "end": 6
+    }
+   ],
+   "items": [
+    {
+     "text": "preference is marriage between a man and a woman",
+     "span": "My 'Preference' Is Marriage Between A Man And A Woman",
+     "start": 8,
+     "end": 61
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Romney",
+     "action": "preference is marriage between a man and a woman",
+     "span": "Romney: My 'Preference' Is Marriage Between A Man And A Woman",
+     "start": 0,
+     "end": 61
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Romney\",\"type\":\"Politician\",\"span\":\"Romney\"}],\"items\":[{\"text\":\"preference is marriage between a man and a woman\",\"span\":\"My 'Preference' Is Marriage Between A Man And A Woman\"}],\"agents\":[{\"actor\":\"Romney\",\"action\":\"preference is marriage between a man and a woman\",\"span\":\"Romney: My 'Preference' Is Marriage Between A Man And A Woman\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "a913f6000c0abfae5dd35ddeee6aa30775142ed8": {
+  "ok": true,
+  "headline": "Sparks fly as Biden, Ryan face off in feisty vice presidential debate",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Biden",
+     "type": "Politician",
+     "span": "Biden",
+     "start": 14,
+     "end": 19
+    },
+    {
+     "name": "Ryan",
+     "type": "Politician",
+     "span": "Ryan",
+     "start": 21,
+     "end": 25
+    }
+   ],
+   "items": [
+    {
+     "text": "sparks fly",
+     "span": "Sparks fly",
+     "start": 0,
+     "end": 10
+    },
+    {
+     "text": "face off in feisty vice presidential debate",
+     "span": "face off in feisty vice presidential debate",
+     "start": 26,
+     "end": 69
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Biden",
+     "action": "face off in feisty vice presidential debate",
+     "span": "Biden, Ryan face off",
+     "start": 14,
+     "end": 34
+    },
+    {
+     "actor": "Ryan",
+     "action": "face off in feisty vice presidential debate",
+     "span": "Biden, Ryan face off",
+     "start": 14,
+     "end": 34
+    }
+   ],
+   "evals": [
+    {
+     "target": "vice presidential debate",
+     "polarity": "negative",
+     "word": "feisty",
+     "start": 38,
+     "end": 44,
+     "target_known": false
+    }
+   ],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Biden\",\"type\":\"Politician\",\"span\":\"Biden\"},{\"name\":\"Ryan\",\"type\":\"Politician\",\"span\":\"Ryan\"}],\"items\":[{\"text\":\"sparks fly\",\"span\":\"Sparks fly\"},{\"text\":\"face off in feisty vice presidential debate\",\"span\":\"face off in feisty vice presidential debate\"}],\"agents\":[{\"actor\":\"Biden\",\"action\":\"face off in feisty vice presidential debate\",\"span\":\"Biden, Ryan face off\"},{\"actor\":\"Ryan\",\"action\":\"face off in feisty vice presidential debate\",\"span\":\"Biden, Ryan face off\"}],\"evals\":[{\"target\":\"vice presidential debate\",\"polarity\":\"negative\",\"word\":\"feisty\"}],\"outcomes\":[]}"
+ },
+ "0690cb335f23eba861b5e02a259d1a872be8b70f": {
+  "ok": true,
+  "headline": "Biden Takes Off Gloves in Vice-Presidential Debate",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Biden",
+     "type": "Politician",
+     "span": "Biden",
+     "start": 0,
+     "end": 5
+    }
+   ],
+   "items": [
+    {
+     "text": "takes off gloves",
+     "span": "Takes Off Gloves",
+     "start": 6,
+     "end": 22
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Biden",
+     "action": "takes off gloves",
+     "span": "Biden Takes Off Gloves",
+     "start": 0,
+     "end": 22
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Biden\",\"type\":\"Politician\",\"span\":\"Biden\"}],\"items\":[{\"text\":\"takes off gloves\",\"span\":\"Takes Off Gloves\"}],\"agents\":[{\"actor\":\"Biden\",\"action\":\"takes off gloves\",\"span\":\"Biden Takes Off Gloves\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "795ea504ab58281a58649a962e4580a01f3e35ff": {
+  "ok": true,
+  "headline": "Biden-Ryan Debate: All About Joe",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Biden",
+     "type": "Person",
+     "span": "Biden",
+     "start": 0,
+     "end": 5
+    },
+    {
+     "name": "Ryan",
+     "type": "Person",
+     "span": "Ryan",
+     "start": 6,
+     "end": 10
+    }
+   ],
+   "items": [
+    {
+     "text": "debate",
+     "span": "Debate",
+     "start": 11,
+     "end": 17
+    }
+   ],
+   "agents": [],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Biden\",\"type\":\"Person\",\"span\":\"Biden\"},{\"name\":\"Ryan\",\"type\":\"Person\",\"span\":\"Ryan\"}],\"items\":[{\"text\":\"debate\",\"span\":\"Debate\"}],\"agents\":[],\"evals\":[],\"outcomes\":[]}"
+ },
+ "b4332be14cd5a8ceb5e565afb8315d9ee558195c": {
+  "ok": true,
+  "headline": "Massachusetts Gov. Deval Patrick picks former staffer to fill Kerry's Senate seat",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Massachusetts Gov. Deval Patrick",
+     "type": "GovernmentOfficial",
+     "span": "Massachusetts Gov. Deval Patrick",
+     "start": 0,
+     "end": 32
+    },
+    {
+     "name": "former staffer",
+     "type": "Person",
+     "span": "former staffer",
+     "start": 39,
+     "end": 53
+    },
+    {
+     "name": "Kerry",
+     "type": "Politician",
+     "span": "Kerry",
+     "start": 62,
+     "end": 67
+    }
+   ],
+   "items": [
+    {
+     "text": "pick former staffer",
+     "span": "picks former staffer",
+     "start": 33,
+     "end": 53
+    },
+    {
+     "text": "fill Kerry's Senate seat",
+     "span": "fill Kerry's Senate seat",
+     "start": 57,
+     "end": 81
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Massachusetts Gov. Deval Patrick",
+     "action": "pick former staffer",
+     "span": "Massachusetts Gov. Deval Patrick picks former staffer",
+     "start": 0,
+     "end": 53
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "fill Kerry's Senate seat",
+     "type": "Political",
+     "span": "fill Kerry's Senate seat",
+     "start": 57,
+     "end": 81
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Massachusetts Gov. Deval Patrick\",\"type\":\"GovernmentOfficial\",\"span\":\"Massachusetts Gov. Deval Patrick\"},{\"name\":\"former staffer\",\"type\":\"Person\",\"span\":\"former staffer\"},{\"name\":\"Kerry\",\"type\":\"Politician\",\"span\":\"Kerry\"}],\"items\":[{\"text\":\"pick former staffer\",\"span\":\"picks former staffer\"},{\"text\":\"fill Kerry's Senate seat\",\"span\":\"fill Kerry's Senate seat\"}],\"agents\":[{\"actor\":\"Massachusetts Gov. Deval Patrick\",\"action\":\"pick former staffer\",\"span\":\"Massachusetts Gov. Deval Patrick picks former staffer\"}],\"evals\":[],\"outcomes\":[{\"text\":\"fill Kerry's Senate seat\",\"type\":\"Political\",\"span\":\"fill Kerry's Senate seat\"}]}"
+ },
+ "434ec70b555a90bd5980ec619939a50f42bb10a1": {
+  "ok": true,
+  "headline": "William Cowan Named Interim Senator in Massachusetts",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "William Cowan",
+     "type": "Person",
+     "span": "William Cowan",
+     "start": 0,
+     "end": 13
+    },
+    {
+     "name": "Massachusetts",
+     "type": "Other",
+     "span": "Massachusetts",
+     "start": 39,
+     "end": 52
+    }
+   ],
+   "items": [
+    {
+     "text": "named interim senator",
+     "span": "Named Interim Senator",
+     "start": 14,
+     "end": 35
+    }
+   ],
+   "agents": [],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "interim senator",
+     "type": "Political",
+     "span": "Interim Senator",
+     "start": 20,
+     "end": 35
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"William Cowan\",\"type\":\"Person\",\"span\":\"William Cowan\"},{\"name\":\"Massachusetts\",\"type\":\"Other\",\"span\":\"Massachusetts\"}],\"items\":[{\"text\":\"named interim senator\",\"span\":\"Named Interim Senator\"}],\"agents\":[],\"evals\":[],\"outcomes\":[{\"text\":\"interim senator\",\"type\":\"Political\",\"span\":\"Interim Senator\"}]}"
+ },
+ "3f0ebf9719cc5d53a56a578303533605dbb75de4": {
+  "ok": true,
+  "headline": "Mo Cowan Senate: Deval Patrick Names Former Chief Of Staff To Replace John Kerry",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Mo Cowan",
+     "type": "GovernmentOfficial",
+     "span": "Mo Cowan",
+     "start": 0,
+     "end": 8
+    },
+    {
+     "name": "Deval Patrick",
+     "type": "Politician",
+     "span": "Deval Patrick",
+     "start": 17,
+     "end": 30
+    },
+    {
+     "name": "John Kerry",
+     "type": "Politician",
+     "span": "John Kerry",
+     "start": 70,
+     "end": 80
+    }
+   ],
+   "items": [
+    {
+     "text": "names former chief of staff to replace John Kerry",
+     "span": "Names Former Chief Of Staff To Replace John Kerry",
+     "start": 31,
+     "end": 80
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Deval Patrick",
+     "action": "names former chief of staff to replace John Kerry",
+     "span": "Deval Patrick Names Former Chief Of Staff To Replace John Kerry",
+     "start": 17,
+     "end": 80
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "replace John Kerry",
+     "type": "Political",
+     "span": "Replace John Kerry",
+     "start": 62,
+     "end": 80
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Mo Cowan\",\"type\":\"GovernmentOfficial\",\"span\":\"Mo Cowan\"},{\"name\":\"Deval Patrick\",\"type\":\"Politician\",\"span\":\"Deval Patrick\"},{\"name\":\"John Kerry\",\"type\":\"Politician\",\"span\":\"John Kerry\"}],\"items\":[{\"text\":\"names former chief of staff to replace John Kerry\",\"span\":\"Names Former Chief Of Staff To Replace John Kerry\"}],\"agents\":[{\"actor\":\"Deval Patrick\",\"action\":\"names former chief of staff to replace John Kerry\",\"span\":\"Deval Patrick Names Former Chief Of Staff To Replace John Kerry\"}],\"evals\":[],\"outcomes\":[{\"text\":\"replace John Kerry\",\"type\":\"Political\",\"span\":\"replace John Kerry\"}]}"
+ },
+ "59b19b27e2de32e1cd5514f0d8c54e3be4467ccd": {
+  "ok": true,
+  "headline": "Jackson pleads guilty over illegal campaign spending spree",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Jackson",
+     "type": "Person",
+     "span": "Jackson",
+     "start": 0,
+     "end": 7
+    }
+   ],
+   "items": [
+    {
+     "text": "pleads guilty",
+     "span": "pleads guilty",
+     "start": 8,
+     "end": 21
+    },
+    {
+     "text": "illegal campaign spending spree",
+     "span": "illegal campaign spending spree",
+     "start": 27,
+     "end": 58
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Jackson",
+     "action": "pleads guilty",
+     "span": "Jackson pleads guilty",
+     "start": 0,
+     "end": 21
+    }
+   ],
+   "evals": [
+    {
+     "target": "illegal campaign spending spree",
+     "polarity": "negative",
+     "word": "illegal",
+     "start": 27,
+     "end": 34,
+     "target_known": true
+    }
+   ],
+   "outcomes": [
+    {
+     "text": "guilty",
+     "type": "Legal",
+     "span": "pleads guilty",
+     "start": 8,
+     "end": 21
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Jackson\",\"type\":\"Person\",\"span\":\"Jackson\"}],\"items\":[{\"text\":\"pleads guilty\",\"span\":\"pleads guilty\"},{\"text\":\"illegal campaign spending spree\",\"span\":\"illegal campaign spending spree\"}],\"agents\":[{\"actor\":\"Jackson\",\"action\":\"pleads guilty\",\"span\":\"Jackson pleads guilty\"}],\"evals\":[{\"target\":\"illegal campaign spending spree\",\"polarity\":\"negative\",\"word\":\"illegal\"}],\"outcomes\":[{\"text\":\"guilty\",\"type\":\"Legal\",\"span\":\"pleads guilty\"}]}"
+ },
+ "d394cd4866fa91c4446d87cadfe01996e91f3c59": {
+  "ok": true,
+  "headline": "Jesse Jackson Jr. Pleads Guilty in Campaign Money Case",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Jesse Jackson Jr.",
+     "type": "Person",
+     "span": "Jesse Jackson Jr.",
+     "start": 0,
+     "end": 17
+    }
+   ],
+   "items": [
+    {
+     "text": "pleads guilty",
+     "span": "Pleads Guilty",
+     "start": 18,
+     "end": 31
+    },
+    {
+     "text": "campaign money case",
+     "span": "Campaign Money Case",
+     "start": 35,
+     "end": 54
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Jesse Jackson Jr.",
+     "action": "pleads guilty",
+     "span": "Jesse Jackson Jr. Pleads Guilty",
+     "start": 0,
+     "end": 31
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "campaign money case",
+     "type": "Legal",
+     "span": "Campaign Money Case",
+     "start": 35,
+     "end": 54
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Jesse Jackson Jr.\",\"type\":\"Person\",\"span\":\"Jesse Jackson Jr.\"}],\"items\":[{\"text\":\"pleads guilty\",\"span\":\"Pleads Guilty\"},{\"text\":\"campaign money case\",\"span\":\"Campaign Money Case\"}],\"agents\":[{\"actor\":\"Jesse Jackson Jr.\",\"action\":\"pleads guilty\",\"span\":\"Jesse Jackson Jr. Pleads Guilty\"}],\"evals\":[],\"outcomes\":[{\"text\":\"campaign money case\",\"type\":\"Legal\",\"span\":\"Campaign Money Case\"}]}"
+ },
+ "1ea549d45dd6ef4e62cff07b6ee808418b6463ed": {
+  "ok": true,
+  "headline": "Jackson Jr. Pleads Guilty",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Jackson Jr.",
+     "type": "Person",
+     "span": "Jackson Jr.",
+     "start": 0,
+     "end": 11
+    }
+   ],
+   "items": [
+    {
+     "text": "pleads guilty",
+     "span": "Pleads Guilty",
+     "start": 12,
+     "end": 25
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Jackson Jr.",
+     "action": "pleads guilty",
+     "span": "Jackson Jr. Pleads Guilty",
+     "start": 0,
+     "end": 25
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Jackson Jr.\",\"type\":\"Person\",\"span\":\"Jackson Jr.\"}],\"items\":[{\"text\":\"pleads guilty\",\"span\":\"Pleads Guilty\"}],\"agents\":[{\"actor\":\"Jackson Jr.\",\"action\":\"pleads guilty\",\"span\":\"Jackson Jr. Pleads Guilty\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "59319d314e77acfe1591179c79d17d3ed5c23a55": {
+  "ok": true,
+  "headline": "Federal prosecutors plan to file charges against Rep. Grimm, attorney says",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Federal prosecutors",
+     "type": "GovernmentBody",
+     "span": "Federal prosecutors",
+     "start": 0,
+     "end": 19
+    },
+    {
+     "name": "Rep. Grimm",
+     "type": "Politician",
+     "span": "Rep. Grimm",
+     "start": 49,
+     "end": 59
+    },
+    {
+     "name": "attorney",
+     "type": "Person",
+     "span": "attorney",
+     "start": 61,
+     "end": 69
+    }
+   ],
+   "items": [
+    {
+     "text": "plan to file charges",
+     "span": "plan to file charges",
+     "start": 20,
+     "end": 40
+    },
+    {
+     "text": "says",
+     "span": "says",
+     "start": 70,
+     "end": 74
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Federal prosecutors",
+     "action": "plan to file charges",
+     "span": "Federal prosecutors plan to file charges",
+     "start": 0,
+     "end": 40
+    },
+    {
+     "actor": "attorney",
+     "action": "says",
+     "span": "attorney says",
+     "start": 61,
+     "end": 74
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "file charges",
+     "type": "Legal",
+     "span": "file charges",
+     "start": 28,
+     "end": 40
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Federal prosecutors\",\"type\":\"GovernmentBody\",\"span\":\"Federal prosecutors\"},{\"name\":\"Rep. Grimm\",\"type\":\"Politician\",\"span\":\"Rep. Grimm\"},{\"name\":\"attorney\",\"type\":\"Person\",\"span\":\"attorney\"}],\"items\":[{\"text\":\"plan to file charges\",\"span\":\"plan to file charges\"},{\"text\":\"says\",\"span\":\"says\"}],\"agents\":[{\"actor\":\"Federal prosecutors\",\"action\":\"plan to file charges\",\"span\":\"Federal prosecutors plan to file charges\"},{\"actor\":\"attorney\",\"action\":\"says\",\"span\":\"attorney says\"}],\"evals\":[],\"outcomes\":[{\"text\":\"file charges\",\"type\":\"Legal\",\"span\":\"file charges\"}]}"
+ },
+ "cd4c6f729d111e5aa404d17767f697995a85150c": {
+  "ok": true,
+  "headline": "Indictment Expected for Grimm, Staten Island Congressman",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Grimm",
+     "type": "Person",
+     "span": "Grimm",
+     "start": 24,
+     "end": 29
+    },
+    {
+     "name": "Staten Island Congressman",
+     "type": "Politician",
+     "span": "Staten Island Congressman",
+     "start": 31,
+     "end": 56
+    }
+   ],
+   "items": [
+    {
+     "text": "indictment expected",
+     "span": "Indictment Expected",
+     "start": 0,
+     "end": 19
+    }
+   ],
+   "agents": [],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "indictment",
+     "type": "Legal",
+     "span": "Indictment",
+     "start": 0,
+     "end": 10
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Grimm\",\"type\":\"Person\",\"span\":\"Grimm\"},{\"name\":\"Staten Island Congressman\",\"type\":\"Politician\",\"span\":\"Staten Island Congressman\"}],\"items\":[{\"text\":\"indictment expected\",\"span\":\"Indictment Expected\"}],\"agents\":[],\"evals\":[],\"outcomes\":[{\"text\":\"indictment\",\"type\":\"Legal\",\"span\":\"Indictment\"}]}"
+ },
+ "f10d13cf4ec11b4e834221dfe7ffad6f631ed2a8": {
+  "ok": true,
+  "headline": "GOP Congressman Expected To Be Indicted",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "GOP Congressman",
+     "type": "Politician",
+     "span": "GOP Congressman",
+     "start": 0,
+     "end": 15
+    }
+   ],
+   "items": [
+    {
+     "text": "be indicted",
+     "span": "Be Indicted",
+     "start": 28,
+     "end": 39
+    }
+   ],
+   "agents": [],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "indicted",
+     "type": "Legal",
+     "span": "Be Indicted",
+     "start": 28,
+     "end": 39
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"GOP Congressman\",\"type\":\"Politician\",\"span\":\"GOP Congressman\"}],\"items\":[{\"text\":\"be indicted\",\"span\":\"be Indicted\"}],\"agents\":[],\"evals\":[],\"outcomes\":[{\"text\":\"indicted\",\"type\":\"Legal\",\"span\":\"be Indicted\"}]}"
+ },
+ "f8221f6e4dd873a1b3425f4d1a39961239b763eb": {
+  "ok": true,
+  "headline": "Third-Highest Ranking Republican In U.S. House Calls For Legalizing Undocumented Immigrants",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Third-Highest Ranking Republican In U.S. House",
+     "type": "Politician",
+     "span": "Third-Highest Ranking Republican In U.S. House",
+     "start": 0,
+     "end": 46
+    }
+   ],
+   "items": [
+    {
+     "text": "call for legalizing undocumented immigrants",
+     "span": "Calls For Legalizing Undocumented Immigrants",
+     "start": 47,
+     "end": 91
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Third-Highest Ranking Republican In U.S. House",
+     "action": "call for legalizing undocumented immigrants",
+     "span": "Third-Highest Ranking Republican In U.S. House Calls For Legalizing Undocumented Immigrants",
+     "start": 0,
+     "end": 91
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "legalizing undocumented immigrants",
+     "type": "Political",
+     "span": "Legalizing Undocumented Immigrants",
+     "start": 57,
+     "end": 91
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Third-Highest Ranking Republican In U.S. House\",\"type\":\"Politician\",\"span\":\"Third-Highest Ranking Republican In U.S. House\"}],\"items\":[{\"text\":\"call for legalizing undocumented immigrants\",\"span\":\"Calls For Legalizing Undocumented Immigrants\"}],\"agents\":[{\"actor\":\"Third-Highest Ranking Republican In U.S. House\",\"action\":\"call for legalizing undocumented immigrants\",\"span\":\"Third-Highest Ranking Republican In U.S. House Calls For Legalizing Undocumented Immigrants\"}],\"evals\":[],\"outcomes\":[{\"text\":\"legalizing undocumented immigrants\",\"type\":\"Political\",\"span\":\"Legalizing Undocumented Immigrants\"}]}"
+ },
+ "e8b8d17592aba85df09f3b41ef88c6ec3c8d65d7": {
+  "ok": true,
+  "headline": "House Republicans to Offer Broad Immigration Plan",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "House Republicans",
+     "type": "PoliticalParty",
+     "span": "House Republicans",
+     "start": 0,
+     "end": 17
+    }
+   ],
+   "items": [
+    {
+     "text": "offer broad immigration plan",
+     "span": "Offer Broad Immigration Plan",
+     "start": 21,
+     "end": 49
+    }
+   ],
+   "agents": [
+    {
+     "actor": "House Republicans",
+     "action": "offer broad immigration plan",
+     "span": "House Republicans to Offer Broad Immigration Plan",
+     "start": 0,
+     "end": 49
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"House Republicans\",\"type\":\"PoliticalParty\",\"span\":\"House Republicans\"}],\"items\":[{\"text\":\"offer broad immigration plan\",\"span\":\"Offer Broad Immigration Plan\"}],\"agents\":[{\"actor\":\"House Republicans\",\"action\":\"offer broad immigration plan\",\"span\":\"House Republicans to Offer Broad Immigration Plan\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "9eecdd57baaba1b40bdbbda7b8eda79471a00a9b": {
+  "ok": true,
+  "headline": "Top House Republican Hints At Immigration Principles",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Top House Republican",
+     "type": "Politician",
+     "span": "Top House Republican",
+     "start": 0,
+     "end": 20
+    }
+   ],
+   "items": [
+    {
+     "text": "hint at immigration principles",
+     "span": "Hints At Immigration Principles",
+     "start": 21,
+     "end": 52
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Top House Republican",
+     "action": "hint at immigration principles",
+     "span": "Top House Republican Hints At Immigration Principles",
+     "start": 0,
+     "end": 52
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Top House Republican\",\"type\":\"Politician\",\"span\":\"Top House Republican\"}],\"items\":[{\"text\":\"hint at immigration principles\",\"span\":\"Hints At Immigration Principles\"}],\"agents\":[{\"actor\":\"Top House Republican\",\"action\":\"hint at immigration principles\",\"span\":\"Top House Republican Hints At Immigration Principles\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "206110842990656bd0ca91188a200c6013fbb3cd": {
+  "ok": true,
+  "headline": "Clinton, advisers have lots to say on key trade legislation, except where candidate stands",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Clinton",
+     "type": "Person",
+     "span": "Clinton",
+     "start": 0,
+     "end": 7
+    },
+    {
+     "name": "advisers",
+     "type": "Other",
+     "span": "advisers",
+     "start": 9,
+     "end": 17
+    },
+    {
+     "name": "candidate",
+     "type": "Person",
+     "span": "candidate",
+     "start": 74,
+     "end": 83
+    }
+   ],
+   "items": [
+    {
+     "text": "have lots to say on key trade legislation",
+     "span": "have lots to say on key trade legislation",
+     "start": 18,
+     "end": 59
+    },
+    {
+     "text": "except where candidate stands",
+     "span": "except where candidate stands",
+     "start": 61,
+     "end": 90
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Clinton",
+     "action": "have lots to say on key trade legislation",
+     "span": "Clinton, advisers have lots to say on key trade legislation",
+     "start": 0,
+     "end": 59
+    },
+    {
+     "actor": "advisers",
+     "action": "have lots to say on key trade legislation",
+     "span": "Clinton, advisers have lots to say on key trade legislation",
+     "start": 0,
+     "end": 59
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Clinton\",\"type\":\"Person\",\"span\":\"Clinton\"},{\"name\":\"advisers\",\"type\":\"Other\",\"span\":\"advisers\"},{\"name\":\"candidate\",\"type\":\"Person\",\"span\":\"candidate\"}],\"items\":[{\"text\":\"have lots to say on key trade legislation\",\"span\":\"have lots to say on key trade legislation\"},{\"text\":\"except where candidate stands\",\"span\":\"except where candidate stands\"}],\"agents\":[{\"actor\":\"Clinton\",\"action\":\"have lots to say on key trade legislation\",\"span\":\"Clinton, advisers have lots to say on key trade legislation\"},{\"actor\":\"advisers\",\"action\":\"have lots to say on key trade legislation\",\"span\":\"Clinton, advisers have lots to say on key trade legislation\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "3c70df47ca81c1d86f8d0d3a0e836a96c58945f6": {
+  "ok": true,
+  "headline": "Hillary Clinton Urges Obama to Listen to Democrats on Trade Deal",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Hillary Clinton",
+     "type": "Politician",
+     "span": "Hillary Clinton",
+     "start": 0,
+     "end": 15
+    },
+    {
+     "name": "Obama",
+     "type": "Politician",
+     "span": "Obama",
+     "start": 22,
+     "end": 27
+    },
+    {
+     "name": "Democrats",
+     "type": "PoliticalParty",
+     "span": "Democrats",
+     "start": 41,
+     "end": 50
+    }
+   ],
+   "items": [
+    {
+     "text": "urges Obama to listen to Democrats on trade deal",
+     "span": "Urges Obama to Listen to Democrats on Trade Deal",
+     "start": 16,
+     "end": 64
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Hillary Clinton",
+     "action": "urges Obama to listen to Democrats on trade deal",
+     "span": "Hillary Clinton Urges Obama to Listen to Democrats on Trade Deal",
+     "start": 0,
+     "end": 64
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Hillary Clinton\",\"type\":\"Politician\",\"span\":\"Hillary Clinton\"},{\"name\":\"Obama\",\"type\":\"Politician\",\"span\":\"Obama\"},{\"name\":\"Democrats\",\"type\":\"PoliticalParty\",\"span\":\"Democrats\"}],\"items\":[{\"text\":\"urges Obama to listen to Democrats on trade deal\",\"span\":\"urges Obama to Listen to Democrats on Trade Deal\"}],\"agents\":[{\"actor\":\"Hillary Clinton\",\"action\":\"urges Obama to listen to Democrats on trade deal\",\"span\":\"Hillary Clinton Urges Obama to Listen to Democrats on Trade Deal\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "b093a116450df2ea8e006631d2593c151b50c806": {
+  "ok": true,
+  "headline": "Hillary Clinton: Obama Should Listen To Nancy Pelosi On Trade",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Hillary Clinton",
+     "type": "Politician",
+     "span": "Hillary Clinton",
+     "start": 0,
+     "end": 15
+    },
+    {
+     "name": "Obama",
+     "type": "Politician",
+     "span": "Obama",
+     "start": 17,
+     "end": 22
+    },
+    {
+     "name": "Nancy Pelosi",
+     "type": "Politician",
+     "span": "Nancy Pelosi",
+     "start": 40,
+     "end": 52
+    }
+   ],
+   "items": [
+    {
+     "text": "listen to Nancy Pelosi on trade",
+     "span": "Should Listen To Nancy Pelosi On Trade",
+     "start": 23,
+     "end": 61
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Obama",
+     "action": "listen to Nancy Pelosi on trade",
+     "span": "Obama Should Listen To Nancy Pelosi On Trade",
+     "start": 17,
+     "end": 61
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Hillary Clinton\",\"type\":\"Politician\",\"span\":\"Hillary Clinton\"},{\"name\":\"Obama\",\"type\":\"Politician\",\"span\":\"Obama\"},{\"name\":\"Nancy Pelosi\",\"type\":\"Politician\",\"span\":\"Nancy Pelosi\"}],\"items\":[{\"text\":\"listen to Nancy Pelosi on trade\",\"span\":\"Should Listen To Nancy Pelosi On Trade\"}],\"agents\":[{\"actor\":\"Obama\",\"action\":\"listen to Nancy Pelosi on trade\",\"span\":\"Obama Should Listen To Nancy Pelosi On Trade\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "96457b3c30a1d610cca3274cb6f91b0950d0b15b": {
+  "ok": true,
+  "headline": "Benghazi committee seeks 'transcribed' interview with Clinton over deleted records",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Benghazi committee",
+     "type": "GovernmentBody",
+     "span": "Benghazi committee",
+     "start": 0,
+     "end": 18
+    },
+    {
+     "name": "Clinton",
+     "type": "Person",
+     "span": "Clinton",
+     "start": 54,
+     "end": 61
+    }
+   ],
+   "items": [
+    {
+     "text": "seeks 'transcribed' interview",
+     "span": "seeks 'transcribed' interview",
+     "start": 19,
+     "end": 48
+    },
+    {
+     "text": "deleted records",
+     "span": "deleted records",
+     "start": 67,
+     "end": 82
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Benghazi committee",
+     "action": "seeks 'transcribed' interview",
+     "span": "Benghazi committee seeks 'transcribed' interview",
+     "start": 0,
+     "end": 48
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Benghazi committee\",\"type\":\"GovernmentBody\",\"span\":\"Benghazi committee\"},{\"name\":\"Clinton\",\"type\":\"Person\",\"span\":\"Clinton\"}],\"items\":[{\"text\":\"seeks 'transcribed' interview\",\"span\":\"seeks 'transcribed' interview\"},{\"text\":\"deleted records\",\"span\":\"deleted records\"}],\"agents\":[{\"actor\":\"Benghazi committee\",\"action\":\"seeks 'transcribed' interview\",\"span\":\"Benghazi committee seeks 'transcribed' interview\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "5a1f9f4c09f24c0bfc07f8bae9b777b1beb1df3a": {
+  "ok": true,
+  "headline": "House Panel Seeks Private Talk With Hillary Clinton About Email",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "House Panel",
+     "type": "GovernmentBody",
+     "span": "House Panel",
+     "start": 0,
+     "end": 11
+    },
+    {
+     "name": "Hillary Clinton",
+     "type": "Politician",
+     "span": "Hillary Clinton",
+     "start": 36,
+     "end": 51
+    }
+   ],
+   "items": [
+    {
+     "text": "seek private talk",
+     "span": "Seeks Private Talk",
+     "start": 12,
+     "end": 30
+    },
+    {
+     "text": "about email",
+     "span": "About Email",
+     "start": 52,
+     "end": 63
+    }
+   ],
+   "agents": [
+    {
+     "actor": "House Panel",
+     "action": "seek private talk",
+     "span": "House Panel Seeks Private Talk",
+     "start": 0,
+     "end": 30
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"House Panel\",\"type\":\"GovernmentBody\",\"span\":\"House Panel\"},{\"name\":\"Hillary Clinton\",\"type\":\"Politician\",\"span\":\"Hillary Clinton\"}],\"items\":[{\"text\":\"seek private talk\",\"span\":\"Seeks Private Talk\"},{\"text\":\"about email\",\"span\":\"About Email\"}],\"agents\":[{\"actor\":\"House Panel\",\"action\":\"seek private talk\",\"span\":\"House Panel Seeks Private Talk\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "a5576de18ed1abb47439bf2cc68865fc7139f379": {
+  "ok": true,
+  "headline": "Benghazi Panel Wants To Interview Clinton About Emails",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Benghazi Panel",
+     "type": "GovernmentBody",
+     "span": "Benghazi Panel",
+     "start": 0,
+     "end": 14
+    },
+    {
+     "name": "Clinton",
+     "type": "Person",
+     "span": "Clinton",
+     "start": 34,
+     "end": 41
+    }
+   ],
+   "items": [
+    {
+     "text": "interview Clinton about emails",
+     "span": "Wants To Interview Clinton About Emails",
+     "start": 15,
+     "end": 54
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Benghazi Panel",
+     "action": "interview Clinton about emails",
+     "span": "Benghazi Panel Wants To Interview Clinton About Emails",
+     "start": 0,
+     "end": 54
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Benghazi Panel\",\"type\":\"GovernmentBody\",\"span\":\"Benghazi Panel\"},{\"name\":\"Clinton\",\"type\":\"Person\",\"span\":\"Clinton\"}],\"items\":[{\"text\":\"interview Clinton about emails\",\"span\":\"Wants To Interview Clinton About Emails\"}],\"agents\":[{\"actor\":\"Benghazi Panel\",\"action\":\"interview Clinton about emails\",\"span\":\"Benghazi Panel Wants To Interview Clinton About Emails\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "1fab0675eb1e1f2450ea69ba3aed9b17eb6d49e8": {
+  "ok": true,
+  "headline": "Congress rejects Obama veto of 9/11 bill, in first override of presidency",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Congress",
+     "type": "GovernmentBody",
+     "span": "Congress",
+     "start": 0,
+     "end": 8
+    },
+    {
+     "name": "Obama",
+     "type": "Politician",
+     "span": "Obama",
+     "start": 17,
+     "end": 22
+    }
+   ],
+   "items": [
+    {
+     "text": "reject Obama veto",
+     "span": "rejects Obama veto",
+     "start": 9,
+     "end": 27
+    },
+    {
+     "text": "first override of presidency",
+     "span": "first override of presidency",
+     "start": 45,
+     "end": 73
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Congress",
+     "action": "reject Obama veto",
+     "span": "Congress rejects Obama veto",
+     "start": 0,
+     "end": 27
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "first override of presidency",
+     "type": "Political",
+     "span": "first override of presidency",
+     "start": 45,
+     "end": 73
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Congress\",\"type\":\"GovernmentBody\",\"span\":\"Congress\"},{\"name\":\"Obama\",\"type\":\"Politician\",\"span\":\"Obama\"}],\"items\":[{\"text\":\"reject Obama veto\",\"span\":\"rejects Obama veto\"},{\"text\":\"first override of presidency\",\"span\":\"first override of presidency\"}],\"agents\":[{\"actor\":\"Congress\",\"action\":\"reject Obama veto\",\"span\":\"Congress rejects Obama veto\"}],\"evals\":[],\"outcomes\":[{\"text\":\"first override of presidency\",\"type\":\"Political\",\"span\":\"first override of presidency\"}]}"
+ },
+ "b62608925c75c5000e4a7059a652031a80ab8d9d": {
+  "ok": true,
+  "headline": "Senate Set to Override Veto on Bill Allowing 9/11 Suits Against Saudi Arabia",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Senate",
+     "type": "GovernmentBody",
+     "span": "Senate",
+     "start": 0,
+     "end": 6
+    },
+    {
+     "name": "Saudi Arabia",
+     "type": "Country",
+     "span": "Saudi Arabia",
+     "start": 64,
+     "end": 76
+    }
+   ],
+   "items": [
+    {
+     "text": "override veto",
+     "span": "Override Veto",
+     "start": 14,
+     "end": 27
+    },
+    {
+     "text": "allow 9/11 suits",
+     "span": "Allowing 9/11 Suits",
+     "start": 36,
+     "end": 55
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Senate",
+     "action": "override veto",
+     "span": "Senate Set to Override Veto",
+     "start": 0,
+     "end": 27
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "9/11 suits",
+     "type": "Legal",
+     "span": "9/11 Suits",
+     "start": 45,
+     "end": 55
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Senate\",\"type\":\"GovernmentBody\",\"span\":\"Senate\"},{\"name\":\"Saudi Arabia\",\"type\":\"Country\",\"span\":\"Saudi Arabia\"}],\"items\":[{\"text\":\"override veto\",\"span\":\"override Veto\"},{\"text\":\"allow 9/11 suits\",\"span\":\"Allowing 9/11 Suits\"}],\"agents\":[{\"actor\":\"Senate\",\"action\":\"override veto\",\"span\":\"Senate Set to Override Veto\"}],\"evals\":[],\"outcomes\":[{\"text\":\"9/11 suits\",\"type\":\"Legal\",\"span\":\"9/11 Suits\"}]}"
+ },
+ "7439dcf08c90a5ca85b907e3dad2d30793eb5869": {
+  "ok": true,
+  "headline": "Senate Overrides Obama's Veto Of 9/11 Victims Bill",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Senate",
+     "type": "GovernmentBody",
+     "span": "Senate",
+     "start": 0,
+     "end": 6
+    },
+    {
+     "name": "Obama",
+     "type": "Politician",
+     "span": "Obama",
+     "start": 17,
+     "end": 22
+    }
+   ],
+   "items": [
+    {
+     "text": "override veto",
+     "span": "Overrides Obama's Veto",
+     "start": 7,
+     "end": 29
+    },
+    {
+     "text": "veto of 9/11 victims bill",
+     "span": "Veto Of 9/11 Victims Bill",
+     "start": 25,
+     "end": 50
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Senate",
+     "action": "override veto",
+     "span": "Senate Overrides Obama's Veto",
+     "start": 0,
+     "end": 29
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "veto overridden",
+     "type": "Political",
+     "span": "Overrides Obama's Veto",
+     "start": 7,
+     "end": 29
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Senate\",\"type\":\"GovernmentBody\",\"span\":\"Senate\"},{\"name\":\"Obama\",\"type\":\"Politician\",\"span\":\"Obama\"}],\"items\":[{\"text\":\"override veto\",\"span\":\"Overrides Obama's Veto\"},{\"text\":\"veto of 9/11 victims bill\",\"span\":\"Veto Of 9/11 Victims Bill\"}],\"agents\":[{\"actor\":\"Senate\",\"action\":\"override veto\",\"span\":\"Senate Overrides Obama's Veto\"}],\"evals\":[],\"outcomes\":[{\"text\":\"veto overridden\",\"type\":\"Political\",\"span\":\"Overrides Obama's Veto\"}]}"
+ },
+ "f4bc4372c9ed701814f1aebaec39a58c1fee5a61": {
+  "ok": true,
+  "headline": "Former Mexican President Fox to Trump: We won't pay for 'that f***ing wall!'",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Fox",
+     "type": "Politician",
+     "span": "Former Mexican President Fox",
+     "start": 0,
+     "end": 28
+    },
+    {
+     "name": "Trump",
+     "type": "Politician",
+     "span": "Trump",
+     "start": 32,
+     "end": 37
+    }
+   ],
+   "items": [
+    {
+     "text": "won't pay for that f***ing wall",
+     "span": "won't pay for 'that f***ing wall!'",
+     "start": 42,
+     "end": 76
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Fox",
+     "action": "won't pay for that f***ing wall",
+     "span": "Fox to Trump: We won't pay for 'that f***ing wall!'",
+     "start": 25,
+     "end": 76
+    }
+   ],
+   "evals": [
+    {
+     "target": "that f***ing wall",
+     "polarity": "negative",
+     "word": "f***ing",
+     "start": 62,
+     "end": 69,
+     "target_known": false
+    }
+   ],
+   "outcomes": [
+    {
+     "text": "that f***ing wall",
+     "type": "Political",
+     "span": "'that f***ing wall!'",
+     "start": 56,
+     "end": 76
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Fox\",\"type\":\"Politician\",\"span\":\"Former Mexican President Fox\"},{\"name\":\"Trump\",\"type\":\"Politician\",\"span\":\"Trump\"}],\"items\":[{\"text\":\"won't pay for that f***ing wall\",\"span\":\"won't pay for 'that f***ing wall!'\"}],\"agents\":[{\"actor\":\"Fox\",\"action\":\"won't pay for that f***ing wall\",\"span\":\"Fox to Trump: We won't pay for 'that f***ing wall!'\"}],\"evals\":[{\"target\":\"that f***ing wall\",\"polarity\":\"negative\",\"word\":\"f***ing\"}],\"outcomes\":[{\"text\":\"that f***ing wall\",\"type\":\"Political\",\"span\":\"'that f***ing wall!'\"}]}"
+ },
+ "fc2d683ffbc2bd91c4c6784dfc414d50d50e7bed": {
+  "ok": true,
+  "headline": "Vicente Fox and Felipe Calderón, 2 Ex-Presidents of Mexico, Say No Way Country Is Paying for Donald Trump's Wall",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Vicente Fox",
+     "type": "Politician",
+     "span": "Vicente Fox",
+     "start": 0,
+     "end": 11
+    },
+    {
+     "name": "Felipe Calderón",
+     "type": "Politician",
+     "span": "Felipe Calderón",
+     "start": 16,
+     "end": 31
+    },
+    {
+     "name": "Mexico",
+     "type": "Country",
+     "span": "Mexico",
+     "start": 52,
+     "end": 58
+    },
+    {
+     "name": "Donald Trump",
+     "type": "Politician",
+     "span": "Donald Trump's",
+     "start": 93,
+     "end": 107
+    }
+   ],
+   "items": [
+    {
+     "text": "say no way country is paying for Donald Trump's wall",
+     "span": "Say No Way Country Is Paying for Donald Trump's Wall",
+     "start": 60,
+     "end": 112
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Vicente Fox",
+     "action": "say no way country is paying for Donald Trump's wall",
+     "span": "Vicente Fox and Felipe Calderón, 2 Ex-Presidents of Mexico, Say No Way Country Is Paying for Donald Trump's Wall",
+     "start": 0,
+     "end": 112
+    },
+    {
+     "actor": "Felipe Calderón",
+     "action": "say no way country is paying for Donald Trump's wall",
+     "span": "Vicente Fox and Felipe Calderón, 2 Ex-Presidents of Mexico, Say No Way Country Is Paying for Donald Trump's Wall",
+     "start": 0,
+     "end": 112
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "paying for Donald Trump's wall",
+     "type": "Economic",
+     "span": "Paying for Donald Trump's Wall",
+     "start": 82,
+     "end": 112
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Vicente Fox\",\"type\":\"Politician\",\"span\":\"Vicente Fox\"},{\"name\":\"Felipe Calderón\",\"type\":\"Politician\",\"span\":\"Felipe Calderón\"},{\"name\":\"Mexico\",\"type\":\"Country\",\"span\":\"Mexico\"},{\"name\":\"Donald Trump\",\"type\":\"Politician\",\"span\":\"Donald Trump's\"}],\"items\":[{\"text\":\"say no way country is paying for Donald Trump's wall\",\"span\":\"Say No Way Country Is Paying for Donald Trump's Wall\"}],\"agents\":[{\"actor\":\"Vicente Fox\",\"action\":\"say no way country is paying for Donald Trump's wall\",\"span\":\"Vicente Fox and Felipe Calderón, 2 Ex-Presidents of Mexico, Say No Way Country Is Paying for Donald Trump's Wall\"},{\"actor\":\"Felipe Calderón\",\"action\":\"say no way country is paying for Donald Trump's wall\",\"span\":\"Vicente Fox and Felipe Calderón, 2 Ex-Presidents of Mexico, Say No Way Country Is Paying for Donald Trump's Wall\"}],\"evals\":[],\"outcomes\":[{\"text\":\"paying for Donald Trump's wall\",\"type\":\"Economic\",\"span\":\"paying for Donald Trump's wall\"}]}"
+ },
+ "025636357215f9606a1e1938da130c425a3c1f93": {
+  "ok": true,
+  "headline": "Former Mexican President: 'I'm Not Going To Pay For That F**king Wall'",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Former Mexican President",
+     "type": "Politician",
+     "span": "Former Mexican President",
+     "start": 0,
+     "end": 24
+    }
+   ],
+   "items": [
+    {
+     "text": "not pay for wall",
+     "span": "'I'm Not Going To Pay For That F**king Wall'",
+     "start": 26,
+     "end": 70
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Former Mexican President",
+     "action": "not pay for wall",
+     "span": "Former Mexican President: 'I'm Not Going To Pay For That F**king Wall'",
+     "start": 0,
+     "end": 70
+    }
+   ],
+   "evals": [
+    {
+     "target": "wall",
+     "polarity": "negative",
+     "word": "F**king",
+     "start": 57,
+     "end": 64,
+     "target_known": false
+    }
+   ],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Former Mexican President\",\"type\":\"Politician\",\"span\":\"Former Mexican President\"}],\"items\":[{\"text\":\"not pay for wall\",\"span\":\"'I'm Not Going To Pay For That F**king Wall'\"}],\"agents\":[{\"actor\":\"Former Mexican President\",\"action\":\"not pay for wall\",\"span\":\"Former Mexican President: 'I'm Not Going To Pay For That F**king Wall'\"}],\"evals\":[{\"target\":\"wall\",\"polarity\":\"negative\",\"word\":\"F**king\"}],\"outcomes\":[]}"
+ },
+ "47ef700c370af9adbe1ca8084d75732faa157293": {
+  "ok": true,
+  "headline": "Republicans prepare to go nuclear with Gorsuch vote as Dems seek new delay",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Republicans",
+     "type": "PoliticalParty",
+     "span": "Republicans",
+     "start": 0,
+     "end": 11
+    },
+    {
+     "name": "Dems",
+     "type": "PoliticalParty",
+     "span": "Dems",
+     "start": 55,
+     "end": 59
+    }
+   ],
+   "items": [
+    {
+     "text": "prepare to go nuclear",
+     "span": "prepare to go nuclear",
+     "start": 12,
+     "end": 33
+    },
+    {
+     "text": "Gorsuch vote",
+     "span": "Gorsuch vote",
+     "start": 39,
+     "end": 51
+    },
+    {
+     "text": "seek new delay",
+     "span": "seek new delay",
+     "start": 60,
+     "end": 74
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Republicans",
+     "action": "prepare to go nuclear",
+     "span": "Republicans prepare to go nuclear",
+     "start": 0,
+     "end": 33
+    },
+    {
+     "actor": "Dems",
+     "action": "seek new delay",
+     "span": "Dems seek new delay",
+     "start": 55,
+     "end": 74
+    }
+   ],
+   "evals": [
+    {
+     "target": "Republicans",
+     "polarity": "negative",
+     "word": "nuclear",
+     "start": 26,
+     "end": 33,
+     "target_known": true
+    }
+   ],
+   "outcomes": [
+    {
+     "text": "new delay",
+     "type": "Political",
+     "span": "new delay",
+     "start": 65,
+     "end": 74
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Republicans\",\"type\":\"PoliticalParty\",\"span\":\"Republicans\"},{\"name\":\"Dems\",\"type\":\"PoliticalParty\",\"span\":\"Dems\"}],\"items\":[{\"text\":\"prepare to go nuclear\",\"span\":\"prepare to go nuclear\"},{\"text\":\"Gorsuch vote\",\"span\":\"Gorsuch vote\"},{\"text\":\"seek new delay\",\"span\":\"seek new delay\"}],\"agents\":[{\"actor\":\"Republicans\",\"action\":\"prepare to go nuclear\",\"span\":\"Republicans prepare to go nuclear\"},{\"actor\":\"Dems\",\"action\":\"seek new delay\",\"span\":\"Dems seek new delay\"}],\"evals\":[{\"target\":\"Republicans\",\"polarity\":\"negative\",\"word\":\"nuclear\"}],\"outcomes\":[{\"text\":\"new delay\",\"type\":\"Political\",\"span\":\"new delay\"}]}"
+ },
+ "00e40994fd9c91ba9cfc7e870a29a3be02039ce1": {
+  "ok": true,
+  "headline": "Democrats Plan to Filibuster to Thwart Gorsuch Nomination",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Democrats",
+     "type": "PoliticalParty",
+     "span": "Democrats",
+     "start": 0,
+     "end": 9
+    },
+    {
+     "name": "Gorsuch",
+     "type": "Person",
+     "span": "Gorsuch",
+     "start": 39,
+     "end": 46
+    }
+   ],
+   "items": [
+    {
+     "text": "plan to filibuster",
+     "span": "Plan to Filibuster",
+     "start": 10,
+     "end": 28
+    },
+    {
+     "text": "thwart Gorsuch nomination",
+     "span": "Thwart Gorsuch Nomination",
+     "start": 32,
+     "end": 57
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Democrats",
+     "action": "plan to filibuster",
+     "span": "Democrats Plan to Filibuster",
+     "start": 0,
+     "end": 28
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "thwart Gorsuch nomination",
+     "type": "Political",
+     "span": "Thwart Gorsuch Nomination",
+     "start": 32,
+     "end": 57
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Democrats\",\"type\":\"PoliticalParty\",\"span\":\"Democrats\"},{\"name\":\"Gorsuch\",\"type\":\"Person\",\"span\":\"Gorsuch\"}],\"items\":[{\"text\":\"plan to filibuster\",\"span\":\"Plan to Filibuster\"},{\"text\":\"thwart Gorsuch nomination\",\"span\":\"Thwart Gorsuch Nomination\"}],\"agents\":[{\"actor\":\"Democrats\",\"action\":\"plan to filibuster\",\"span\":\"Democrats Plan to Filibuster\"}],\"evals\":[],\"outcomes\":[{\"text\":\"thwart Gorsuch nomination\",\"type\":\"Political\",\"span\":\"Thwart Gorsuch Nomination\"}]}"
+ },
+ "1dc6535ae18b107e0174ecd264faaac4afcab4a0": {
+  "ok": true,
+  "headline": "Democrats Concerned That The Supreme Court May Be Rigged For The Rich And Republicans",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Democrats",
+     "type": "PoliticalParty",
+     "span": "Democrats",
+     "start": 0,
+     "end": 9
+    },
+    {
+     "name": "Supreme Court",
+     "type": "Court",
+     "span": "Supreme Court",
+     "start": 29,
+     "end": 42
+    },
+    {
+     "name": "Republicans",
+     "type": "PoliticalParty",
+     "span": "Republicans",
+     "start": 74,
+     "end": 85
+    }
+   ],
+   "items": [
+    {
+     "text": "be concerned",
+     "span": "Democrats Concerned",
+     "start": 0,
+     "end": 19
+    },
+    {
+     "text": "be rigged for the rich",
+     "span": "May Be Rigged For The Rich",
+     "start": 43,
+     "end": 69
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Democrats",
+     "action": "be concerned",
+     "span": "Democrats Concerned",
+     "start": 0,
+     "end": 19
+    }
+   ],
+   "evals": [
+    {
+     "target": "Supreme Court",
+     "polarity": "negative",
+     "word": "Rigged",
+     "start": 50,
+     "end": 56,
+     "target_known": true
+    }
+   ],
+   "outcomes": [
+    {
+     "text": "for the rich",
+     "type": "Economic",
+     "span": "For The Rich",
+     "start": 57,
+     "end": 69
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Democrats\",\"type\":\"PoliticalParty\",\"span\":\"Democrats\"},{\"name\":\"Supreme Court\",\"type\":\"Court\",\"span\":\"Supreme Court\"},{\"name\":\"Republicans\",\"type\":\"PoliticalParty\",\"span\":\"Republicans\"}],\"items\":[{\"text\":\"be concerned\",\"span\":\"Democrats Concerned\"},{\"text\":\"be rigged for the rich\",\"span\":\"may be rigged For The Rich\"}],\"agents\":[{\"actor\":\"Democrats\",\"action\":\"be concerned\",\"span\":\"Democrats Concerned\"}],\"evals\":[{\"target\":\"Supreme Court\",\"polarity\":\"negative\",\"word\":\"rigged\"}],\"outcomes\":[{\"text\":\"for the rich\",\"type\":\"Economic\",\"span\":\"for the Rich\"}]}"
+ },
+ "c37fc58ac1aa330f7939a28fd45c0f49681d499b": {
+  "ok": true,
+  "headline": "Kathy Griffin apologizes for photo shoot with bloodied Trump mask, says she 'went too far'",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Kathy Griffin",
+     "type": "Person",
+     "span": "Kathy Griffin",
+     "start": 0,
+     "end": 13
+    },
+    {
+     "name": "Trump",
+     "type": "Politician",
+     "span": "Trump",
+     "start": 55,
+     "end": 60
+    }
+   ],
+   "items": [
+    {
+     "text": "apologize",
+     "span": "apologizes",
+     "start": 14,
+     "end": 24
+    },
+    {
+     "text": "photo shoot with bloodied Trump mask",
+     "span": "photo shoot with bloodied Trump mask",
+     "start": 29,
+     "end": 65
+    },
+    {
+     "text": "go too far",
+     "span": "went too far",
+     "start": 77,
+     "end": 89
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Kathy Griffin",
+     "action": "apologize",
+     "span": "Kathy Griffin apologizes",
+     "start": 0,
+     "end": 24
+    },
+    {
+     "actor": "Kathy Griffin",
+     "action": "go too far",
+     "span": "she 'went too far'",
+     "start": 72,
+     "end": 90
+    }
+   ],
+   "evals": [
+    {
+     "target": "go too far",
+     "polarity": "negative",
+     "word": "too far",
+     "start": 82,
+     "end": 89,
+     "target_known": true
+    }
+   ],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Kathy Griffin\",\"type\":\"Person\",\"span\":\"Kathy Griffin\"},{\"name\":\"Trump\",\"type\":\"Politician\",\"span\":\"Trump\"}],\"items\":[{\"text\":\"apologize\",\"span\":\"apologizes\"},{\"text\":\"photo shoot with bloodied Trump mask\",\"span\":\"photo shoot with bloodied Trump mask\"},{\"text\":\"go too far\",\"span\":\"went too far\"}],\"agents\":[{\"actor\":\"Kathy Griffin\",\"action\":\"apologize\",\"span\":\"Kathy Griffin apologizes\"},{\"actor\":\"Kathy Griffin\",\"action\":\"go too far\",\"span\":\"she 'went too far'\"}],\"evals\":[{\"target\":\"go too far\",\"polarity\":\"negative\",\"word\":\"too far\"}],\"outcomes\":[]}"
+ },
+ "c2011066bba1c31a5f681f3f8590e120120cbcb5": {
+  "ok": true,
+  "headline": "Trump Lashes Out at Kathy Griffin and Democrats",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Trump",
+     "type": "Politician",
+     "span": "Trump",
+     "start": 0,
+     "end": 5
+    },
+    {
+     "name": "Kathy Griffin",
+     "type": "Person",
+     "span": "Kathy Griffin",
+     "start": 20,
+     "end": 33
+    },
+    {
+     "name": "Democrats",
+     "type": "PoliticalParty",
+     "span": "Democrats",
+     "start": 38,
+     "end": 47
+    }
+   ],
+   "items": [
+    {
+     "text": "lash out at",
+     "span": "Lashes Out at",
+     "start": 6,
+     "end": 19
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Trump",
+     "action": "lash out at",
+     "span": "Trump Lashes Out at",
+     "start": 0,
+     "end": 19
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Trump\",\"type\":\"Politician\",\"span\":\"Trump\"},{\"name\":\"Kathy Griffin\",\"type\":\"Person\",\"span\":\"Kathy Griffin\"},{\"name\":\"Democrats\",\"type\":\"PoliticalParty\",\"span\":\"Democrats\"}],\"items\":[{\"text\":\"lash out at\",\"span\":\"Lashes Out at\"}],\"agents\":[{\"actor\":\"Trump\",\"action\":\"lash out at\",\"span\":\"Trump Lashes Out at\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "f5988b57541654b0fc4e0ee0c3b8e98840d5d282": {
+  "ok": true,
+  "headline": "Kathy Griffin Apologizes For Controversial Images Of Bloodied Trump Head",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Kathy Griffin",
+     "type": "Person",
+     "span": "Kathy Griffin",
+     "start": 0,
+     "end": 13
+    },
+    {
+     "name": "Trump",
+     "type": "Politician",
+     "span": "Trump",
+     "start": 62,
+     "end": 67
+    }
+   ],
+   "items": [
+    {
+     "text": "apologize for controversial images of bloodied Trump head",
+     "span": "Apologizes For Controversial Images Of Bloodied Trump Head",
+     "start": 14,
+     "end": 72
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Kathy Griffin",
+     "action": "apologize for controversial images of bloodied Trump head",
+     "span": "Kathy Griffin Apologizes For Controversial Images Of Bloodied Trump Head",
+     "start": 0,
+     "end": 72
+    }
+   ],
+   "evals": [
+    {
+     "target": "images",
+     "polarity": "negative",
+     "word": "Controversial",
+     "start": 29,
+     "end": 42,
+     "target_known": false
+    }
+   ],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Kathy Griffin\",\"type\":\"Person\",\"span\":\"Kathy Griffin\"},{\"name\":\"Trump\",\"type\":\"Politician\",\"span\":\"Trump\"}],\"items\":[{\"text\":\"apologize for controversial images of bloodied Trump head\",\"span\":\"Apologizes For Controversial Images Of Bloodied Trump Head\"}],\"agents\":[{\"actor\":\"Kathy Griffin\",\"action\":\"apologize for controversial images of bloodied Trump head\",\"span\":\"Kathy Griffin Apologizes For Controversial Images Of Bloodied Trump Head\"}],\"evals\":[{\"target\":\"images\",\"polarity\":\"negative\",\"word\":\"controversial\"}],\"outcomes\":[]}"
+ },
+ "9f1b0ef280b9592da0c6d50e660a89e49da63412": {
+  "ok": true,
+  "headline": "Suspect arrested in Florida in connection with suspicious packages sent to Democrats",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Suspect",
+     "type": "Person",
+     "span": "Suspect",
+     "start": 0,
+     "end": 7
+    },
+    {
+     "name": "Democrats",
+     "type": "PoliticalParty",
+     "span": "Democrats",
+     "start": 75,
+     "end": 84
+    }
+   ],
+   "items": [
+    {
+     "text": "arrested",
+     "span": "arrested",
+     "start": 8,
+     "end": 16
+    },
+    {
+     "text": "sent suspicious packages",
+     "span": "sent to Democrats",
+     "start": 67,
+     "end": 84
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Suspect",
+     "action": "arrested",
+     "span": "Suspect arrested",
+     "start": 0,
+     "end": 16
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Suspect\",\"type\":\"Person\",\"span\":\"Suspect\"},{\"name\":\"Democrats\",\"type\":\"PoliticalParty\",\"span\":\"Democrats\"}],\"items\":[{\"text\":\"arrested\",\"span\":\"arrested\"},{\"text\":\"sent suspicious packages\",\"span\":\"sent to Democrats\"}],\"agents\":[{\"actor\":\"Suspect\",\"action\":\"arrested\",\"span\":\"Suspect arrested\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "08eeedee77686e882c8d3c60a10449ca3d7eae4d": {
+  "ok": true,
+  "headline": "Pipe Bomb Suspect Arrested in Southern Florida",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Pipe Bomb Suspect",
+     "type": "Person",
+     "span": "Pipe Bomb Suspect",
+     "start": 0,
+     "end": 17
+    }
+   ],
+   "items": [
+    {
+     "text": "arrested",
+     "span": "Arrested",
+     "start": 18,
+     "end": 26
+    }
+   ],
+   "agents": [],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "arrest",
+     "type": "Legal",
+     "span": "Arrested",
+     "start": 18,
+     "end": 26
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Pipe Bomb Suspect\",\"type\":\"Person\",\"span\":\"Pipe Bomb Suspect\"}],\"items\":[{\"text\":\"arrested\",\"span\":\"Arrested\"}],\"agents\":[],\"evals\":[],\"outcomes\":[{\"text\":\"arrest\",\"type\":\"Legal\",\"span\":\"Arrested\"}]}"
+ },
+ "50be21136d1d5713400d59233adf55a6017c87f3": {
+  "ok": true,
+  "headline": "Cesar Sayoc Identified As Mail Bomb Suspect",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Cesar Sayoc",
+     "type": "Person",
+     "span": "Cesar Sayoc",
+     "start": 0,
+     "end": 11
+    }
+   ],
+   "items": [
+    {
+     "text": "be identified as mail bomb suspect",
+     "span": "Identified As Mail Bomb Suspect",
+     "start": 12,
+     "end": 43
+    }
+   ],
+   "agents": [],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "mail bomb suspect",
+     "type": "Legal",
+     "span": "Mail Bomb Suspect",
+     "start": 26,
+     "end": 43
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Cesar Sayoc\",\"type\":\"Person\",\"span\":\"Cesar Sayoc\"}],\"items\":[{\"text\":\"be identified as mail bomb suspect\",\"span\":\"Identified As Mail Bomb Suspect\"}],\"agents\":[],\"evals\":[],\"outcomes\":[{\"text\":\"mail bomb suspect\",\"type\":\"Legal\",\"span\":\"Mail Bomb Suspect\"}]}"
+ },
+ "295149dd762c3ed89a6e9901a4c9a6cca913e1ff": {
+  "ok": true,
+  "headline": "Democrats urge Trump to cancel Putin summit, after indictment of Russian intel officers",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Democrats",
+     "type": "PoliticalParty",
+     "span": "Democrats",
+     "start": 0,
+     "end": 9
+    },
+    {
+     "name": "Trump",
+     "type": "Politician",
+     "span": "Trump",
+     "start": 15,
+     "end": 20
+    },
+    {
+     "name": "Putin",
+     "type": "Politician",
+     "span": "Putin",
+     "start": 31,
+     "end": 36
+    },
+    {
+     "name": "Russian intel officers",
+     "type": "Other",
+     "span": "Russian intel officers",
+     "start": 65,
+     "end": 87
+    }
+   ],
+   "items": [
+    {
+     "text": "urge Trump to cancel Putin summit",
+     "span": "urge Trump to cancel Putin summit",
+     "start": 10,
+     "end": 43
+    },
+    {
+     "text": "indictment of Russian intel officers",
+     "span": "indictment of Russian intel officers",
+     "start": 51,
+     "end": 87
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Democrats",
+     "action": "urge Trump to cancel Putin summit",
+     "span": "Democrats urge Trump to cancel Putin summit",
+     "start": 0,
+     "end": 43
+    }
+   ],
+   "evals": [],
+   "outcomes": []
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Democrats\",\"type\":\"PoliticalParty\",\"span\":\"Democrats\"},{\"name\":\"Trump\",\"type\":\"Politician\",\"span\":\"Trump\"},{\"name\":\"Putin\",\"type\":\"Politician\",\"span\":\"Putin\"},{\"name\":\"Russian intel officers\",\"type\":\"Other\",\"span\":\"Russian intel officers\"}],\"items\":[{\"text\":\"urge Trump to cancel Putin summit\",\"span\":\"urge Trump to cancel Putin summit\"},{\"text\":\"indictment of Russian intel officers\",\"span\":\"indictment of Russian intel officers\"}],\"agents\":[{\"actor\":\"Democrats\",\"action\":\"urge Trump to cancel Putin summit\",\"span\":\"Democrats urge Trump to cancel Putin summit\"}],\"evals\":[],\"outcomes\":[]}"
+ },
+ "01d38d2182f165925045ea4650a40d9e858b3d81": {
+  "ok": true,
+  "headline": "Democrats Say Trump Should Cancel Putin Meeting After Indictments",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Democrats",
+     "type": "PoliticalParty",
+     "span": "Democrats",
+     "start": 0,
+     "end": 9
+    },
+    {
+     "name": "Trump",
+     "type": "Politician",
+     "span": "Trump",
+     "start": 14,
+     "end": 19
+    },
+    {
+     "name": "Putin",
+     "type": "Politician",
+     "span": "Putin",
+     "start": 34,
+     "end": 39
+    }
+   ],
+   "items": [
+    {
+     "text": "cancel Putin meeting",
+     "span": "Cancel Putin Meeting",
+     "start": 27,
+     "end": 47
+    },
+    {
+     "text": "indictments",
+     "span": "Indictments",
+     "start": 54,
+     "end": 65
+    },
+    {
+     "text": "say",
+     "span": "Democrats Say",
+     "start": 0,
+     "end": 13
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Democrats",
+     "action": "say",
+     "span": "Democrats Say",
+     "start": 0,
+     "end": 13
+    },
+    {
+     "actor": "Trump",
+     "action": "cancel Putin meeting",
+     "span": "Trump Should Cancel Putin Meeting",
+     "start": 14,
+     "end": 47
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "indictments",
+     "type": "Legal",
+     "span": "After Indictments",
+     "start": 48,
+     "end": 65
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Democrats\",\"type\":\"PoliticalParty\",\"span\":\"Democrats\"},{\"name\":\"Trump\",\"type\":\"Politician\",\"span\":\"Trump\"},{\"name\":\"Putin\",\"type\":\"Politician\",\"span\":\"Putin\"}],\"items\":[{\"text\":\"cancel Putin meeting\",\"span\":\"Cancel Putin Meeting\"},{\"text\":\"indictments\",\"span\":\"Indictments\"}],\"agents\":[{\"actor\":\"Democrats\",\"action\":\"say\",\"span\":\"Democrats Say\"},{\"actor\":\"Trump\",\"action\":\"cancel Putin meeting\",\"span\":\"Trump Should Cancel Putin Meeting\"}],\"evals\":[],\"outcomes\":[{\"text\":\"indictments\",\"type\":\"Legal\",\"span\":\"After Indictments\"}]}"
+ },
+ "34b0b7d539b78c4c284cc7e518b387c10c76188c": {
+  "ok": true,
+  "headline": "John McCain, Top Democrats Call On Trump To Cancel Putin Meeting",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "John McCain",
+     "type": "Person",
+     "span": "John McCain",
+     "start": 0,
+     "end": 11
+    },
+    {
+     "name": "Top Democrats",
+     "type": "PoliticalParty",
+     "span": "Top Democrats",
+     "start": 13,
+     "end": 26
+    },
+    {
+     "name": "Trump",
+     "type": "Politician",
+     "span": "Trump",
+     "start": 35,
+     "end": 40
+    },
+    {
+     "name": "Putin",
+     "type": "Politician",
+     "span": "Putin",
+     "start": 51,
+     "end": 56
+    }
+   ],
+   "items": [
+    {
+     "text": "call on Trump to cancel Putin meeting",
+     "span": "Call On Trump To Cancel Putin Meeting",
+     "start": 27,
+     "end": 64
+    }
+   ],
+   "agents": [
+    {
+     "actor": "John McCain",
+     "action": "call on Trump to cancel Putin meeting",
+     "span": "John McCain, Top Democrats Call On Trump To Cancel Putin Meeting",
+     "start": 0,
+     "end": 64
+    },
+    {
+     "actor": "Top Democrats",
+     "action": "call on Trump to cancel Putin meeting",
+     "span": "John McCain, Top Democrats Call On Trump To Cancel Putin Meeting",
+     "start": 0,
+     "end": 64
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "cancel Putin meeting",
+     "type": "Political",
+     "span": "Cancel Putin Meeting",
+     "start": 44,
+     "end": 64
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"John McCain\",\"type\":\"Person\",\"span\":\"John McCain\"},{\"name\":\"Top Democrats\",\"type\":\"PoliticalParty\",\"span\":\"Top Democrats\"},{\"name\":\"Trump\",\"type\":\"Politician\",\"span\":\"Trump\"},{\"name\":\"Putin\",\"type\":\"Politician\",\"span\":\"Putin\"}],\"items\":[{\"text\":\"call on Trump to cancel Putin meeting\",\"span\":\"Call On Trump To Cancel Putin Meeting\"}],\"agents\":[{\"actor\":\"John McCain\",\"action\":\"call on Trump to cancel Putin meeting\",\"span\":\"John McCain, Top Democrats Call On Trump To Cancel Putin Meeting\"},{\"actor\":\"Top Democrats\",\"action\":\"call on Trump to cancel Putin meeting\",\"span\":\"John McCain, Top Democrats Call On Trump To Cancel Putin Meeting\"}],\"evals\":[],\"outcomes\":[{\"text\":\"cancel Putin meeting\",\"type\":\"Political\",\"span\":\"cancel Putin meeting\"}]}"
+ },
+ "de922ea48dc56db720e14dab0243d5e6472ebe18": {
+  "ok": true,
+  "headline": "Trump declares emergency on border, eyes $8B for wall as he signs spending package",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Trump",
+     "type": "Politician",
+     "span": "Trump",
+     "start": 0,
+     "end": 5
+    }
+   ],
+   "items": [
+    {
+     "text": "declare emergency on border",
+     "span": "declares emergency on border",
+     "start": 6,
+     "end": 34
+    },
+    {
+     "text": "eyes $8B for wall",
+     "span": "eyes $8B for wall",
+     "start": 36,
+     "end": 53
+    },
+    {
+     "text": "sign spending package",
+     "span": "signs spending package",
+     "start": 60,
+     "end": 82
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Trump",
+     "action": "declare emergency on border",
+     "span": "Trump declares emergency on border",
+     "start": 0,
+     "end": 34
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "emergency on border",
+     "type": "Political",
+     "span": "emergency on border",
+     "start": 15,
+     "end": 34
+    }
+   ]
+  },
+  "warnings": [
+   "dropped agent: 'Trump eyes $8B for wall' not found in headline"
+  ],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Trump\",\"type\":\"Politician\",\"span\":\"Trump\"}],\"items\":[{\"text\":\"declare emergency on border\",\"span\":\"declares emergency on border\"},{\"text\":\"eyes $8B for wall\",\"span\":\"eyes $8B for wall\"},{\"text\":\"sign spending package\",\"span\":\"signs spending package\"}],\"agents\":[{\"actor\":\"Trump\",\"action\":\"declare emergency on border\",\"span\":\"Trump declares emergency on border\"},{\"actor\":\"Trump\",\"action\":\"eyes $8B for wall\",\"span\":\"Trump eyes $8B for wall\"}],\"evals\":[],\"outcomes\":[{\"text\":\"emergency on border\",\"type\":\"Political\",\"span\":\"emergency on border\"}]}"
+ },
+ "4ec25db8720824f059616cbfbd1669d058e21aab": {
+  "ok": true,
+  "headline": "Trump Declares a National Emergency, and Provokes a Constitutional Clash",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Trump",
+     "type": "Politician",
+     "span": "Trump",
+     "start": 0,
+     "end": 5
+    }
+   ],
+   "items": [
+    {
+     "text": "declare a national emergency",
+     "span": "Declares a National Emergency",
+     "start": 6,
+     "end": 35
+    },
+    {
+     "text": "provoke a constitutional clash",
+     "span": "Provokes a Constitutional Clash",
+     "start": 41,
+     "end": 72
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Trump",
+     "action": "declare a national emergency",
+     "span": "Trump Declares a National Emergency",
+     "start": 0,
+     "end": 35
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "constitutional clash",
+     "type": "Political",
+     "span": "Constitutional Clash",
+     "start": 52,
+     "end": 72
+    },
+    {
+     "text": "national emergency",
+     "type": "Other",
+     "span": "National Emergency",
+     "start": 17,
+     "end": 35
+    }
+   ]
+  },
+  "warnings": [
+   "dropped agent: 'Trump Provokes a Constitutional Clash' not found in headline"
+  ],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Trump\",\"type\":\"Politician\",\"span\":\"Trump\"}],\"items\":[{\"text\":\"declare a national emergency\",\"span\":\"Declares a National Emergency\"},{\"text\":\"provoke a constitutional clash\",\"span\":\"Provokes a Constitutional Clash\"}],\"agents\":[{\"actor\":\"Trump\",\"action\":\"declare a national emergency\",\"span\":\"Trump Declares a National Emergency\"},{\"actor\":\"Trump\",\"action\":\"provoke a constitutional clash\",\"span\":\"Trump Provokes a Constitutional Clash\"}],\"evals\":[],\"outcomes\":[{\"text\":\"constitutional clash\",\"type\":\"Political\",\"span\":\"Constitutional Clash\"},{\"text\":\"national emergency\",\"type\":\"Other\",\"span\":\"National Emergency\"}]}"
+ },
+ "4db6da9a6ff6b00da7b71a631a8441fcf0d24524": {
+  "ok": true,
+  "headline": "Trump Declares National Emergency To Fund U.S.-Mexico Border Wall",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Trump",
+     "type": "Politician",
+     "span": "Trump",
+     "start": 0,
+     "end": 5
+    }
+   ],
+   "items": [
+    {
+     "text": "declare national emergency",
+     "span": "Declares National Emergency",
+     "start": 6,
+     "end": 33
+    },
+    {
+     "text": "fund U.S.-Mexico border wall",
+     "span": "Fund U.S.-Mexico Border Wall",
+     "start": 37,
+     "end": 65
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Trump",
+     "action": "declare national emergency",
+     "span": "Trump Declares National Emergency",
+     "start": 0,
+     "end": 33
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "border wall",
+     "type": "Political",
+     "span": "Border Wall",
+     "start": 54,
+     "end": 65
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Trump\",\"type\":\"Politician\",\"span\":\"Trump\"}],\"items\":[{\"text\":\"declare national emergency\",\"span\":\"Declares National Emergency\"},{\"text\":\"fund U.S.-Mexico border wall\",\"span\":\"Fund U.S.-Mexico Border Wall\"}],\"agents\":[{\"actor\":\"Trump\",\"action\":\"declare national emergency\",\"span\":\"Trump Declares National Emergency\"}],\"evals\":[],\"outcomes\":[{\"text\":\"border wall\",\"type\":\"Political\",\"span\":\"border wall\"}]}"
+ },
+ "21338213bf31a5621ba4da8f3a44ee4ac8523d17": {
+  "ok": true,
+  "headline": "FBI's show of force in Roger Stone arrest spurs criticism of Mueller tactics",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "FBI",
+     "type": "LawEnforcement",
+     "span": "FBI",
+     "start": 0,
+     "end": 3
+    },
+    {
+     "name": "Roger Stone",
+     "type": "Person",
+     "span": "Roger Stone",
+     "start": 23,
+     "end": 34
+    },
+    {
+     "name": "Mueller",
+     "type": "GovernmentOfficial",
+     "span": "Mueller",
+     "start": 61,
+     "end": 68
+    }
+   ],
+   "items": [
+    {
+     "text": "show of force",
+     "span": "show of force",
+     "start": 6,
+     "end": 19
+    },
+    {
+     "text": "arrest",
+     "span": "arrest",
+     "start": 35,
+     "end": 41
+    },
+    {
+     "text": "spurs criticism",
+     "span": "spurs criticism",
+     "start": 42,
+     "end": 57
+    },
+    {
+     "text": "criticism of Mueller tactics",
+     "span": "criticism of Mueller tactics",
+     "start": 48,
+     "end": 76
+    }
+   ],
+   "agents": [
+    {
+     "actor": "FBI",
+     "action": "show of force",
+     "span": "FBI's show of force",
+     "start": 0,
+     "end": 19
+    },
+    {
+     "actor": "FBI",
+     "action": "arrest",
+     "span": "Roger Stone arrest",
+     "start": 23,
+     "end": 41
+    }
+   ],
+   "evals": [
+    {
+     "target": "Mueller tactics",
+     "polarity": "negative",
+     "word": "criticism",
+     "start": 48,
+     "end": 57,
+     "target_known": false
+    }
+   ],
+   "outcomes": [
+    {
+     "text": "criticism of Mueller tactics",
+     "type": "Reputational",
+     "span": "criticism of Mueller tactics",
+     "start": 48,
+     "end": 76
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"FBI\",\"type\":\"LawEnforcement\",\"span\":\"FBI\"},{\"name\":\"Roger Stone\",\"type\":\"Person\",\"span\":\"Roger Stone\"},{\"name\":\"Mueller\",\"type\":\"GovernmentOfficial\",\"span\":\"Mueller\"}],\"items\":[{\"text\":\"show of force\",\"span\":\"show of force\"},{\"text\":\"arrest\",\"span\":\"arrest\"},{\"text\":\"spurs criticism\",\"span\":\"spurs criticism\"},{\"text\":\"criticism of Mueller tactics\",\"span\":\"criticism of Mueller tactics\"}],\"agents\":[{\"actor\":\"FBI\",\"action\":\"show of force\",\"span\":\"FBI's show of force\"},{\"actor\":\"FBI\",\"action\":\"arrest\",\"span\":\"Roger Stone arrest\"}],\"evals\":[{\"target\":\"Mueller tactics\",\"polarity\":\"negative\",\"word\":\"criticism\"}],\"outcomes\":[{\"text\":\"criticism of Mueller tactics\",\"type\":\"Reputational\",\"span\":\"criticism of Mueller tactics\"}]}"
+ },
+ "3ad69828e56e60c11eca484ecd4c6fd4a735ffe1": {
+  "ok": true,
+  "headline": "Indicting Roger Stone, Mueller Shows Link Between Trump Campaign and WikiLeaks",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Roger Stone",
+     "type": "Person",
+     "span": "Roger Stone",
+     "start": 10,
+     "end": 21
+    },
+    {
+     "name": "Mueller",
+     "type": "GovernmentOfficial",
+     "span": "Mueller",
+     "start": 23,
+     "end": 30
+    },
+    {
+     "name": "Trump Campaign",
+     "type": "Organization",
+     "span": "Trump Campaign",
+     "start": 50,
+     "end": 64
+    },
+    {
+     "name": "WikiLeaks",
+     "type": "Organization",
+     "span": "WikiLeaks",
+     "start": 69,
+     "end": 78
+    }
+   ],
+   "items": [
+    {
+     "text": "indict Roger Stone",
+     "span": "Indicting Roger Stone",
+     "start": 0,
+     "end": 21
+    },
+    {
+     "text": "show link between Trump Campaign and WikiLeaks",
+     "span": "Shows Link Between Trump Campaign and WikiLeaks",
+     "start": 31,
+     "end": 78
+    }
+   ],
+   "agents": [
+    {
+     "actor": "Mueller",
+     "action": "show link between Trump Campaign and WikiLeaks",
+     "span": "Mueller Shows Link Between Trump Campaign and WikiLeaks",
+     "start": 23,
+     "end": 78
+    }
+   ],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "link between Trump Campaign and WikiLeaks",
+     "type": "Political",
+     "span": "Link Between Trump Campaign and WikiLeaks",
+     "start": 37,
+     "end": 78
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Roger Stone\",\"type\":\"Person\",\"span\":\"Roger Stone\"},{\"name\":\"Mueller\",\"type\":\"GovernmentOfficial\",\"span\":\"Mueller\"},{\"name\":\"Trump Campaign\",\"type\":\"Organization\",\"span\":\"Trump Campaign\"},{\"name\":\"WikiLeaks\",\"type\":\"Organization\",\"span\":\"WikiLeaks\"}],\"items\":[{\"text\":\"indict Roger Stone\",\"span\":\"Indicting Roger Stone\"},{\"text\":\"show link between Trump Campaign and WikiLeaks\",\"span\":\"Shows Link Between Trump Campaign and WikiLeaks\"}],\"agents\":[{\"actor\":\"Mueller\",\"action\":\"show link between Trump Campaign and WikiLeaks\",\"span\":\"Mueller Shows Link Between Trump Campaign and WikiLeaks\"}],\"evals\":[],\"outcomes\":[{\"text\":\"link between Trump Campaign and WikiLeaks\",\"type\":\"Political\",\"span\":\"link Between Trump Campaign and WikiLeaks\"}]}"
+ },
+ "2b0b58b03be06e81b21a84a9a2a975bf762d8021": {
+  "ok": true,
+  "headline": "Trump Associate Roger Stone Indicted In Mueller Investigation",
+  "model": "openai/gpt-oss-120b",
+  "prompt_version": "v1",
+  "fields": {
+   "actors": [
+    {
+     "name": "Roger Stone",
+     "type": "Person",
+     "span": "Roger Stone",
+     "start": 16,
+     "end": 27
+    },
+    {
+     "name": "Trump",
+     "type": "Politician",
+     "span": "Trump",
+     "start": 0,
+     "end": 5
+    }
+   ],
+   "items": [
+    {
+     "text": "indicted",
+     "span": "Indicted",
+     "start": 28,
+     "end": 36
+    }
+   ],
+   "agents": [],
+   "evals": [],
+   "outcomes": [
+    {
+     "text": "indicted",
+     "type": "Legal",
+     "span": "Indicted",
+     "start": 28,
+     "end": 36
+    }
+   ]
+  },
+  "warnings": [],
+  "error": null,
+  "raw": "{\"actors\":[{\"name\":\"Roger Stone\",\"type\":\"Person\",\"span\":\"Roger Stone\"},{\"name\":\"Trump\",\"type\":\"Politician\",\"span\":\"Trump\"}],\"items\":[{\"text\":\"indicted\",\"span\":\"Indicted\"}],\"agents\":[],\"evals\":[],\"outcomes\":[{\"text\":\"indicted\",\"type\":\"Legal\",\"span\":\"Indicted\"}]}"
+ }
+}

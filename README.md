@@ -1,4 +1,3 @@
-
 # Explainable Same-Event News Framing Analysis
 
 CS F407 Artificial Intelligence, Team BATCH, Demo track
@@ -41,6 +40,39 @@ articles: { fox | nyt | hpo: {
 - `src.load.headline_pairs(story)` gives the 3 comparison pairs in a fixed order:
   (fox, nyt), (fox, hpo), (nyt, hpo). All later stages and baselines use this order.
 
+## Structured extraction (Stage S2)
+
+An LLM reads each headline and returns five lists, which later become logical facts:
+
+| Field | Example (from "Police fire tear gas on peaceful protesters") | Becomes atom |
+|---|---|---|
+| actors | police (LawEnforcement), protesters (Activist) | used by Agent / Eval / IsA |
+| items | "fire tear gas" | `Reports(h, i)` |
+| agents | police → "fire tear gas" | `Agent(h, x, i)` |
+| evals | "peaceful" about protesters, positive | `Eval(h, x, pol, w)` |
+| outcomes | "curfew", type Safety | `Outcome(h, k, t)` |
+
+Every extracted entry must quote words that literally occur in the headline. `validate()` drops
+anything the model invents and stores character offsets, so the demo can highlight the evidence.
+If nothing usable is extracted, or the API fails, the result has `ok: false` and a readable
+`error` message instead of crashing (goal G3).
+
+**Setup:** copy `.env.example` to `.env` and paste a Groq API key (free, from console.groq.com).
+
+```bash
+python -m src.extract --headline "Police fire tear gas on peaceful protesters"   # try one
+python -m src.extract --split annotated    # the 20 dev+test stories (60 headlines)
+python -m src.extract --split all          # all 300 headlines
+python -m tests.test_extract               # offline tests, no key needed
+```
+
+- Results are cached in `data/extractions/cache.json`, keyed by prompt version, model and headline.
+  Re-running only calls the API for new or failed headlines, so you can stop with Ctrl+C and resume.
+- `data/extractions/extractions.json` maps `{story_id: {fox|nyt|hpo: result}}` for S3/S4.
+  Both files are committed, so teammates and the demo don't need to call the API again.
+- `src/llm.py` is a small client for any OpenAI-compatible API. Baseline B3 reuses it, so
+  both use the same LLM, as the proposal requires.
+
 ## Repository layout
 
 | Path | Stage | Owner |
@@ -53,5 +85,3 @@ articles: { fox | nyt | hpo: {
 | `src/explain.py`, `app.py` | S6 explanations and web demo | M6 |
 | `baselines/` | B1 TF-IDF, B2 Sentence-BERT, B3 direct LLM | M7 |
 | `eval/` | annotation, metrics, ablation | M8 |
-
-
