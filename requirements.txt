@@ -1,0 +1,5 @@
+# Stage S1 (src/load.py, src/split.py) needs only the Python standard library.
+# Later stages:
+scikit-learn          # TF-IDF retrieval, baseline B1, Cohen's kappa
+sentence-transformers # alignment (S3), baseline B2
+streamlit             # web demo (S6)
